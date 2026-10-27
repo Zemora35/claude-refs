@@ -7,3 +7,7 @@ GitHub metadata lisans alanı yalnızca ön bilgi olarak saklanır. `null` ve `N
 Yerel `.sources/` ve önceden mevcut repo klasörleri GitHub'a gidecek katalogdan dışlanır. Bu alanlarda upstream LICENSE, NOTICE ve diğer lisans dosyaları değiştirilmez. CC BY-SA, GPL, AGPL ve kaynak görülebilir lisansların yükümlülükleri kullanıma göre ayrıca değerlendirilmelidir.
 
 Kaynak repo URL'leri, lisans alanları ve skill commit'leri `catalog/repositories.json`, `catalog/skills.json`, `catalog/sources.lock.json` içinde bulunur. Yerel eski kaynakların asıl commit'leri `catalog/local-inventory.json` içinde ayrı tutulur.
+
+## 28 Ekim 2026 eklemeleri
+
+İlk incelemeye ek olarak 12 kaynak ve 1 harici veri koleksiyonu işlendi. Yerel kurulum, lisans istisnaları, platform koşulları ve ücretli servis gereksinimleri [ekleme raporunda](EKLENEN_KAYNAKLAR.md) ve `catalog/requested-additions.json` içinde kayıtlıdır. Upstream kopyalar kendi lisanslarını taşır; paketin MIT lisansı bunları kapsamaz.

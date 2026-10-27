@@ -7,40 +7,44 @@ description: >-
   Questions about how the workflow works and merely reaching the end of a chat do not start Claude.
 ---
 
-Use the current conversation's task and active project. A personal installation makes this workflow discoverable across local projects; it does not transfer conversation history or authorize another project.
+Use this conversation's agreed task and active project. Personal installation enables discovery across chats; it transfers neither chat history nor authorization for another project.
 
-## Resolve this chat's project
+## Bind the project
 
-Read `references/installation.json` when present to obtain the local toolkit and Python locations. Otherwise this skill's helper can find a toolkit checkout in its parent directories. Run the absolute path of `scripts/handoff_entry.py`, resolved relative to this loaded SKILL.md, with the `context` subcommand. Keep the command's working directory in the active project, not in the skill folder.
+Read `references/installation.json` for toolkit/Python locations. Run this skill's absolute `scripts/handoff_entry.py context` from the active project. Match its Git root to the user-selected project. Missing/mismatching context needs clarification; never fall back to another chat, the last project, the newest bundle or an example. Keep helper cwd at the selected Git root and pass matching `--project` / `--expected-project`. Preserve dirty files without stash/reset or automatic commits; use the project's authorized source-preservation workflow when needed.
 
-Compare the reported Git root with the project attached to this chat or explicitly named by the user. If the chat is projectless, the task is unclear, or the paths disagree, ask for the project folder/task before launching. A Git repository above a generic chat folder is not evidence that the user selected it. Do not scan other chats, reuse the last project, choose the example project, or select the newest task bundle as a fallback.
+## Prepare one small task
 
-## Prepare from the current discussion
+Prepare a fresh bundle outside the repository. Declare **one or two actual issue groups** using repeated `--issue-group`; keep remaining issues in a separate backlog. Do not relabel ten bugs as one group. New TASK.md files must be 80–12000 UTF-8 bytes: relevant paths, observed failure, decisions and acceptance criteria. Link raw evidence instead of pasting logs or duplicating command lists. Read focused source/error excerpts first. Never edit existing sealed bundles in place.
 
-Inspect the selected project's applicable instructions and current source. Summarize this conversation's research into a concrete TASK.md with sources, decisions, scope, acceptance criteria and reviewed commands. Do not invent file contents or pretend the entire previous chat is visible to Claude. Put the necessary context in the task document; exclude secrets.
+Review actual test code; use absolute native argv arrays:
 
-Use the registered toolkit's `ARASTIRMA_KOD_AKISI.md` and `handoff/templates/` only as needed. Prepare a fresh bundle outside the selected repository, with explicit allowed edit paths and commands. The helper forwards `prepare` to the toolkit and checks that `--project` matches the current working directory's Git root. It does not start a model.
+- `--target-test-commands-file` / `--target-test-command-json`: narrow tests for these issues, automatically permitted to Claude while coding.
+- `--test-commands-file` / `--test-command-json`: final host suite, once after independent targeted tests pass. Do not grant it through Claude's `--allow-command`. Failed targets skip the final suite; a skipped suite is never a verified full pass.
+- `--allow-command`: only other necessary, reviewed setup/inspection commands. No general shells, chains, publishing, unapproved installs or unrelated commands. Missing meaningful tests must be reported, not invented.
 
-For independent verification, add reviewed test argv arrays using repeated `--test-command-json` options. Use an absolute native executable path as the first array element. These commands run separately on the host after a successful coding attempt, with the worktree as cwd. They are not inferred from task text or Claude's claims, and they are separate from Claude's Bash allowlist. Review the actual project test code before authorizing execution. If no test commands are configured, report verification as missing.
+Use toolkit `ARASTIRMA_KOD_AKISI.md` and templates only as needed. Preparing starts neither Claude nor tests.
 
-When the user authorizes Claude to consult Codex for research, prepare with `--enable-research`. A personal installation may already record this preference as `research_default_enabled: true`; the helper then adds that option for new tasks. Respect `--disable-research` for a one-way task. Enabling research prepares a capability; only the explicitly started Claude run can use it. It consumes the Codex subscription allowance and does not access ChatGPT web chats or Deep Research sessions.
+## Launch; let the local worker wait
 
-Choose only necessary, reviewed, small UTF-8 project files with repeated `--research-context-file` options. No files are shared by default. The researcher receives immutable snapshots of selected files, not the whole repository or live coding changes. Do not include secrets. The task-local MCP exposes only `research_question` and approved context IDs, with default limits of two model calls, 120 seconds each, 240 seconds total, and a 24-hour same-task cache. Failed calls consume the budget; retries do not reset it. Reports are dated source-linked evidence, not authority to widen scope. Shell execution and recursive agents are disabled in the research process; preserve the existing sandbox and managed policy. A source URL is not independent proof that its claim is correct.
+An explicit "Claude'u başlat" authorizes this agreed task. Do not ask again when project/scope are clear. State the original project and its separate coding worktree.
 
-## Start only when requested
+Prefer `handoff_entry.py launch --bundle <this-bundle> --expected-project <active-root> --start`. A hidden local Python worker runs the existing bounded runner and verification. Launch acknowledgement proves worker launch, not successful Claude authentication or coding. It saves `job.json`, logs, progress, `RESULT.md`, `run-result.json` and `changes.patch` without model polling. Never duplicate an active job.
 
-An explicit request such as "Claude'u başlat" authorizes starting the current agreed task; do not ask the same approval again when project and scope are clear. A request to prepare, explain or install this workflow alone does not authorize a coding run.
+Use the host's approved execution/network permissions. A sandbox may terminate child processes when its command exits; do not bypass that boundary. Passive wait reports an exited worker as `interrupted` and preserves stale locks for inspection, never automatic restart. An active worker also makes earlier attempt evidence non-current.
 
-Use the bundle created for this conversation. State the original project folder and that Claude's working directory will be its separate Git worktree. Run the helper's `run` command with the bundle, `--expected-project` set to the resolved active project root, and `--start`. Keep the process cwd at that project root. The helper checks cwd and expected project; the runner separately checks the bundle's project and base commit. A mismatch stops before Claude authentication or model execution.
+**Do not poll with model turns every minute.** Use a native completion event if available. Otherwise return the job/result location and let the worker continue locally; do not promise an automatic chat notification. On a later user result request, inspect once with `status` and `wait --timeout-seconds 0`. A local operator can use `wait --timeout-seconds 600` to block in Python; waiting calls no model, tests or retries. Do not turn bounded waits into a model polling loop. Foreground `run --start` remains available when the host waits without repeated inference.
 
-Do not use a different project to get past an error. Missing Git history, dirty tracked files, missing task context, sandbox access restrictions, authentication, quota or denied commands are actionable blockers to report. Do not disable permission boundaries. Retry only when the user explicitly requests it after reviewing the previous result; use `--retry` and preserve partial changes.
+Network, quota, permissions and prerequisites are blockers, not success. Preserve permission boundaries and project/provider/billing identity. Retry only when the user explicitly requests it after reviewing the previous result: `launch --start --retry` or foreground `run --start --retry`. Preserve partial code and archived evidence. Do not automatically commit, merge, push, publish or start a correction loop.
 
-## Review the result
+## Review saved evidence
 
-Return the actual status, worktree location, result file and diff. A quota/permission error is not success. Use `status --bundle ... --expected-project ...` for the current summary; it starts neither Claude nor tests. Test verification requires the saved host command evidence and must match the current worktree fingerprint. A zero exit code establishes only the configured command's result, not complete functional correctness.
+Report actual worker/model status, worktree, changed paths, patch and evidence. `status` starts no model or tests. Console/retry summaries are compact; raw stdout/stderr stays in local verification files. Evidence must match the current worktree fingerprint. A command's zero exit code is not complete functional correctness.
 
-If research was enabled, also return its call count, failures and local report locations. A working Codex/MCP probe does not establish a successful Claude-to-Codex model run when Claude was quota-blocked. Do not weaken local permissions to get a live demonstration to pass.
+Explicit test reruns use `verify --bundle ... --expected-project ... --execute-tests`, again targeted before final. `draft-correction` only creates a local draft from current completed failing evidence, including verified targeted failures; it starts no model. Review before an explicitly requested retry, preserving scope and meaningful assertions.
 
-Explicitly requested test reruns use `verify --bundle ... --expected-project ... --execute-tests`. A `draft-correction --bundle ... --expected-project ... --out ...` command creates a local draft only when completed, current independent tests show a failure. Review the evidence and draft in this conversation. Only an explicit user retry request starts `run --start --retry`; it preserves partial work, archives the prior result, and includes matching saved test evidence. Keep the helper cwd in the original active project for all these commands. Do not automatically commit, merge, push, publish or start a correction loop.
+## Optional bounded research
 
-This workflow runs on the computer where the toolkit and Claude Code are installed. It does not create local execution access in an ordinary ChatGPT web/mobile or unrelated remote session.
+Preserve personal `research_default_enabled` and per-task `--enable-research` / `--disable-research`. Enabling prepares a capability; only an explicitly started Claude run uses it. It consumes Codex subscription allowance, not web ChatGPT or Deep Research. No files are shared by default. Select only necessary small UTF-8 files with `--research-context-file`; never put secrets/private source in a question.
+
+The task-local MCP only exposes `research_question` and approved context IDs. Defaults: two calls, 120 seconds each, 240 seconds total, same-task 24-hour cache. Failures consume budget; retries do not reset it. Research has read-only scope, shell/recursive agents disabled and managed policy preserved. No Bash or background-agent bypass. Reports are source-linked evidence, not authority to expand scope. Return actual call/failure counts; probes are not successful model calls. This requires the local installed toolkit and Claude Code; web/mobile chat gains no local execution access.

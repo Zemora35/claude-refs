@@ -50,8 +50,8 @@ def check_project(expected, cwd=None):
 
 def main(argv=None):
     arguments = list(sys.argv[1:] if argv is None else argv)
-    if not arguments or arguments[0] not in {"context", "prepare", "run", "status", "verify", "draft-correction"}:
-        raise SystemExit("Commands: context, prepare, run, status, verify, draft-correction")
+    if not arguments or arguments[0] not in {"context", "prepare", "run", "launch", "wait", "status", "verify", "draft-correction"}:
+        raise SystemExit("Commands: context, prepare, run, launch, wait, status, verify, draft-correction")
     try:
         if arguments[0] == "context":
             context = active_context()
@@ -66,7 +66,10 @@ def main(argv=None):
         if arguments[0] == "prepare" and not {"--enable-research", "--disable-research"}.intersection(arguments) and personal_settings().get("research_default_enabled") is True:
             arguments.append("--enable-research")
         root = toolkit_root()
-        result = subprocess.run([sys.executable, str(root / "scripts/handoff.py"), *arguments], check=False)
+        script = "scripts/handoff_job.py" if arguments[0] in {"launch", "wait"} else "scripts/handoff.py"
+        if arguments[0] == "launch":
+            arguments[0] = "start"
+        result = subprocess.run([sys.executable, "-B", str(root / script), *arguments], check=False)
         raise SystemExit(result.returncode)
     except (ContextError, OSError, ValueError, subprocess.TimeoutExpired) as exc:
         print(json.dumps({"error": str(exc), "claude_started": False}, ensure_ascii=False), file=sys.stderr)

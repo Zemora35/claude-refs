@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import os
 import re
 import subprocess
 from datetime import datetime, timezone
@@ -18,7 +19,8 @@ def git(folder, *arguments):
     if folder is not None:
         command.extend(["-C", str(folder)])
     command.extend(arguments)
-    result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=240, check=False)
+    environment = {**os.environ, "GIT_LFS_SKIP_SMUDGE": "1", "GIT_TERMINAL_PROMPT": "0"}
+    result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=240, check=False, env=environment)
     if result.returncode:
         raise RuntimeError(f"Git {arguments[0]} failed: " + result.stderr[-1000:])
     return result.stdout.strip()
@@ -35,6 +37,14 @@ def source_record(root, entry):
     repo, commit = entry["repository"], entry["commit"]
     if not re.fullmatch(r"[\w.-]+/[\w.-]+", repo) or not re.fullmatch(r"[a-f0-9]{40}", commit):
         raise ValueError("Invalid source lock identity")
+    sparse_paths = entry.get("sparse_paths", [])
+    if not isinstance(sparse_paths, list) or any(
+        not isinstance(p, str) or not p or p.startswith(("/", "-"))
+        or "\\" in p or ":" in p or any(c in p for c in "*?[]!#") or any(ord(c) < 32 or ord(c) == 127 for c in p)
+        or any(part.casefold() in {"", ".", "..", ".git"} for part in p.split("/"))
+        for p in sparse_paths
+    ):
+        raise ValueError("Invalid sparse source paths")
     url = "https://github.com/" + repo + ".git"
     existing = entry.get("existing_folder")
     target = inside(root / ".sources" / repo.replace("/", "_"), root)
@@ -54,15 +64,25 @@ def source_record(root, entry):
         target.mkdir(parents=True, exist_ok=False)
         git(None, "init", "--quiet", str(target))
         git(target, "remote", "add", "origin", url)
+        git(target, "config", "remote.origin.promisor", "true")
+        git(target, "config", "remote.origin.partialclonefilter", "blob:none")
         git(target, "fetch", "--quiet", "--depth", "1", "--filter=blob:none", "origin", commit)
+        if sparse_paths:
+            git(target, "sparse-checkout", "init", "--no-cone")
+            # Literal, rooted paths keep media and unrelated application code out.
+            (target / ".git" / "info" / "sparse-checkout").write_text(
+                "\n".join("/" + p for p in sparse_paths) + "\n", encoding="utf-8")
         git(target, "checkout", "--quiet", "--detach", commit)
         created = True
     actual = git(target, "rev-parse", "HEAD")
     if not kept and actual != commit:
         raise ValueError("Existing source is at a different commit; unchanged")
+    if sparse_paths and any(not (target / p).is_file() or (target / p).is_symlink() for p in sparse_paths):
+        raise ValueError("Sparse reference is missing a locked file; existing source unchanged")
     return {"repository": repo, "path": target.relative_to(root).as_posix(), "locked_commit": commit,
             "actual_commit": actual, "status": "added" if created else "existing-kept" if kept else "already-present",
-            "matches_lock": actual == commit}
+            "matches_lock": actual == commit, "checkout_scope": entry.get("checkout_scope", "full-reference"),
+            "sparse_paths": sparse_paths}
 
 
 def main():

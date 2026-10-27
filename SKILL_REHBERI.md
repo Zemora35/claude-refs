@@ -1,6 +1,6 @@
 # Skill seçim rehberi
 
-24 kaynakta 1022 SKILL.md yolu doğrulandı; 81 farklı beceri kategori rehberine seçildi.
+30 kaynakta 1053 SKILL.md yolu doğrulandı; 103 farklı beceri kategori rehberine seçildi. 28 Ekim eklemeleri: [kapsam ve kurulum](EKLENEN_KAYNAKLAR.md).
 
 Bu dosya bir etkinleştirme talimatı değildir. Yol doğrulaması ile içerik incelemesi farklı durumlardır. İnceleme sonuçları [kaynak raporunda](SOURCE_REVIEW.md) bulunur.
 
@@ -15,12 +15,34 @@ Bu dosya bir etkinleştirme talimatı değildir. Yol doğrulaması ile içerik i
 
 - [diagnosing-bugs](https://github.com/mattpocock/skills/blob/59db609eb1e18aaf59b63284d0e52255aff0c63c/skills/engineering/diagnosing-bugs/SKILL.md) — `mattpocock/skills`; commit `59db609eb1e1`.
 - [systematic-debugging](https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/systematic-debugging/SKILL.md) — `obra/superpowers`; commit `2ce8aa15d05b`.
+- [replica-architect](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-architect/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-backend](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-backend/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-brand](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-brand/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-build](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-build/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-deploy](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-deploy/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-design](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-design/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-diff](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-diff/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-entrepreneur](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-entrepreneur/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-launch](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-launch/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-recon](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-recon/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-test](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-test/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
 
 <a id="frontend"></a>
 ## Frontend ve web uygulamaları
 
 - [react-best-practices](https://github.com/vercel-labs/agent-skills/blob/6ec269328bc400712ee225a173a14b6b29128df7/skills/react-best-practices/SKILL.md) — `vercel-labs/agent-skills`; commit `6ec269328bc4`.
 - [frontend-design](https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md) — `anthropics/skills`; commit `dbd4588f9e10`.
+- [replica-architect](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-architect/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-backend](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-backend/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-brand](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-brand/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-build](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-build/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-deploy](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-deploy/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-design](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-design/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-diff](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-diff/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-entrepreneur](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-entrepreneur/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-launch](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-launch/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-recon](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-recon/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-test](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-test/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
 
 <a id="backend"></a>
 ## Backend ve API
@@ -110,6 +132,13 @@ Eşleşen beceriler belirli alt görevleri destekler; kategori yazılımının v
 
 - [mcp-builder](https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/SKILL.md) — `anthropics/skills`; commit `dbd4588f9e10`.
 - [hf-mcp](https://github.com/huggingface/skills/blob/fabc634a893f62ad5c2039830397efa35fa62715/hf-mcp/skills/hf-mcp/SKILL.md) — `huggingface/skills`; commit `fabc634a893f`.
+- [competitor-analysis](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/competitor-analysis/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [keyword-research](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/keyword-research/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [local-seo](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/local-seo/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [search-console-review](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/search-console-review/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [seo-audit](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/seo-audit/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [seo-coach](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/seo-coach/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [site-audit](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/site-audit/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
 
 <a id="security"></a>
 ## Güvenli kod ve savunma araçları
@@ -187,6 +216,7 @@ Mevcut yerel beceriler: `site-context-gis`.
 
 
 Mevcut yerel beceriler: `bimcraft-engineering`, `bim-interop`, `architect-ifc-bim`, `pascal-3d`.
+- [scan-to-threejs](https://github.com/wesbos/3d-model-anything/blob/31b2dc9da3fb541e501f2f0936e55b32afb70ee8/.agents/skills/scan-to-threejs/SKILL.md) — `wesbos/3d-model-anything`; commit `31b2dc9da3fb`.
 
 <a id="structural"></a>
 ## Yapı analizi ve mühendislik
@@ -206,12 +236,16 @@ Eşleşen beceriler belirli alt görevleri destekler; kategori yazılımının v
 
 
 Mevcut yerel beceriler: `img2threejs`.
+- [scan-to-threejs](https://github.com/wesbos/3d-model-anything/blob/31b2dc9da3fb541e501f2f0936e55b32afb70ee8/.agents/skills/scan-to-threejs/SKILL.md) — `wesbos/3d-model-anything`; commit `31b2dc9da3fb`.
 
 <a id="media"></a>
 ## Video ses ve yaratıcı üretim
 
 - [remotion-best-practices](https://github.com/remotion-dev/skills/blob/30d4553ecd46fbc5212fd0ff006ae43af522158b/skills/remotion-best-practices/SKILL.md) — `remotion-dev/skills`; commit `30d4553ecd46`.
 - [remotion-captions](https://github.com/remotion-dev/skills/blob/30d4553ecd46fbc5212fd0ff006ae43af522158b/skills/remotion-captions/SKILL.md) — `remotion-dev/skills`; commit `30d4553ecd46`.
+- [voicestudio-maintainer](https://github.com/debpalash/VoiceStudio/blob/336d48481b8c7c0ef810bc5f00e80a3aaddace8f/skills/voicestudio-maintainer/SKILL.md) — `debpalash/VoiceStudio`; commit `336d48481b8c`.
+- [voicestudio](https://github.com/debpalash/VoiceStudio/blob/336d48481b8c7c0ef810bc5f00e80a3aaddace8f/skills/voicestudio/SKILL.md) — `debpalash/VoiceStudio`; commit `336d48481b8c`.
+- [cap](https://github.com/CapSoftware/Cap/blob/d0aa6cb7ec0ea9ce46a42fa5d733965719dd1647/apps/cli/skill/cap/SKILL.md) — `CapSoftware/Cap`; commit `d0aa6cb7ec0e`.
 
 <a id="finance"></a>
 ## Finans araştırma ve backtest
@@ -232,12 +266,30 @@ Eşleşen beceriler belirli alt görevleri destekler; kategori yazılımının v
 
 - [prioritize-features](https://github.com/phuryn/pm-skills/blob/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-product-discovery/skills/prioritize-features/SKILL.md) — `phuryn/pm-skills`; commit `07b34f64ee82`.
 - [opportunity-solution-tree](https://github.com/deanpeters/Product-Manager-Skills/blob/cfcb697f14b8891d8b3ec43c16c3547df3e70e13/skills/opportunity-solution-tree/SKILL.md) — `deanpeters/Product-Manager-Skills`; commit `cfcb697f14b8`.
+- [replica-architect](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-architect/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-backend](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-backend/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-brand](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-brand/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-build](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-build/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-deploy](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-deploy/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-design](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-design/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-diff](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-diff/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-entrepreneur](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-entrepreneur/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-launch](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-launch/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-recon](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-recon/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
+- [replica-test](https://github.com/Jakeschincariol/replica-skill/blob/77c9436fb3d18c3d58169efb8caf4fe906b0dc51/replica-test/SKILL.md) — `Jakeschincariol/replica-skill`; commit `77c9436fb3d1`.
 
 <a id="marketing"></a>
 ## Pazarlama SEO ve içerik
 
 - [seo-audit](https://github.com/coreyhaines31/marketingskills/blob/17772c7a80b7b8c7a47af30f648374cd8bd8adc5/skills/seo-audit/SKILL.md) — `coreyhaines31/marketingskills`; commit `17772c7a80b7`.
 - [copywriting](https://github.com/coreyhaines31/marketingskills/blob/17772c7a80b7b8c7a47af30f648374cd8bd8adc5/skills/copywriting/SKILL.md) — `coreyhaines31/marketingskills`; commit `17772c7a80b7`.
+- [competitor-analysis](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/competitor-analysis/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [keyword-research](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/keyword-research/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [local-seo](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/local-seo/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [search-console-review](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/search-console-review/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [seo-audit](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/seo-audit/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [seo-coach](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/seo-coach/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
+- [site-audit](https://github.com/duckduckdeploy/openseo/blob/522ea0e44011ac52cf8973df73a6f72785bf2aaa/plugins/openseo/skills/site-audit/SKILL.md) — `duckduckdeploy/openseo`; commit `522ea0e44011`.
 
 <a id="knowledge"></a>
 ## Bilgi yönetimi ve kişisel üretkenlik
@@ -324,6 +376,8 @@ Bu kategoriye özel yeterince doğrulanmış bir skill seçilmedi. Yukarıdaki y
 
 - [transcribe](https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/transcribe/SKILL.md) — `openai/skills`; commit `49f948faa925`.
 - [speech](https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/speech/SKILL.md) — `openai/skills`; commit `49f948faa925`.
+- [voicestudio-maintainer](https://github.com/debpalash/VoiceStudio/blob/336d48481b8c7c0ef810bc5f00e80a3aaddace8f/skills/voicestudio-maintainer/SKILL.md) — `debpalash/VoiceStudio`; commit `336d48481b8c`.
+- [voicestudio](https://github.com/debpalash/VoiceStudio/blob/336d48481b8c7c0ef810bc5f00e80a3aaddace8f/skills/voicestudio/SKILL.md) — `debpalash/VoiceStudio`; commit `336d48481b8c`.
 
 <a id="publishing"></a>
 ## Yazarlık yayıncılık ve dizgi

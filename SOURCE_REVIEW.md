@@ -71,3 +71,7 @@ Tam dosya listesi ve satır bazında eşleşme konumları `catalog/source-review
 - `obra/superpowers/skills/using-superpowers/SKILL.md`: Görev dışına taşan genel ajan davranışı ve zorunlu skill çağırma dayatması.
 
 Diğer beceriler için de görev öncesi inceleme gerekir. 24 kaynağın 22 tanesinden seçilen örnek metin parçaları okundu; iki kaynakta yalnızca statik envanter/tarama yapıldı. Tüm talimatlar tam kapsamlı incelenmiş veya işlevsel olarak test edilmiş sayılmaz. Lisans ve davranış notları `catalog/skill-review-notes.json` içindedir.
+
+## 28 Ekim 2026 eklemeleri
+
+İlk incelemeye ek olarak 12 kaynak ve 1 harici veri koleksiyonu işlendi. Yerel kurulum, lisans istisnaları, platform koşulları ve ücretli servis gereksinimleri [ekleme raporunda](EKLENEN_KAYNAKLAR.md) ve `catalog/requested-additions.json` içinde kayıtlıdır. Upstream kopyalar kendi lisanslarını taşır; paketin MIT lisansı bunları kapsamaz.

@@ -4,6 +4,8 @@ Doğrulama: **2026-10-27**.
 
 Sıra aday kümesindeki puana göredir. Yöntem: [YONTEM.md](YONTEM.md).
 
+İstenen ek kaynakların son kontrolü: **2026-10-28**; ayrıntılar [ekleme raporunda](EKLENEN_KAYNAKLAR.md). Diğer kayıtların kendi kontrol tarihi korunur.
+
 ## Skill standartları ve kataloglar
 
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
@@ -29,6 +31,7 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#skills-core).
 | [obra/superpowers](https://github.com/obra/superpowers) | 305,927 | 27,248 | 2026-10-23 | MIT | 100 |
 | [github/spec-kit](https://github.com/github/spec-kit) | 143,132 | 12,823 | 2026-10-26 | MIT | 100 |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 304,526 | 25,632 | 2026-10-27 | MIT | 100 |
+| [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 6,051 | 1,068 | 2026-10-03 | MIT | 87.8 |
 | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | 64,205 | 5,424 | 2026-05-31 | MIT | 77.7 |
 
 Adayların amaçları:
@@ -36,6 +39,7 @@ Adayların amaçları:
 - **obra/superpowers**: An agentic skills framework & software development methodology that works.
 - **github/spec-kit**: 💫 Toolkit to help you get started with SDD or any other process!
 - **mattpocock/skills**: Skills for Real Engineers. Straight from my .agents directory.
+- **Jakeschincariol/replica-skill**: Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.
 - **gsd-build/get-shit-done**: A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#coding-workflow).
@@ -47,12 +51,16 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#coding-workflow).
 | [vercel/next.js](https://github.com/vercel/next.js) | 143,312 | 34,144 | 2026-10-27 | MIT | 100 |
 | [sveltejs/svelte](https://github.com/sveltejs/svelte) | 88,491 | 7,424 | 2026-10-27 | MIT | 99.1 |
 | [vuejs/core](https://github.com/vuejs/core) | 54,907 | 9,271 | 2026-10-27 | MIT | 98.1 |
+| [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 6,051 | 1,068 | 2026-10-03 | MIT | 87.8 |
+| [xiiiabu/motionsites.ai](https://github.com/xiiiabu/motionsites.ai) | 100 | 102 | 2026-04-03 | MIT | 54.6 |
 
 Adayların amaçları:
 
 - **vercel/next.js**: The React Framework
 - **sveltejs/svelte**: web development for the rest of us
 - **vuejs/core**: 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+- **Jakeschincariol/replica-skill**: Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.
+- **xiiiabu/motionsites.ai**: motionsites.ai
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#frontend).
 
@@ -98,6 +106,7 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#mobile).
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 141,295 | 14,963 | 2026-10-26 | MIT | 100 |
 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | 8,608 | 1,049 | 2026-08-17 | Apache-2.0 | 83.9 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 33,088 | 2,893 | 2026-10-27 | belirsiz | 79.6 |
+| [xiiiabu/motionsites.ai](https://github.com/xiiiabu/motionsites.ai) | 100 | 102 | 2026-04-03 | MIT | 54.6 |
 
 Adayların amaçları:
 
@@ -105,6 +114,7 @@ Adayların amaçları:
 - **nextlevelbuilder/ui-ux-pro-max-skill**: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 - **google-labs-code/stitch-skills**: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
 - **vercel-labs/agent-skills**: Vercel's official collection of agent skills
+- **xiiiabu/motionsites.ai**: motionsites.ai
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#design).
 
@@ -297,12 +307,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#local-ai).
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | 24,683 | 4,083 | 2026-10-27 | MIT | 94.3 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 91,597 | 11,869 | 2026-10-27 | NOASSERTION | 84.7 |
 | [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | 13,661 | 2,345 | 2026-10-27 | NOASSERTION | 76.6 |
+| [duckduckdeploy/openseo](https://github.com/duckduckdeploy/openseo) | 17 | 2 | 2026-10-26 | MIT | 60.6 |
 
 Adayların amaçları:
 
 - **modelcontextprotocol/python-sdk**: The official Python SDK for Model Context Protocol servers and clients
 - **modelcontextprotocol/servers**: Model Context Protocol Servers
 - **modelcontextprotocol/typescript-sdk**: The official TypeScript SDK for Model Context Protocol servers and clients
+- **duckduckdeploy/openseo**: Open Source Ahrefs & SEMrush
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#mcp).
 
@@ -366,6 +378,7 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#observability).
 
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | 49,433 | 15,450 | 2026-10-27 | MIT | 97.9 |
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 208,741 | 61,259 | 2026-10-27 | NOASSERTION | 85 |
 | [langgenius/dify](https://github.com/langgenius/dify) | 159,690 | 25,237 | 2026-10-27 | NOASSERTION | 85 |
 | [activepieces/activepieces](https://github.com/activepieces/activepieces) | 25,241 | 4,399 | 2026-10-27 | NOASSERTION | 79.5 |
@@ -373,6 +386,7 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#observability).
 
 Adayların amaçları:
 
+- **calcom/cal.diy**: Scheduling infrastructure for absolutely everyone.
 - **n8n-io/n8n**: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - **langgenius/dify**: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 - **activepieces/activepieces**: AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
@@ -503,12 +517,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#gis).
 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34,833 | 6,291 | 2026-10-27 | LGPL-2.1 | 96.0 |
 | [IfcOpenShell/IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell) | 2,894 | 998 | 2026-10-27 | LGPL-3.0 | 85.5 |
 | [ThatOpen/engine_components](https://github.com/ThatOpen/engine_components) | 718 | 214 | 2026-10-22 | MIT | 78.7 |
+| [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,212 | 324 | 2026-10-27 | NOASSERTION | 67.8 |
 
 Adayların amaçları:
 
 - **FreeCAD/FreeCAD**: Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.
 - **IfcOpenShell/IfcOpenShell**: Open source IFC library and geometry engine
 - **ThatOpen/engine_components**: Açıklama belirtilmemiş.
+- **wesbos/3d-model-anything**: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#bim).
 
@@ -551,12 +567,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#robotics).
 | [godotengine/godot](https://github.com/godotengine/godot) | 119,154 | 27,224 | 2026-10-26 | MIT | 100 |
 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | 117,033 | 36,759 | 2026-10-27 | MIT | 100 |
 | [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) | 33,271 | 2,053 | 2026-10-21 | MIT | 94.1 |
+| [wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything) | 2,212 | 324 | 2026-10-27 | NOASSERTION | 67.8 |
 
 Adayların amaçları:
 
 - **godotengine/godot**: Godot Engine – Multi-platform 2D and 3D game engine
 - **mrdoob/three.js**: JavaScript 3D Library.
 - **pmndrs/react-three-fiber**: 🇨🇭 A React renderer for Three.js
+- **wesbos/3d-model-anything**: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#games).
 
@@ -564,15 +582,23 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#games).
 
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 91,267 | 10,080 | 2026-10-27 | AGPL-3.0 | 99.7 |
 | [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | 65,872 | 14,433 | 2026-10-27 | NOASSERTION | 83.7 |
 | [blender/blender](https://github.com/blender/blender) | 21,325 | 3,436 | 2026-10-27 | NOASSERTION | 78.6 |
+| [CapSoftware/Cap](https://github.com/CapSoftware/Cap) | 23,941 | 2,177 | 2026-10-27 | NOASSERTION | 78.2 |
 | [remotion-dev/skills](https://github.com/remotion-dev/skills) | 5,773 | 640 | 2026-10-26 | belirsiz | 71.9 |
+| [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) | 4,853 | 1,050 | 2026-09-17 | belirsiz | 67.1 |
+| [Autom8AI/Open-Higgsfield-AI](https://github.com/Autom8AI/Open-Higgsfield-AI) | 1,543 | 323 | 2026-10-25 | belirsiz | 66.7 |
 
 Adayların amaçları:
 
+- **debpalash/VoiceStudio**: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 - **FFmpeg/FFmpeg**: Mirror of https://git.ffmpeg.org/ffmpeg.git
 - **blender/blender**: Official mirror of Blender
+- **CapSoftware/Cap**: Open source Loom alternative. Beautiful, shareable screen recordings.
 - **remotion-dev/skills**: Agent Skills
+- **wide-trace/open-higgsfield**: A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.
+- **Autom8AI/Open-Higgsfield-AI**: Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#media).
 
@@ -612,14 +638,22 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#commerce).
 
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 77,830 | 6,105 | 2026-10-27 | AGPL-3.0 | 98.4 |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | 49,433 | 15,450 | 2026-10-27 | MIT | 97.9 |
 | [makeplane/plane](https://github.com/makeplane/plane) | 61,523 | 6,194 | 2026-10-26 | AGPL-3.0 | 97.7 |
 | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 27,421 | 2,843 | 2026-10-16 | MIT | 94.0 |
+| [opf/openproject](https://github.com/opf/openproject) | 16,737 | 3,628 | 2026-10-27 | GPL-3.0 | 92.9 |
+| [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 6,051 | 1,068 | 2026-10-03 | MIT | 87.8 |
 | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) | 7,700 | 924 | 2026-10-16 | NOASSERTION | 73.3 |
 
 Adayların amaçları:
 
+- **AppFlowy-IO/AppFlowy**: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
+- **calcom/cal.diy**: Scheduling infrastructure for absolutely everyone.
 - **makeplane/plane**: 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
 - **phuryn/pm-skills**: PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.
+- **opf/openproject**: OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. ⭐ Star us on GitHub
+- **Jakeschincariol/replica-skill**: Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.
 - **deanpeters/Product-Manager-Skills**: Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#product).
@@ -631,12 +665,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#product).
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 192,482 | 14,385 | 2026-10-23 | MIT | 100 |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 56,805 | 8,397 | 2026-10-26 | MIT | 98.0 |
 | [google/skills](https://github.com/google/skills) | 21,611 | 1,832 | 2026-10-26 | Apache-2.0 | 92.6 |
+| [duckduckdeploy/openseo](https://github.com/duckduckdeploy/openseo) | 17 | 2 | 2026-10-26 | MIT | 60.6 |
 
 Adayların amaçları:
 
 - **microsoft/markitdown**: Python tool for converting files and office documents to Markdown.
 - **coreyhaines31/marketingskills**: Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
 - **google/skills**: Agent Skills for Google products and technologies
+- **duckduckdeploy/openseo**: Open Source Ahrefs & SEMrush
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#marketing).
 
@@ -644,7 +680,7 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#marketing).
 
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
-| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 77,809 | 6,104 | 2026-10-26 | AGPL-3.0 | 98.4 |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 77,830 | 6,105 | 2026-10-27 | AGPL-3.0 | 98.4 |
 | [logseq/logseq](https://github.com/logseq/logseq) | 45,398 | 2,852 | 2026-10-27 | AGPL-3.0 | 95.6 |
 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 50,207 | 3,547 | 2026-09-15 | MIT | 91.2 |
 
@@ -773,12 +809,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#legal).
 | [frappe/crm](https://github.com/frappe/crm) | 3,866 | 1,546 | 2026-10-27 | AGPL-3.0 | 87.1 |
 | [espocrm/espocrm](https://github.com/espocrm/espocrm) | 3,524 | 1,014 | 2026-10-27 | AGPL-3.0 | 86.1 |
 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | 59,878 | 9,786 | 2026-10-27 | NOASSERTION | 83.4 |
+| [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 38,446 | 9,354 | 2026-10-27 | NOASSERTION | 82.0 |
 
 Adayların amaçları:
 
 - **frappe/crm**: Fully featured, open source CRM
 - **espocrm/espocrm**: EspoCRM – Open Source CRM Application
 - **twentyhq/twenty**: The open alternative to Salesforce, designed for AI.
+- **chatwoot/chatwoot**: Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#crm).
 
@@ -787,12 +825,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#crm).
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
 | [frappe/erpnext](https://github.com/frappe/erpnext) | 40,662 | 13,289 | 2026-10-27 | GPL-3.0 | 97.3 |
+| [opf/openproject](https://github.com/opf/openproject) | 16,737 | 3,628 | 2026-10-27 | GPL-3.0 | 92.9 |
 | [odoo/odoo](https://github.com/odoo/odoo) | 55,364 | 34,121 | 2026-10-27 | NOASSERTION | 83.2 |
 | [akaunting/akaunting](https://github.com/akaunting/akaunting) | 10,234 | 3,008 | 2026-10-27 | NOASSERTION | 76.1 |
 
 Adayların amaçları:
 
 - **frappe/erpnext**: Free and Open Source Enterprise Resource Planning (ERP)
+- **opf/openproject**: OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. ⭐ Star us on GitHub
 - **odoo/odoo**: Odoo. Open Source Apps To Grow Your Business.
 - **akaunting/akaunting**: Online Accounting Software
 
@@ -846,12 +886,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#iot).
 
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 91,267 | 10,080 | 2026-10-27 | AGPL-3.0 | 99.7 |
 | [openai/whisper](https://github.com/openai/whisper) | 111,376 | 13,485 | 2026-08-31 | MIT | 95 |
 | [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,210 | 2,177 | 2026-10-25 | MIT | 93.4 |
 | [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | 46,150 | 6,160 | 2024-08-16 | MPL-2.0 | 71.9 |
 
 Adayların amaçları:
 
+- **debpalash/VoiceStudio**: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 - **openai/whisper**: Robust Speech Recognition via Large-Scale Weak Supervision
 - **SYSTRAN/faster-whisper**: Faster Whisper transcription with CTranslate2
 - **coqui-ai/TTS**: 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production

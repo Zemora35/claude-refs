@@ -2,6 +2,27 @@
 
 Bu akış kullanıcının başlattığı kontrollü bir dosya aktarımıdır. ChatGPT/Codex araştırmayı ve TASK.md'yi hazırlar; Claude Code yerel abonelik oturumuyla ayrı bir Git worktree'sinde kodu uygular. OpenAI API anahtarı veya yeni bir ajan frameworkü gerekmez. Normal ChatGPT web sohbeti bilgisayarındaki runner'ı doğrudan çalıştırmaz: görev belgesini indirip yerel araca verirsin. Yerel dosya erişimi olan bu tür bir Codex oturumunda hazırlama adımı dosyaya doğrudan yapılabilir.
 
+
+## Ekonomik varsayılan akış
+
+Yeni görevlerde **bir veya iki gerçek hata grubu** bildir: `prepare --issue-group "Hata A" --issue-group "Hata B"`. Üçüncü grup reddedilir. TASK.md 80–12000 UTF-8 baytla sınırlıdır; kalan işleri ayrı görevlere böl. Bu, etiket sayısını kontrol eder; büyük bir listeyi tek etiketle gizlememek görev hazırlayan ajanın sorumluluğudur. Eski mühürlü paketler değiştirilmeden okunur.
+
+Dar testler `--target-test-commands-file targeted-approved.json` veya tekrarlanan `--target-test-command-json` ile verilir; Claude'a otomatik izinli olur. `--test-commands-file` / `--test-command-json` **son host paketidir** ve Claude'un Bash izinlerine eklenmez. Aynı son komutun ayrıca `--allow-command` olması yeni paketlerde reddedilir. Kurulum/bağlantı komutlarını test listesi gibi sınıflandırma. Ham logları TASK.md'ye kopyalama; kısa hata özeti ve dosya yolu ver.
+
+Claude kodlarken hedef testlerle çalışır. Kodlama başarılıysa host hedefleri bağımsız kontrol eder; geçerlerse son paketi bir kez çalıştırır. Hedefler başarısızsa tam paket atlanır ve geçmiş sayılmaz. Bu hedef hata kanıtı güncelse düzeltme taslağı hazırlanabilir. Konsol/tekrar promptu kısa özet taşır; tam stdout/stderr yerel verification JSON'unda korunur.
+
+Kişisel helper'ın mutlak yolunu, **seçilmiş projenin Git kökünden** kullan:
+
+```text
+python <skill>/scripts/handoff_entry.py launch --bundle <görev> --expected-project <proje-kökü> --start
+```
+
+Alternatif merkezi araç: `python <toolkit>/scripts/handoff_job.py start ... --start`. `launch` yalnız worker'ın başladığını bildirir; Claude oturum açma/model sonucu sonradan oluşur. Yerel Python worker gizli pencerede mevcut runner'ı ve testleri takip eder; `job.json`, `progress.json`, `RESULT.md`, `run-result.json`, `changes.patch` ve yerel logları yazar. Aktif iş ikinci kez başlatılmaz. Kota/izin hatasında otomatik tekrar, merge veya push yapılmaz.
+
+**Her dakika modele durum sorgulatma.** Yerel worker kendi bekler. İstemci yerel bitiş olayı sunuyorsa onu kullan; sunmuyorsa sonuç dosyasının konumunu ver ve kullanıcının sonraki durum isteğinde bir kez oku. Otomatik sohbet bildirimi kurulmaz. Yerel terminalde `handoff_entry.py wait --bundle ... --expected-project ... --timeout-seconds 600` Python içinde bekler; `--timeout-seconds 0` anlık worker durumudur. Bu komut Claude, test veya yeniden deneme başlatmaz. Sık model çağrısıyla wait/status döngüsü oluşturma. Foreground `run --start` geriye uyumludur.
+
+Kullanıcının incelediği sonuçtan sonra açık yeniden denemesi: `launch ... --start --retry`. Kısmi çalışma korunur. Yeni akış tercihi araştırma varsayılanını, sağlayıcıyı veya model seçimini değiştirmez.
+
 ## Hazırlama
 
 Önce proje klasörünü ve istediğin özelliği araştırmayı yapacak ajana ver. [Araştırma promptu](handoff/templates/RESEARCH_PROMPT.md) ve [TASK şablonu](handoff/templates/TASK_TEMPLATE.md) bu adım içindir. Şablon doldurma işaretleri kaldırılmış, gerçek dosya yolları ve kabul ölçütleri olan bir TASK.md üret.
@@ -9,7 +30,7 @@ Bu akış kullanıcının başlattığı kontrollü bir dosya aktarımıdır. Ch
 Hedef bir Git deposu olmalı ve izlenen dosyalarda kaydedilmemiş değişiklik bulunmamalı. Hiçbir şey otomatik stash/reset yapılmaz. Görev paketi hedef deponun dışında tutulur. Örnek yolları kendi mevcut proje ve görev konumunla değiştir:
 
 ```powershell
-python scripts/handoff.py prepare --project ../my-project --task ../TASK.md --out ../handoffs/feature-one --allow-path src/ --allow-path tests/ --allow-command "python -m unittest discover -s tests -v" --test-commands-file ../tests-approved.json
+python scripts/handoff.py prepare --project ../my-project --task ../TASK.md --out ../handoffs/feature-one --allow-path src/ --allow-path tests/ --issue-group "Hedef hata" --target-test-commands-file ../targeted-approved.json --test-commands-file ../tests-approved.json
 ```
 
 `--allow-path src/` bir dizin kapsamıdır; sondaki `/` önemlidir. `--allow-path README.md` yalnızca o dosyayı kapsar. Ajan ayarları, Git metadata'sı ve sır dosyaları bu ilk sürümün otomatik değişiklik kapsamına alınmaz. Yalnızca gerçekten incelenmiş test/kurulum komutlarını `--allow-command` ile belirt. Operatör, joker veya komut zinciri kabul edilmez. Bağımlılıklar worktree'ye otomatik kopyalanmaz; gerekiyorsa incelenmiş kurulum komutunu ayrıca izin listesine al.

@@ -73,6 +73,17 @@ def validate(data):
     for s in read("sources.lock.json")["sources"]:
         if s["tree_truncated"] or not re.fullmatch(r"[a-f0-9]{40}", s["commit"]):
             errors.append("Unverified source lock: " + s["repository"])
+    resources_file = ROOT / "catalog/resources.json"
+    if resources_file.is_file():
+        resources = read("resources.json")["resources"]
+        if len({r["id"] for r in resources}) != len(resources):
+            errors.append("Duplicate external resource ids")
+        for r in resources:
+            if (r["provider"] != "huggingface-dataset" or not re.fullmatch(r"[\w.-]+/[\w.-]+", r["id"])
+                or r["url"] != "https://huggingface.co/datasets/" + r["id"]
+                or not re.fullmatch(r"[a-f0-9]{40}", r["revision"])
+                or set(r["categories"]) - set(category_ids)):
+                errors.append("Invalid external resource: " + r["id"])
     if errors:
         raise SystemExit("\n".join(errors))
     print(f'OK: {len(data["categories"])} categories, {len(repos)} repositories, {len(skills)} skill paths')
@@ -85,6 +96,11 @@ def search(data, args):
         if not categories:
             raise SystemExit("Unknown category; use the categories command.")
     query = args.query.casefold()
+    if not args.skills and (ROOT / "catalog/resources.json").is_file():
+        for r in read("resources.json")["resources"]:
+            haystack = " ".join([r["id"], r["description"], *r.get("aliases", [])]).casefold()
+            if query in haystack and (not args.category or args.category in r["categories"]):
+                print(f'{r["id"]} | {r["provider"]} | {r["status"]}\n  {r["url"]}')
     if args.skills:
         allowed = {x for c in categories for x in c["skills"]} if args.category else None
         for s in read("skills.json")["skills"]:
@@ -143,6 +159,9 @@ def refresh(data, apply):
 def render(data):
     lines = ["# Kategori bazında repo kataloğu", "", f'Doğrulama: **{data["checked_at"]}**.', "",
              "Sıra aday kümesindeki puana göredir. Yöntem: [YONTEM.md](YONTEM.md).", ""]
+    if data.get("latest_additions_checked_at"):
+        lines += [f'İstenen ek kaynakların son kontrolü: **{data["latest_additions_checked_at"]}**; '
+                  'ayrıntılar [ekleme raporunda](EKLENEN_KAYNAKLAR.md). Diğer kayıtların kendi kontrol tarihi korunur.', ""]
     for c in data["categories"]:
         lines += [f'## {c["name"]}', "", "| Repo | Yıldız | Fork | Son push | Lisans | Puan |", "|---|---:|---:|---|---|---:|"]
         for key in c["repositories"]:

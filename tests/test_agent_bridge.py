@@ -64,6 +64,24 @@ class BridgeTests(unittest.TestCase):
         self.assertFalse((self.project / ".agents").exists())
         self.assertIn(".upstream-notices/LICENSE", files)
 
+    def test_external_dataset_search_preserves_provider_and_installation_scope(self):
+        resource = {"id": "nvidia/simready-assets", "description": "OpenUSD simulation assets",
+                    "aliases": ["simready"], "categories": ["testing"],
+                    "provider": "huggingface-dataset", "status": "metadata-only-no-assets-downloaded",
+                    "url": "https://huggingface.co/datasets/nvidia/simready-assets"}
+        save(self.root / "catalog/resources.json", {"resources": [resource]})
+        catalog = BRIDGE.Catalog(self.root)
+        result = catalog.search("simready", category="testing")
+        self.assertEqual(result["resources"], [resource])
+        self.assertEqual(result["repositories"], [])
+        self.assertFalse((self.project / ".agents").exists())
+        self.assertEqual(catalog.search("absent")["resources"], [])
+
+    def test_old_catalog_without_resources_remains_searchable(self):
+        result = self.catalog.search("Fixture", category="testing")
+        self.assertEqual(result["resources"], [])
+        self.assertEqual(result["repositories"][0]["repository"], "fixture/skills")
+
     def test_install_both_preserves_files_and_is_idempotent(self):
         files = self.catalog.payload(self.skill)
         for target, folder in BRIDGE.PLATFORMS.items():

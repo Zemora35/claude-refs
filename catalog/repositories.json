@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "checked_at": "2026-10-27",
-  "scope": "54-category curated shortlist; not exhaustive GitHub ranking",
+  "scope": "54-category curated shortlist plus user-requested additions; not exhaustive GitHub ranking",
   "repositories": {
     "anthropics/skills": {
       "name": "anthropics/skills",
@@ -3779,17 +3779,14 @@
       "name": "AppFlowy-IO/AppFlowy",
       "url": "https://github.com/AppFlowy-IO/AppFlowy",
       "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
-      "stars": 77809,
-      "forks": 6104,
-      "pushed_at": "2026-10-26T00:59:22Z",
-      "updated_at": "2026-10-27T11:39:35Z",
+      "stars": 77830,
+      "forks": 6105,
+      "pushed_at": "2026-10-27T12:38:00Z",
+      "updated_at": "2026-10-27T23:03:05Z",
       "created_at": "2021-06-16T12:56:48Z",
       "archived": false,
       "disabled": false,
-      "license": "AGPL-3.0",
-      "license_name": "GNU Affero General Public License v3.0",
       "default_branch": "main",
-      "size_kb": 93939,
       "language": "Dart",
       "topics": [
         "blog",
@@ -3805,13 +3802,16 @@
         "team-collaboration",
         "wiki"
       ],
+      "license": "AGPL-3.0",
+      "license_name": "GNU Affero General Public License v3.0",
+      "size_kb": 93945,
       "source_api": "https://api.github.com/repos/AppFlowy-IO/AppFlowy",
-      "score": 98.4,
-      "days_since_push": 1,
-      "checked_at": "2026-10-27",
-      "kind": "repository",
+      "checked_at": "2026-10-28",
+      "kind": "reference",
       "existing_folder": null,
-      "review_status": "metadata-verified"
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 98.4,
+      "days_since_push": 1
     },
     "donnemartin/system-design-primer": {
       "name": "donnemartin/system-design-primer",
@@ -5980,6 +5980,402 @@
       "review_status": "metadata-verified",
       "score": 96.4,
       "days_since_push": 0
+    },
+    "wesbos/3d-model-anything": {
+      "name": "wesbos/3d-model-anything",
+      "url": "https://github.com/wesbos/3d-model-anything",
+      "description": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+      "stars": 2212,
+      "forks": 324,
+      "pushed_at": "2026-10-27T15:08:22Z",
+      "updated_at": "2026-10-27T23:20:29Z",
+      "created_at": "2026-10-21T19:38:50Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "Swift",
+      "topics": [],
+      "license": "NOASSERTION",
+      "license_name": "Other",
+      "size_kb": 36049,
+      "source_api": "https://api.github.com/repos/wesbos/3d-model-anything",
+      "checked_at": "2026-10-28",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 67.8,
+      "days_since_push": 1
+    },
+    "xiiiabu/motionsites.ai": {
+      "name": "xiiiabu/motionsites.ai",
+      "url": "https://github.com/xiiiabu/motionsites.ai",
+      "description": "motionsites.ai",
+      "stars": 100,
+      "forks": 102,
+      "pushed_at": "2026-04-03T00:29:02Z",
+      "updated_at": "2026-10-27T13:52:36Z",
+      "created_at": "2026-04-04T20:34:13Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": null,
+      "topics": [],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 768900,
+      "source_api": "https://api.github.com/repos/xiiiabu/motionsites.ai",
+      "checked_at": "2026-10-28",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 54.6,
+      "days_since_push": 208
+    },
+    "Jakeschincariol/replica-skill": {
+      "name": "Jakeschincariol/replica-skill",
+      "url": "https://github.com/Jakeschincariol/replica-skill",
+      "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+      "stars": 6051,
+      "forks": 1068,
+      "pushed_at": "2026-10-03T12:07:53Z",
+      "updated_at": "2026-10-27T23:25:32Z",
+      "created_at": "2026-10-03T12:07:49Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "app-clone",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "indie-hacker",
+        "reverse-engineering",
+        "saas"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 66,
+      "source_api": "https://api.github.com/repos/Jakeschincariol/replica-skill",
+      "checked_at": "2026-10-28",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 87.8,
+      "days_since_push": 25
+    },
+    "debpalash/VoiceStudio": {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars": 91267,
+      "forks": 10080,
+      "pushed_at": "2026-10-27T23:16:39Z",
+      "updated_at": "2026-10-27T23:25:50Z",
+      "created_at": "2026-04-09T21:40:26Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "license": "AGPL-3.0",
+      "license_name": "GNU Affero General Public License v3.0",
+      "size_kb": 162966,
+      "source_api": "https://api.github.com/repos/debpalash/VoiceStudio",
+      "checked_at": "2026-10-28",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 99.7,
+      "days_since_push": 1
+    },
+    "duckduckdeploy/openseo": {
+      "name": "duckduckdeploy/openseo",
+      "url": "https://github.com/duckduckdeploy/openseo",
+      "description": "Open Source Ahrefs & SEMrush",
+      "stars": 17,
+      "forks": 2,
+      "pushed_at": "2026-10-26T09:34:24Z",
+      "updated_at": "2026-10-27T14:01:27Z",
+      "created_at": "2026-10-15T19:06:01Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "TypeScript",
+      "topics": [
+        "ahrefs-alternative",
+        "ai-visibility",
+        "backlinks",
+        "keyword-research",
+        "mcp",
+        "mcp-server",
+        "nextjs",
+        "open-source",
+        "rank-tracker",
+        "search-console",
+        "self-hosted",
+        "semrush-alternative",
+        "seo",
+        "seo-tools",
+        "site-audit",
+        "typescript"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 60490,
+      "source_api": "https://api.github.com/repos/duckduckdeploy/openseo",
+      "checked_at": "2026-10-28",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 60.6,
+      "days_since_push": 2
+    },
+    "calcom/cal.diy": {
+      "name": "calcom/cal.diy",
+      "url": "https://github.com/calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "stars": 49433,
+      "forks": 15450,
+      "pushed_at": "2026-10-27T07:46:25Z",
+      "updated_at": "2026-10-27T22:39:40Z",
+      "created_at": "2021-03-22T13:47:42Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "TypeScript",
+      "topics": [
+        "next-auth",
+        "nextjs",
+        "open-source",
+        "postgresql",
+        "prisma",
+        "t3-stack",
+        "tailwindcss",
+        "trpc",
+        "turborepo",
+        "typescript",
+        "zod"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 1157401,
+      "source_api": "https://api.github.com/repos/calcom/cal.diy",
+      "checked_at": "2026-10-28",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 97.9,
+      "days_since_push": 1
+    },
+    "chatwoot/chatwoot": {
+      "name": "chatwoot/chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "stars": 38446,
+      "forks": 9354,
+      "pushed_at": "2026-10-27T22:32:00Z",
+      "updated_at": "2026-10-27T22:49:30Z",
+      "created_at": "2019-08-14T06:50:51Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "develop",
+      "language": "Ruby",
+      "topics": [
+        "actioncable",
+        "chat-widget",
+        "conversation",
+        "customer-support",
+        "dashboard",
+        "design",
+        "docker",
+        "docker-image",
+        "heroku",
+        "intercom",
+        "javascript",
+        "livechat",
+        "opensource",
+        "rails",
+        "ruby",
+        "sass",
+        "vuejs",
+        "whatsapp",
+        "zendesk"
+      ],
+      "license": "NOASSERTION",
+      "license_name": "Other",
+      "size_kb": 305105,
+      "source_api": "https://api.github.com/repos/chatwoot/chatwoot",
+      "checked_at": "2026-10-28",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 82.0,
+      "days_since_push": 1
+    },
+    "CapSoftware/Cap": {
+      "name": "CapSoftware/Cap",
+      "url": "https://github.com/CapSoftware/Cap",
+      "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
+      "stars": 23941,
+      "forks": 2177,
+      "pushed_at": "2026-10-27T23:14:42Z",
+      "updated_at": "2026-10-27T23:17:40Z",
+      "created_at": "2023-11-17T20:31:46Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "Rust",
+      "topics": [
+        "app",
+        "cap",
+        "coss",
+        "loom",
+        "mac",
+        "nextjs",
+        "nextjs15",
+        "open-source",
+        "oss",
+        "react",
+        "record",
+        "rust",
+        "screen-capture",
+        "screen-recorder",
+        "screenshot",
+        "solidjs",
+        "tauri",
+        "tauri-app",
+        "typescript",
+        "vite"
+      ],
+      "license": "NOASSERTION",
+      "license_name": "Other",
+      "size_kb": 462529,
+      "source_api": "https://api.github.com/repos/CapSoftware/Cap",
+      "checked_at": "2026-10-28",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 78.2,
+      "days_since_push": 1
+    },
+    "opf/openproject": {
+      "name": "opf/openproject",
+      "url": "https://github.com/opf/openproject",
+      "description": "OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. ⭐ Star us on GitHub",
+      "stars": 16737,
+      "forks": 3628,
+      "pushed_at": "2026-10-27T23:22:04Z",
+      "updated_at": "2026-10-27T23:03:55Z",
+      "created_at": "2012-11-28T09:59:11Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "dev",
+      "language": "Ruby",
+      "topics": [
+        "agile-development",
+        "angular",
+        "bcf",
+        "boards",
+        "bug-tracker",
+        "gantt",
+        "gantt-chart",
+        "ifc",
+        "issue-tracker",
+        "jira-alternative",
+        "kanban",
+        "openproject",
+        "product-management",
+        "project-management",
+        "project-planning",
+        "roadmap",
+        "ruby",
+        "scrum",
+        "timeline",
+        "workflows"
+      ],
+      "license": "GPL-3.0",
+      "license_name": "GNU General Public License v3.0",
+      "size_kb": 3076553,
+      "source_api": "https://api.github.com/repos/opf/openproject",
+      "checked_at": "2026-10-28",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 92.9,
+      "days_since_push": 1
+    },
+    "Autom8AI/Open-Higgsfield-AI": {
+      "name": "Autom8AI/Open-Higgsfield-AI",
+      "url": "https://github.com/Autom8AI/Open-Higgsfield-AI",
+      "description": "Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.",
+      "stars": 1543,
+      "forks": 323,
+      "pushed_at": "2026-10-25T19:10:35Z",
+      "updated_at": "2026-10-27T23:26:18Z",
+      "created_at": "2026-04-09T12:48:24Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "license": null,
+      "license_name": null,
+      "size_kb": 44742,
+      "source_api": "https://api.github.com/repos/Autom8AI/Open-Higgsfield-AI",
+      "checked_at": "2026-10-28",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 66.7,
+      "days_since_push": 3
+    },
+    "wide-trace/open-higgsfield": {
+      "name": "wide-trace/open-higgsfield",
+      "url": "https://github.com/wide-trace/open-higgsfield",
+      "description": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
+      "stars": 4853,
+      "forks": 1050,
+      "pushed_at": "2026-09-17T01:53:26Z",
+      "updated_at": "2026-10-27T23:21:26Z",
+      "created_at": "2026-08-26T06:09:58Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "TypeScript",
+      "topics": [],
+      "license": null,
+      "license_name": null,
+      "size_kb": 469,
+      "source_api": "https://api.github.com/repos/wide-trace/open-higgsfield",
+      "checked_at": "2026-10-28",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 67.1,
+      "days_since_push": 41
     }
   },
   "categories": [
@@ -6014,17 +6410,30 @@
         "obra/superpowers",
         "github/spec-kit",
         "mattpocock/skills",
+        "Jakeschincariol/replica-skill",
         "gsd-build/get-shit-done"
       ],
       "popularity_order": [
         "obra/superpowers",
         "mattpocock/skills",
         "github/spec-kit",
-        "gsd-build/get-shit-done"
+        "gsd-build/get-shit-done",
+        "Jakeschincariol/replica-skill"
       ],
       "skills": [
         "mattpocock/skills:skills/engineering/diagnosing-bugs/SKILL.md",
-        "obra/superpowers:skills/systematic-debugging/SKILL.md"
+        "obra/superpowers:skills/systematic-debugging/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-architect/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-backend/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-brand/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-build/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-deploy/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-design/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-diff/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-entrepreneur/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-launch/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-recon/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-test/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -6036,16 +6445,31 @@
       "repositories": [
         "vercel/next.js",
         "sveltejs/svelte",
-        "vuejs/core"
+        "vuejs/core",
+        "Jakeschincariol/replica-skill",
+        "xiiiabu/motionsites.ai"
       ],
       "popularity_order": [
         "vercel/next.js",
         "sveltejs/svelte",
-        "vuejs/core"
+        "vuejs/core",
+        "Jakeschincariol/replica-skill",
+        "xiiiabu/motionsites.ai"
       ],
       "skills": [
         "vercel-labs/agent-skills:skills/react-best-practices/SKILL.md",
-        "anthropics/skills:skills/frontend-design/SKILL.md"
+        "anthropics/skills:skills/frontend-design/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-architect/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-backend/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-brand/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-build/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-deploy/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-design/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-diff/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-entrepreneur/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-launch/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-recon/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-test/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -6102,13 +6526,15 @@
         "shadcn-ui/ui",
         "nextlevelbuilder/ui-ux-pro-max-skill",
         "google-labs-code/stitch-skills",
-        "vercel-labs/agent-skills"
+        "vercel-labs/agent-skills",
+        "xiiiabu/motionsites.ai"
       ],
       "popularity_order": [
         "nextlevelbuilder/ui-ux-pro-max-skill",
         "shadcn-ui/ui",
         "vercel-labs/agent-skills",
-        "google-labs-code/stitch-skills"
+        "google-labs-code/stitch-skills",
+        "xiiiabu/motionsites.ai"
       ],
       "skills": [
         "google-labs-code/stitch-skills:plugins/stitch-utilities/skills/design-md/SKILL.md",
@@ -6358,16 +6784,25 @@
       "repositories": [
         "modelcontextprotocol/python-sdk",
         "modelcontextprotocol/servers",
-        "modelcontextprotocol/typescript-sdk"
+        "modelcontextprotocol/typescript-sdk",
+        "duckduckdeploy/openseo"
       ],
       "popularity_order": [
         "modelcontextprotocol/servers",
         "modelcontextprotocol/python-sdk",
-        "modelcontextprotocol/typescript-sdk"
+        "modelcontextprotocol/typescript-sdk",
+        "duckduckdeploy/openseo"
       ],
       "skills": [
         "anthropics/skills:skills/mcp-builder/SKILL.md",
-        "huggingface/skills:hf-mcp/skills/hf-mcp/SKILL.md"
+        "huggingface/skills:hf-mcp/skills/hf-mcp/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/competitor-analysis/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/keyword-research/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/local-seo/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/search-console-review/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/seo-audit/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/seo-coach/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/site-audit/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -6447,6 +6882,7 @@
       "name": "İş otomasyonu ve entegrasyon",
       "query": "workflow automation stars:>10000 archived:false sort:stars",
       "repositories": [
+        "calcom/cal.diy",
         "n8n-io/n8n",
         "langgenius/dify",
         "activepieces/activepieces",
@@ -6455,6 +6891,7 @@
       "popularity_order": [
         "n8n-io/n8n",
         "langgenius/dify",
+        "calcom/cal.diy",
         "activepieces/activepieces",
         "windmill-labs/windmill"
       ],
@@ -6627,14 +7064,18 @@
       "repositories": [
         "FreeCAD/FreeCAD",
         "IfcOpenShell/IfcOpenShell",
-        "ThatOpen/engine_components"
+        "ThatOpen/engine_components",
+        "wesbos/3d-model-anything"
       ],
       "popularity_order": [
         "FreeCAD/FreeCAD",
         "IfcOpenShell/IfcOpenShell",
+        "wesbos/3d-model-anything",
         "ThatOpen/engine_components"
       ],
-      "skills": [],
+      "skills": [
+        "wesbos/3d-model-anything:.agents/skills/scan-to-threejs/SKILL.md"
+      ],
       "existing_skills": [
         "bimcraft-engineering",
         "bim-interop",
@@ -6692,14 +7133,18 @@
       "repositories": [
         "godotengine/godot",
         "mrdoob/three.js",
-        "pmndrs/react-three-fiber"
+        "pmndrs/react-three-fiber",
+        "wesbos/3d-model-anything"
       ],
       "popularity_order": [
         "godotengine/godot",
         "mrdoob/three.js",
-        "pmndrs/react-three-fiber"
+        "pmndrs/react-three-fiber",
+        "wesbos/3d-model-anything"
       ],
-      "skills": [],
+      "skills": [
+        "wesbos/3d-model-anything:.agents/skills/scan-to-threejs/SKILL.md"
+      ],
       "existing_skills": [
         "img2threejs"
       ],
@@ -6710,18 +7155,29 @@
       "name": "Video ses ve yaratıcı üretim",
       "query": "video audio agent skills stars:>500 archived:false sort:stars",
       "repositories": [
+        "debpalash/VoiceStudio",
         "FFmpeg/FFmpeg",
         "blender/blender",
-        "remotion-dev/skills"
+        "CapSoftware/Cap",
+        "remotion-dev/skills",
+        "wide-trace/open-higgsfield",
+        "Autom8AI/Open-Higgsfield-AI"
       ],
       "popularity_order": [
+        "debpalash/VoiceStudio",
         "FFmpeg/FFmpeg",
+        "CapSoftware/Cap",
         "blender/blender",
-        "remotion-dev/skills"
+        "remotion-dev/skills",
+        "wide-trace/open-higgsfield",
+        "Autom8AI/Open-Higgsfield-AI"
       ],
       "skills": [
         "remotion-dev/skills:skills/remotion-best-practices/SKILL.md",
-        "remotion-dev/skills:skills/remotion-captions/SKILL.md"
+        "remotion-dev/skills:skills/remotion-captions/SKILL.md",
+        "debpalash/VoiceStudio:skills/voicestudio-maintainer/SKILL.md",
+        "debpalash/VoiceStudio:skills/voicestudio/SKILL.md",
+        "CapSoftware/Cap:apps/cli/skill/cap/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -6774,18 +7230,37 @@
       "name": "Ürün yönetimi ve proje planlama",
       "query": "product manager skills stars:>500 archived:false sort:stars",
       "repositories": [
+        "AppFlowy-IO/AppFlowy",
+        "calcom/cal.diy",
         "makeplane/plane",
         "phuryn/pm-skills",
+        "opf/openproject",
+        "Jakeschincariol/replica-skill",
         "deanpeters/Product-Manager-Skills"
       ],
       "popularity_order": [
+        "AppFlowy-IO/AppFlowy",
         "makeplane/plane",
+        "calcom/cal.diy",
         "phuryn/pm-skills",
-        "deanpeters/Product-Manager-Skills"
+        "opf/openproject",
+        "deanpeters/Product-Manager-Skills",
+        "Jakeschincariol/replica-skill"
       ],
       "skills": [
         "phuryn/pm-skills:pm-product-discovery/skills/prioritize-features/SKILL.md",
-        "deanpeters/Product-Manager-Skills:skills/opportunity-solution-tree/SKILL.md"
+        "deanpeters/Product-Manager-Skills:skills/opportunity-solution-tree/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-architect/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-backend/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-brand/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-build/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-deploy/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-design/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-diff/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-entrepreneur/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-launch/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-recon/SKILL.md",
+        "Jakeschincariol/replica-skill:replica-test/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -6797,16 +7272,25 @@
       "repositories": [
         "microsoft/markitdown",
         "coreyhaines31/marketingskills",
-        "google/skills"
+        "google/skills",
+        "duckduckdeploy/openseo"
       ],
       "popularity_order": [
         "microsoft/markitdown",
         "coreyhaines31/marketingskills",
-        "google/skills"
+        "google/skills",
+        "duckduckdeploy/openseo"
       ],
       "skills": [
         "coreyhaines31/marketingskills:skills/seo-audit/SKILL.md",
-        "coreyhaines31/marketingskills:skills/copywriting/SKILL.md"
+        "coreyhaines31/marketingskills:skills/copywriting/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/competitor-analysis/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/keyword-research/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/local-seo/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/search-console-review/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/seo-audit/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/seo-coach/SKILL.md",
+        "duckduckdeploy/openseo:plugins/openseo/skills/site-audit/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -6983,10 +7467,12 @@
       "repositories": [
         "frappe/crm",
         "espocrm/espocrm",
-        "twentyhq/twenty"
+        "twentyhq/twenty",
+        "chatwoot/chatwoot"
       ],
       "popularity_order": [
         "twentyhq/twenty",
+        "chatwoot/chatwoot",
         "frappe/crm",
         "espocrm/espocrm"
       ],
@@ -7003,12 +7489,14 @@
       "query": "ERP accounting archived:false sort:stars",
       "repositories": [
         "frappe/erpnext",
+        "opf/openproject",
         "odoo/odoo",
         "akaunting/akaunting"
       ],
       "popularity_order": [
         "odoo/odoo",
         "frappe/erpnext",
+        "opf/openproject",
         "akaunting/akaunting"
       ],
       "skills": [],
@@ -7075,18 +7563,22 @@
       "name": "Konuşma tanıma ve ses işleme",
       "query": "speech recognition archived:false sort:stars",
       "repositories": [
+        "debpalash/VoiceStudio",
         "openai/whisper",
         "SYSTRAN/faster-whisper",
         "coqui-ai/TTS"
       ],
       "popularity_order": [
         "openai/whisper",
+        "debpalash/VoiceStudio",
         "coqui-ai/TTS",
         "SYSTRAN/faster-whisper"
       ],
       "skills": [
         "openai/skills:skills/.curated/transcribe/SKILL.md",
-        "openai/skills:skills/.curated/speech/SKILL.md"
+        "openai/skills:skills/.curated/speech/SKILL.md",
+        "debpalash/VoiceStudio:skills/voicestudio-maintainer/SKILL.md",
+        "debpalash/VoiceStudio:skills/voicestudio/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -7130,5 +7622,6 @@
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
     }
-  ]
+  ],
+  "latest_additions_checked_at": "2026-10-28"
 }

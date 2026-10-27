@@ -2,12 +2,13 @@
 
 GitHub: [Zemora35/claude-refs](https://github.com/Zemora35/claude-refs).
 
-**2026-10-27** tarihinde doğrulanmış **54 kategori**, **170 repo kaydı**, **24 skill kaynağı**, **1022 SKILL.md yolu** ve **81 seçilmiş beceri**.
+İlk doğrulama **2026-10-27**, istenen kaynakların son kontrolü **2026-10-28**: **54 kategori**, **181 repo kaydı**, **30 skill kaynağı**, **1053 SKILL.md yolu**, **103 seçilmiş beceri** ve **1 harici veri koleksiyonu**.
 
-Bu koleksiyon kaynak bulmayı ve doğru aracı seçmeyi kolaylaştırır. Seçimler popülerlik, güncellik, lisans bilgisi ve kullanım amacıyla değerlendirilir. Üçüncü taraf kaynak kodları çalıştırılmaz ve upstream beceriler otomatik kurulmaz. Projeye eklenen özgün `refs-catalog` yönlendiricisi Claude Code ve Codex tarafından keşfedilebilir.
+Bu koleksiyon kaynak bulmayı ve doğru aracı seçmeyi kolaylaştırır. Seçimler popülerlik, güncellik, lisans bilgisi ve kullanım amacıyla değerlendirilir. Üçüncü taraf kaynak kodları otomatik çalıştırılmaz; upstream beceriler yalnızca açık kurulum isteğiyle seçilerek kurulur. Projeye eklenen özgün `refs-catalog` yönlendiricisi Claude Code ve Codex tarafından keşfedilebilir.
 
 | İhtiyaç | Dosya |
 |---|---|
+| 28 Ekim eklemeleri ve yerel kurulum sınırları | [EKLENEN_KAYNAKLAR.md](EKLENEN_KAYNAKLAR.md) |
 | Kategoriler ve repo karşılaştırmaları | [KATALOG.md](KATALOG.md) |
 | İşe göre skill seçimi | [SKILL_REHBERI.md](SKILL_REHBERI.md) |
 | Claude Code/Codex kurulumu ve kullanımı | [AGENT_KULLANIMI.md](AGENT_KULLANIMI.md) |
@@ -46,6 +47,8 @@ Yeni kaynakların sabit commit'lerini yerel `.sources/` alanına almak için:
 ```powershell
 python scripts/sync_sources.py --root .
 ```
+
+Yeni eklenen kaynaklarda kilitteki `sparse_paths` yalnızca belgeler ve eksiksiz skill klasörlerini seçer; büyük medya, LFS varlıkları ve uygulama bağımlılıkları indirilmez. NVIDIA veri kümesi bu komutla indirilmez.
 
 Bu komut yerel referans indirir; skill/global paket/MCP kurulumu yapmaz. Mevcut kaynakları değiştirmez. Yeni kaynaklardaki kodlar çalıştırılmaz. Yalnızca belirli bir kaynak için `--repo owner/repo` kullanılabilir. Yeniden indirme ve otomatik güncelleme yapılmaz; mevcut commit farklıysa hata raporlanır.
 

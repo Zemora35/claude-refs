@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {
+      "id": "nvidia/simready-assets",
+      "provider": "huggingface-dataset",
+      "url": "https://huggingface.co/datasets/nvidia/simready-assets",
+      "revision": "a72e6a76d53501cbf5a719910a674eb2c1f6f161",
+      "revision_url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/a72e6a76d53501cbf5a719910a674eb2c1f6f161",
+      "description": "NVIDIA SimReady OpenUSD 3D simulation assets; simulation-ready models, physics and materials.",
+      "aliases": [
+        "nvidia",
+        "simready",
+        "simready-assets",
+        "3d assets",
+        "USD"
+      ],
+      "categories": [
+        "robotics",
+        "bim",
+        "games"
+      ],
+      "license": "cc-by-4.0",
+      "checked_at": "2026-10-28",
+      "status": "metadata-only-no-assets-downloaded",
+      "prerequisites": [
+        "Download individual assets only after scope/size review",
+        "Preserve per-package license and attribution",
+        "OpenUSD-compatible viewer/runtime"
+      ],
+      "source_api": "https://huggingface.co/api/datasets/nvidia/simready-assets",
+      "last_modified": "2026-10-27T22:51:34.000Z"
+    }
+  ]
+}

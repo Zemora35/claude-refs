@@ -60,6 +60,8 @@ class Catalog:
         self.sources = read_json(self.root / "catalog/sources.lock.json")["sources"]
         self.notes = read_json(self.root / "catalog/skill-review-notes.json")
         self.profiles = read_json(self.root / "catalog/compatibility-profiles.json")
+        resources = self.root / "catalog/resources.json"
+        self.resources = read_json(resources)["resources"] if resources.is_file() else []
 
     def select(self, repository, name):
         matches = [s for s in self.skills if s["repository"] == repository and name in {s["name"], s.get("declared_name"), s["id"]}]
@@ -221,8 +223,11 @@ class Catalog:
             if (s["id"] in selected or all_skills) and (not terms or all(t in haystack for t in terms)):
                 skills.append({"id": s["id"], "name": s.get("declared_name", s["name"]), "url": s["url"],
                                "commit": s["source_commit"], "blocked": bool(self.blocked_reason(s))})
+        resources = [r for r in self.resources if (not category or category in r["categories"])
+                     and all(t in " ".join([r["id"], r["description"], *r.get("aliases", [])]).casefold() for t in terms)]
         return {"categories": [c["id"] for c in categories], "repositories": sorted(repos, key=lambda r: r["score"], reverse=True)[:limit],
-                "skills": skills[:limit], "inventory_note": "Historical inventory is not evidence of installation on this computer."}
+                "skills": skills[:limit], "resources": resources[:limit],
+                "inventory_note": "Historical inventory is not evidence of installation on this computer."}
 
 
 def destination(project, target, name):

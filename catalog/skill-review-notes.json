@@ -2,33 +2,226 @@
   "scope": "Source-level notes from static inventory and sampled SKILL.md excerpts. This is not a full security audit or a functional test.",
   "activation": "No new skill, plugin, MCP server, hook or global configuration was activated.",
   "notes": [
-    {"repository":"anthropics/skills","sampled_file":"skills/doc-coauthoring/SKILL.md","note":"Belge yazım akışı örneği incelendi. docx/xlsx/pptx lisansları alt dizin bazında farklıdır; yeniden yayımlama izni varsayılmamalı."},
-    {"repository":"openai/skills","sampled_file":"skills/.curated/aspnet-core/SKILL.md","note":"ASP.NET Core için teknik rehberdir. Diğer beceriler dağıtım, hesap ve dış servis erişimi isteyebilir; kaynak koleksiyonu topluca etkinleştirilmedi."},
-    {"repository":"vercel-labs/agent-skills","sampled_file":"skills/react-best-practices/SKILL.md","additional_sample":"skills/vercel-cli-with-tokens/SKILL.md","note":"React rehberi kategori seçimine alındı. Token becerisi printenv/grep ile token değerini çıktılamayı öneriyor; bu becerinin etkinleştirilmesi engelli olarak işaretlendi. Kimlik bilgisi okunmadı veya istenmedi."},
-    {"repository":"expo/skills","sampled_file":"plugins/expo/skills/eas-workflows/SKILL.md","note":"EAS Workflows ücretli ürün/free-tier bütçesi ve hesap gereksiniminden açıkça söz ediyor. Derleme, iş akışı veya ücretli çağrı çalıştırılmadı."},
-    {"repository":"cloudflare/skills","sampled_file":"skills/agents-sdk/SKILL.md","note":"Cloudflare SDK dokümantasyon yönlendirmesi içerir. Wrangler/deploy ve servis kullanımı hesap/ücret gerektirebilir; uygulanmadı."},
-    {"repository":"hashicorp/agent-skills","sampled_file":"plugins/terraform/skills/terraform-style-guide/SKILL.md","note":"HCL stil rehberi incelendi. Sağlayıcı kabul testleri ve altyapı oluşturma adımları bu statik referans çalışmasının dışında tutuldu."},
-    {"repository":"supabase/agent-skills","sampled_file":"skills/supabase-postgres-best-practices/SKILL.md","note":"SQL, şema, RLS, migration ve performans için rehberdir. Herhangi bir veritabanına bağlanılmadı veya migration çalıştırılmadı."},
-    {"repository":"neondatabase/agent-skills","sampled_file":"skills/neon-postgres/SKILL.md","note":"Bağlantı, branching, migration ve ölçekleme rehberi; canlı veritabanı veya hesap üzerinde işlem yapılmadı."},
-    {"repository":"better-auth/skills","sampled_file":null,"note":"Dosya yolları, commit ve statik eşleşmeler doğrulandı. Kategori rehberine özel bir beceri seçilmedi; tam anlamsal inceleme yapılmadı."},
-    {"repository":"trailofbits/skills","sampled_file":"plugins/building-secure-contracts/skills/audit-prep-assistant/SKILL.md","note":"Denetime hazırlık kapsamı incelendi. Koleksiyondaki zafiyet araştırma araçları yalnızca yetkili hedeflerde ayrıca değerlendirilmelidir; tarayıcı veya exploit çalıştırılmadı."},
-    {"repository":"getsentry/skills","sampled_file":"skills/document-api-endpoint/SKILL.md","note":"Örnek Sentry'nin kendi API ve kurum içi iş akışlarına özgüdür; evrensel API belgeleme rehberi gibi uygulanmamalı. Token ile canlı istek ve PUBLIC yayınlama önerileri uygulanmadı."},
-    {"repository":"K-Dense-AI/scientific-agent-skills","sampled_file":"skills/biopython/SKILL.md","note":"Python ve alan bağımlılıkları ayrıdır. Entrez/BLAST e-posta ve isteğe bağlı API anahtarı gerektirir. Model/veri seti veya ağır bağımlılık indirilmedi; bilimsel çıktılar mevzuat veya klinik onay değildir."},
-    {"repository":"remotion-dev/skills","sampled_file":"skills/remotion-best-practices/SKILL.md","note":"Diğer Remotion becerilerine yönlendiren bir routerdır. Render veya bağımlılık kurulumu yapılmadı; Remotion ürün lisansı ayrıca incelenmelidir."},
-    {"repository":"stripe/ai","sampled_file":"skills/stripe-best-practices/SKILL.md","note":"Stripe entegrasyon rehberi hesap, sandbox ve global Stripe CLI kurulumu önerebilir. Hesap açma, ödeme, global kurulum veya API çağrısı yapılmadı."},
-    {"repository":"deanpeters/Product-Manager-Skills","sampled_file":"skills/opportunity-solution-tree/SKILL.md","note":"Ürün fırsat ağacı için metin tabanlı çerçeve örneği incelendi. Kategori becerisinin dosya bazındaki lisansı ayrıca kontrol edilmelidir."},
-    {"repository":"phuryn/pm-skills","sampled_file":"pm-product-discovery/skills/prioritize-features/SKILL.md","note":"Özellik önceliklendirme çerçevesi incelendi. NDA/privacy-policy becerileri hukuk danışmanlığının yerine geçmez; otomatik dış işlem yapılmadı."},
-    {"repository":"coreyhaines31/marketingskills","sampled_file":"skills/copywriting/SKILL.md","note":"Pazarlama metni için yazım tercihleri göreve özeldir; genel ajan davranışına taşınmadı. Reklam harcaması, ileti gönderimi veya yayın yapılmadı."},
-    {"repository":"kepano/obsidian-skills","sampled_file":"skills/obsidian-bases/SKILL.md","note":"Obsidian Bases biçimi için rehber incelendi. Kullanıcının not kasasına erişilmedi veya dosyası değiştirilmedi."},
-    {"repository":"huggingface/skills","sampled_file":"hf-mcp/skills/hf-mcp/SKILL.md","note":"HF MCP bağlantısı, token ve compute job örnekleri içerir. MCP bağlantısı veya eğitim işi başlatılmadı; ücretli GPU işlerinin ayrıca değerlendirilmesi gerekir."},
-    {"repository":"google/skills","sampled_file":null,"note":"180 SKILL.md yolu ve dosya kimliği doğrulandı, statik tarama yapıldı. Tam anlamsal inceleme yapılmadı; bulut servisleri hesap ve faturalandırma gerektirebilir."},
-    {"repository":"google-labs-code/stitch-skills","sampled_file":"plugins/stitch-utilities/skills/design-md/SKILL.md","note":"Stitch proje metadata ve görsellerine erişim için bağlı Stitch MCP ister. MCP veya Google hesabı kurulmadı."},
-    {"repository":"mattpocock/skills","sampled_file":"skills/engineering/codebase-design/SKILL.md","note":"Modül ve arayüz tasarımı rehberi incelendi. setup/hook/git guardrail becerileri ayrıca değerlendirilmeden etkinleştirilmemeli."},
-    {"repository":"obra/superpowers","sampled_file":"skills/systematic-debugging/SKILL.md","additional_sample":"skills/using-superpowers/SKILL.md","note":"Tekil hata ayıklama rehberi seçildi. using-superpowers her yanıttan önce zorunlu skill çağrısı ve genel iş akışı dayatıyor; otomatik etkinleştirmesi engelli işaretlendi. Kaynak talimatları bu oturuma uygulanmadı."},
-    {"repository":"nextlevelbuilder/ui-ux-pro-max-skill","sampled_file":".claude/skills/ui-ux-pro-max/SKILL.md","note":"Tasarım veri tabanına dayalı yönergeler incelendi. Arama/generatör betikleri veya CLI kurulumu çalıştırılmadı."}
+    {
+      "repository": "anthropics/skills",
+      "sampled_file": "skills/doc-coauthoring/SKILL.md",
+      "note": "Belge yazım akışı örneği incelendi. docx/xlsx/pptx lisansları alt dizin bazında farklıdır; yeniden yayımlama izni varsayılmamalı."
+    },
+    {
+      "repository": "openai/skills",
+      "sampled_file": "skills/.curated/aspnet-core/SKILL.md",
+      "note": "ASP.NET Core için teknik rehberdir. Diğer beceriler dağıtım, hesap ve dış servis erişimi isteyebilir; kaynak koleksiyonu topluca etkinleştirilmedi."
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "sampled_file": "skills/react-best-practices/SKILL.md",
+      "additional_sample": "skills/vercel-cli-with-tokens/SKILL.md",
+      "note": "React rehberi kategori seçimine alındı. Token becerisi printenv/grep ile token değerini çıktılamayı öneriyor; bu becerinin etkinleştirilmesi engelli olarak işaretlendi. Kimlik bilgisi okunmadı veya istenmedi."
+    },
+    {
+      "repository": "expo/skills",
+      "sampled_file": "plugins/expo/skills/eas-workflows/SKILL.md",
+      "note": "EAS Workflows ücretli ürün/free-tier bütçesi ve hesap gereksiniminden açıkça söz ediyor. Derleme, iş akışı veya ücretli çağrı çalıştırılmadı."
+    },
+    {
+      "repository": "cloudflare/skills",
+      "sampled_file": "skills/agents-sdk/SKILL.md",
+      "note": "Cloudflare SDK dokümantasyon yönlendirmesi içerir. Wrangler/deploy ve servis kullanımı hesap/ücret gerektirebilir; uygulanmadı."
+    },
+    {
+      "repository": "hashicorp/agent-skills",
+      "sampled_file": "plugins/terraform/skills/terraform-style-guide/SKILL.md",
+      "note": "HCL stil rehberi incelendi. Sağlayıcı kabul testleri ve altyapı oluşturma adımları bu statik referans çalışmasının dışında tutuldu."
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "sampled_file": "skills/supabase-postgres-best-practices/SKILL.md",
+      "note": "SQL, şema, RLS, migration ve performans için rehberdir. Herhangi bir veritabanına bağlanılmadı veya migration çalıştırılmadı."
+    },
+    {
+      "repository": "neondatabase/agent-skills",
+      "sampled_file": "skills/neon-postgres/SKILL.md",
+      "note": "Bağlantı, branching, migration ve ölçekleme rehberi; canlı veritabanı veya hesap üzerinde işlem yapılmadı."
+    },
+    {
+      "repository": "better-auth/skills",
+      "sampled_file": null,
+      "note": "Dosya yolları, commit ve statik eşleşmeler doğrulandı. Kategori rehberine özel bir beceri seçilmedi; tam anlamsal inceleme yapılmadı."
+    },
+    {
+      "repository": "trailofbits/skills",
+      "sampled_file": "plugins/building-secure-contracts/skills/audit-prep-assistant/SKILL.md",
+      "note": "Denetime hazırlık kapsamı incelendi. Koleksiyondaki zafiyet araştırma araçları yalnızca yetkili hedeflerde ayrıca değerlendirilmelidir; tarayıcı veya exploit çalıştırılmadı."
+    },
+    {
+      "repository": "getsentry/skills",
+      "sampled_file": "skills/document-api-endpoint/SKILL.md",
+      "note": "Örnek Sentry'nin kendi API ve kurum içi iş akışlarına özgüdür; evrensel API belgeleme rehberi gibi uygulanmamalı. Token ile canlı istek ve PUBLIC yayınlama önerileri uygulanmadı."
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "sampled_file": "skills/biopython/SKILL.md",
+      "note": "Python ve alan bağımlılıkları ayrıdır. Entrez/BLAST e-posta ve isteğe bağlı API anahtarı gerektirir. Model/veri seti veya ağır bağımlılık indirilmedi; bilimsel çıktılar mevzuat veya klinik onay değildir."
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "sampled_file": "skills/remotion-best-practices/SKILL.md",
+      "note": "Diğer Remotion becerilerine yönlendiren bir routerdır. Render veya bağımlılık kurulumu yapılmadı; Remotion ürün lisansı ayrıca incelenmelidir."
+    },
+    {
+      "repository": "stripe/ai",
+      "sampled_file": "skills/stripe-best-practices/SKILL.md",
+      "note": "Stripe entegrasyon rehberi hesap, sandbox ve global Stripe CLI kurulumu önerebilir. Hesap açma, ödeme, global kurulum veya API çağrısı yapılmadı."
+    },
+    {
+      "repository": "deanpeters/Product-Manager-Skills",
+      "sampled_file": "skills/opportunity-solution-tree/SKILL.md",
+      "note": "Ürün fırsat ağacı için metin tabanlı çerçeve örneği incelendi. Kategori becerisinin dosya bazındaki lisansı ayrıca kontrol edilmelidir."
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "sampled_file": "pm-product-discovery/skills/prioritize-features/SKILL.md",
+      "note": "Özellik önceliklendirme çerçevesi incelendi. NDA/privacy-policy becerileri hukuk danışmanlığının yerine geçmez; otomatik dış işlem yapılmadı."
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "sampled_file": "skills/copywriting/SKILL.md",
+      "note": "Pazarlama metni için yazım tercihleri göreve özeldir; genel ajan davranışına taşınmadı. Reklam harcaması, ileti gönderimi veya yayın yapılmadı."
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "sampled_file": "skills/obsidian-bases/SKILL.md",
+      "note": "Obsidian Bases biçimi için rehber incelendi. Kullanıcının not kasasına erişilmedi veya dosyası değiştirilmedi."
+    },
+    {
+      "repository": "huggingface/skills",
+      "sampled_file": "hf-mcp/skills/hf-mcp/SKILL.md",
+      "note": "HF MCP bağlantısı, token ve compute job örnekleri içerir. MCP bağlantısı veya eğitim işi başlatılmadı; ücretli GPU işlerinin ayrıca değerlendirilmesi gerekir."
+    },
+    {
+      "repository": "google/skills",
+      "sampled_file": null,
+      "note": "180 SKILL.md yolu ve dosya kimliği doğrulandı, statik tarama yapıldı. Tam anlamsal inceleme yapılmadı; bulut servisleri hesap ve faturalandırma gerektirebilir."
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "sampled_file": "plugins/stitch-utilities/skills/design-md/SKILL.md",
+      "note": "Stitch proje metadata ve görsellerine erişim için bağlı Stitch MCP ister. MCP veya Google hesabı kurulmadı."
+    },
+    {
+      "repository": "mattpocock/skills",
+      "sampled_file": "skills/engineering/codebase-design/SKILL.md",
+      "note": "Modül ve arayüz tasarımı rehberi incelendi. setup/hook/git guardrail becerileri ayrıca değerlendirilmeden etkinleştirilmemeli."
+    },
+    {
+      "repository": "obra/superpowers",
+      "sampled_file": "skills/systematic-debugging/SKILL.md",
+      "additional_sample": "skills/using-superpowers/SKILL.md",
+      "note": "Tekil hata ayıklama rehberi seçildi. using-superpowers her yanıttan önce zorunlu skill çağrısı ve genel iş akışı dayatıyor; otomatik etkinleştirmesi engelli işaretlendi. Kaynak talimatları bu oturuma uygulanmadı."
+    },
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sampled_file": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "note": "Tasarım veri tabanına dayalı yönergeler incelendi. Arama/generatör betikleri veya CLI kurulumu çalıştırılmadı."
+    },
+    {
+      "repository": "wesbos/3d-model-anything",
+      "sampled_file": ".agents/skills/scan-to-threejs/SKILL.md",
+      "note": "MIT license file verified; capture/demo assets have separate conditions. Python conversion uses stdlib; comparisons need Pillow, geometry may need NumPy/Open3D, capture scripts require zsh/agent-browser and are not Windows-native. Texture helper calls Poly Haven/ambientCG only when explicitly run. Personal scans remain local. Viewer/iPhone app and dependencies are not installed.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "xiiiabu/motionsites.ai",
+      "sampled_file": "README.md",
+      "note": "MIT reference collection of website prompts/examples; no SKILL.md. Only README and LICENSE fetched; large preview media excluded.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "Jakeschincariol/replica-skill",
+      "sampled_file": "replica-architect/SKILL.md",
+      "note": "All eleven skill instructions read. Local Python helpers statically screened; external accounts, commits, messages and publication still require task-specific authorization. Build instructions suggest commits; installation grants no commit authority. Adjacent Replica skills are installed together to preserve cross-skill helper paths. No hooks/plugin activated.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "debpalash/VoiceStudio",
+      "sampled_file": ".agents/skills/fastapi-python/SKILL.md",
+      "note": "AGPL-3.0; two VoiceStudio-specific skills reviewed. Generic FastAPI/Vite copies indexed but not activated. Audio requires a running backend and installed models; no app, MCP server, model weights, microphone or voice clone started. Model rights and download requirements are separate.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "duckduckdeploy/openseo",
+      "sampled_file": "plugins/openseo/skills/competitor-analysis/SKILL.md",
+      "note": "Current OpenSEO at openseo.gg, distinct from old TahaHachana/OpenSEO. All seven instructions reviewed. Requires configured OpenSEO MCP/account; paid data lookups require dry_run, disclosed price and agreed max_cost_usd. No MCP registration, Google connection, crawl or paid lookup performed.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "AppFlowy-IO/AppFlowy",
+      "sampled_file": "README.md",
+      "note": "Already in repository catalog; metadata refreshed and pinned documentation source added. AGPL-3.0 application, no upstream SKILL.md found in recursive tree. Desktop/server dependencies not installed.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "calcom/cal.diy",
+      "sampled_file": ".opencode/skill/vercel-react-best-practices/SKILL.md",
+      "note": "MIT repo with five skill paths including duplicate Vercel guidance. calcom-api hardcodes https://api.cal.com/v2 rather than a discovered self-hosted Cal.diy endpoint: activation blocked pending endpoint/credentials review. No key read or booking created.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "chatwoot/chatwoot",
+      "sampled_file": "README.md",
+      "note": "MIT community core plus separately licensed enterprise directory. Only documentation/notices fetched; no application, Postgres/Redis, integration, messaging or account started.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "CapSoftware/Cap",
+      "sampled_file": ".agents/skills/building/SKILL.md",
+      "note": "Main cap CLI skill reviewed; requires installed Cap CLI and authorized account. cap-demo explicitly macOS Apple Silicon only and is blocked on this Windows package. building skill assumes provisioning, recording, uploads and PR publication from invocation: blocked pending a narrower separately reviewed workflow. Repository uses mixed licensing, predominantly AGPL-3.0.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "opf/openproject",
+      "sampled_file": "README.md",
+      "note": "GPL-3.0; pinned root documentation fetched. Root-only inventory because recursive API response exceeded connector limits; absence of nested skills has not been established. No Rails service, database or containers started.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "Autom8AI/Open-Higgsfield-AI",
+      "sampled_file": "README.md",
+      "note": "User selected this and wide-trace variant. README claims MIT, no LICENSE file in reviewed tree. Reference only; paid MuAPI key needed for generation. No installer/security-setting bypass, remote generation or upload executed.",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "wide-trace/open-higgsfield",
+      "sampled_file": "README.md",
+      "note": "User selected both variants. No repository license file detected; reference only. Generation requires provider key and may incur charges; media inputs can become public Vercel Blob URLs. No key, cloud service or upload configured.",
+      "checked_at": "2026-10-28"
+    }
   ],
   "blocked_for_activation": [
-    {"repository":"vercel-labs/agent-skills","path":"skills/vercel-cli-with-tokens/SKILL.md","reason":"Token değerlerini çıktılamayı isteyen yönergeler."},
-    {"repository":"obra/superpowers","path":"skills/using-superpowers/SKILL.md","reason":"Görev dışına taşan genel ajan davranışı ve zorunlu skill çağırma dayatması."}
+    {
+      "repository": "vercel-labs/agent-skills",
+      "path": "skills/vercel-cli-with-tokens/SKILL.md",
+      "reason": "Token değerlerini çıktılamayı isteyen yönergeler."
+    },
+    {
+      "repository": "obra/superpowers",
+      "path": "skills/using-superpowers/SKILL.md",
+      "reason": "Görev dışına taşan genel ajan davranışı ve zorunlu skill çağırma dayatması."
+    },
+    {
+      "repository": "calcom/cal.diy",
+      "path": "agents/skills/calcom-api/SKILL.md",
+      "reason": "Self-hosted endpoint mismatch: upstream hardcodes api.cal.com; review before sending credentials or creating bookings."
+    },
+    {
+      "repository": "CapSoftware/Cap",
+      "path": ".agents/skills/building/SKILL.md",
+      "reason": "Invocation is described as permission for infrastructure provisioning, recording/upload and publication; separate narrower workflow review required."
+    },
+    {
+      "repository": "CapSoftware/Cap",
+      "path": "apps/cli/skill/cap-demo/SKILL.md",
+      "reason": "Upstream explicitly supports macOS Apple Silicon only; Windows host unsupported."
+    }
   ]
 }
