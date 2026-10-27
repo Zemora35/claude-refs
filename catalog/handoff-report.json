@@ -2,7 +2,7 @@
   "checked_at": "2026-10-27",
   "workflow": "research document -> explicit Claude start -> separate worktree -> independent reviewed tests -> human review",
   "deterministic_test_result": "passed",
-  "total_toolkit_tests": 51,
+  "total_toolkit_tests": 77,
   "handoff_tests": 30,
   "existing_installer_tests": 16,
   "model_service_calls_in_handoff_tests": 0,
@@ -53,8 +53,13 @@
     "https://code.claude.com/docs/en/permissions",
     "https://code.claude.com/docs/en/hooks"
   ],
-  "personal_entrypoint_tests": 3,
+  "personal_entrypoint_tests": 6,
   "active_project_required_for_start": true,
   "cross_project_mismatch_rejected_before_authentication": true,
-  "process_tree_tests": 2
+  "process_tree_tests": 2,
+  "research_bridge_tests": 23,
+  "bounded_reverse_research": true,
+  "live_claude_research_run": "passed: real Claude -> task MCP -> real Codex web research -> Claude response",
+  "latest_research_status": "passed after explicit later retry",
+  "research_report": "catalog/research-bridge-report.json"
 }

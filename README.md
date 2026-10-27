@@ -28,6 +28,8 @@ Araştırma/kodlama aktarımını tüm yerel proje sohbetlerinde çağırmak iç
 
 Aktarım aracı ayrıca onaylı testleri bağımsız çalıştırır, `status` ile görev/dal/değişiklik/kalan iş özetini gösterir ve gerçek test hatalarından `draft-correction` taslağı üretir. Düzeltme çalıştırması açık başlatma isteği gerektirir. Ayrıntılar [akış rehberinde](ARASTIRMA_KOD_AKISI.md).
 
+İsteğe bağlı `--enable-research` ile Claude Code kodlama sırasında Codex CLI'a kaynaklı araştırma sorabilir. Göreve bağlı tek MCP aracı, seçilmiş bağlam kopyaları, iki çağrı/süre sınırı ve süreli önbellek kullanılır. Araştırmacı komut çalıştırmaz veya kod değiştirmez. Canlı doğrulama ve kullanım sınırları [uyumluluk raporunda](UYUMLULUK_RAPORU.md) açıklanır.
+
 ```powershell
 python scripts/catalog.py categories
 python scripts/catalog.py search postgres

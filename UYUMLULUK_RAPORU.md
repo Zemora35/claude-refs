@@ -35,7 +35,7 @@ Resmî belgeler: [Claude Code skills](https://code.claude.com/docs/en/skills), [
 
 ## Kontrollü araştırma → Claude kodlama eklentisi
 
-Güncel koleksiyonun **51/51 davranış testi geçti**: 16 katalog/kurulum, 30 handoff, 3 kişisel giriş noktası ve 2 süreç ağacı testi. Testler gerçek yerel Git depoları, worktree'ler ve native Python alt süreçleri kullanır; Claude aktarımı testlerde sahtedir ve model servisine çağrı yapılmaz. Ruff kontrolü de geçti.
+Güncel koleksiyonun **77/77 davranış testi geçti**: 16 katalog/kurulum, 30 handoff, 6 kişisel giriş noktası, 2 süreç ağacı ve 23 araştırma köprüsü testi. Testler gerçek yerel Git depoları, worktree'ler ve native Python alt süreçleri kullanır; Claude aktarımı testlerde sahtedir ve model servisine çağrı yapılmaz. Ruff kontrolü de geçti.
 
 Başlangıçta kodlamayı başlatmama, aktif proje eşleşmesi, TASK/sözleşme bütünlüğü, izin/kapsam/commit denetimleri, bağımsız test başarısı ve başarısızlığı, eskiyen test kanıtı, test sırasında kaynak değişikliği, düzeltme taslağı ve açık tekrar davranışı doğrulandı. Windows sanal ortam başlatıcısının alt süreçleri de sahip olunan Job Object'e alınır; süre sınırında süreç ağacının kapanması gerçek alt süreçlerle sınandı. Bu mekanizma bir OS sandbox'ı sağlamaz.
 
@@ -52,3 +52,18 @@ Ayrıntı: [handoff-report.json](catalog/handoff-report.json). Kullanım: [ARAST
 Önceki Codex app-server `skills/list` denemesinde iki ayrı Git proje bağlamında tek bir etkin `research-to-claude`, `user` kapsamında bulundu. Güncel kişisel dosyaların kimliği ve SKILL.md biçimi ayrıca doğrulandı. Normal ChatGPT web/mobil veya başka bilgisayarlar bu yerel kurulumla otomatik erişim kazanmaz.
 
 Aktif proje belirtilmeden başlatma, başka projeye ait paket, projesiz bağlam ve çalışma dizini/proje uyuşmazlığı kodlama başlamadan reddedilir. Claude aynı projenin ayrı Git worktree'sinde çalışır. Ayrıntı: [personal-handoff-report.json](catalog/personal-handoff-report.json).
+
+
+## İki yönlü araştırma köprüsü — güncel canlı sonuç
+
+**Gerçek Claude Code → göreve bağlı MCP → gerçek Codex web araştırması → Claude yanıtı akışı geçti.** Kullanıcının açık test isteği sonrasında yapılan son denemede Claude bir araştırma çağrısı yaptı; Codex resmî Python unittest kaynağına dayalı rapor döndürdü ve Claude raporu kullanarak yanıt verdi. İzin reddi olmadı; proje dosyaları ve asıl checkout değişmedi. Görev yalnızca araştırma istediği için kod düzeltmesi veya test çalıştırması bu canlı denemenin kapsamı değildi.
+
+Son başarılı araştırma yaklaşık 16,3 saniye sürdü. Codex 31.838 giriş tokenı, bunun içinde 13.824 önbellek giriş tokenı ve 238 çıkış tokenı raporladı. Sistem bağlamı ve web sonuçları da tüketildiği için kısa soru tek başına token tahmini sağlamaz. Bunlar bu tek denemenin değerleridir; genel fiyat veya performans garantisi değildir.
+
+Ayrı gerçek MCP/Codex testinde aynı sorunun ikinci çağrısı önbellekten geldi ve yalnızca bir model çağrısı yapıldı; bu testte Claude istemcisi kontrollüydü. Yukarıdaki son deneme ise gerçek Claude modelini de içerdi. Önceki kota engelleri yerel kayıtlarda korundu; sonraki açık tekrar kotanın yenilenmesinden sonra başarılı oldu. Başarısız çağrıların bütçeyi tüketmesi ve aynı çalışma içinde otomatik kota/aynı-soru tekrarı engeli deterministik testlerde doğrulandı.
+
+Araştırma yolunda komut çalıştırma kapalıdır ve seçilmiş bağlam kopyaları doğrudan verilir. Önceki genel Codex CLI dosya okuma sorunu için sandbox/kurum politikası kaldırılmadı. İlgisiz skill açıklamaları araştırma bağlamından çıkarıldığı için CLI'ın skill bütçesi uyarısı görülebilir. Kaynak iddiaları ayrıca incelenmelidir. Windows üzerinde canlı doğrulandı; diğer platformlarda aynı canlı sonuç iddia edilmez.
+
+Kullanıcının iki kişisel becerisinde araştırma tercihi yeni görevler için etkinleştirildi; merkezî runner hâlâ açık opt-in ister. `--disable-research` görev bazında tek yönlü akışı korur. Global MCP kaydı oluşturulmadı; gerçek görevler, bağlam kopyaları, yetki kayıtları ve loglar yayımlanmaz.
+
+Ayrıntı: [research-bridge-report.json](catalog/research-bridge-report.json). Kullanım: [ARASTIRMA_KOD_AKISI.md](ARASTIRMA_KOD_AKISI.md#claude-kodlarken-codexe-araştırma-sorma).

@@ -57,3 +57,29 @@ class PersonalHandoffTests(unittest.TestCase):
         self.assertEqual(len(delegated), 1)
         self.assertIn(str(self.first), delegated[0])
         self.assertNotIn(str(self.second), delegated[0])
+
+    def forwarded_prepare(self, preference, extra=None):
+        original_run = subprocess.run
+        delegated = []
+
+        def local_or_capture(command, **kwargs):
+            if command[0] == "git":
+                return original_run(command, **kwargs)
+            delegated.append(command)
+            return SimpleNamespace(returncode=0)
+
+        with patch.object(ENTRY.Path, "cwd", return_value=self.first), patch.object(ENTRY, "toolkit_root", return_value=ROOT), patch.object(ENTRY, "personal_settings", return_value={"research_default_enabled": preference}), patch.object(ENTRY.subprocess, "run", side_effect=local_or_capture):
+            with self.assertRaises(SystemExit):
+                ENTRY.main(["prepare", "--project", str(self.first), *(extra or [])])
+        return delegated[0]
+
+    def test_authorized_personal_research_preference_enables_new_tasks(self):
+        self.assertIn("--enable-research", self.forwarded_prepare(True))
+
+    def test_task_specific_disable_overrides_personal_preference(self):
+        forwarded = self.forwarded_prepare(True, ["--disable-research"])
+        self.assertIn("--disable-research", forwarded)
+        self.assertNotIn("--enable-research", forwarded)
+
+    def test_research_is_not_implicitly_enabled_without_preference(self):
+        self.assertNotIn("--enable-research", self.forwarded_prepare(False))

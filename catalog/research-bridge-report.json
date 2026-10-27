@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-10-27T17:52:28.885360+00:00",
+  "feature": "task-local Claude Code -> MCP -> Codex research -> Claude response",
+  "deterministic_tests": {
+    "total": 77,
+    "passed": 77,
+    "installer": 16,
+    "handoff": 30,
+    "personal_entry": 6,
+    "process_tree": 2,
+    "research_bridge": 23,
+    "model_calls": 0
+  },
+  "live_end_to_end": {
+    "status": "passed",
+    "claude_model_used": true,
+    "codex_model_used": true,
+    "mcp_tool": "mcp__research__research_question",
+    "research_calls": 1,
+    "research_seconds": 16.328,
+    "web_search_calls": 1,
+    "permission_denials": 0,
+    "changed_project_files": 0,
+    "scope": "research-only task; no coding fix or test execution requested",
+    "usage": {
+      "input_tokens": 31838,
+      "cached_input_tokens": 13824,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 238,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "cache_probe": {
+    "status": "passed",
+    "real_codex_calls": 1,
+    "identical_second_tool_call_cached": true,
+    "claude_transport": "controlled MCP client harness; actual Claude tested separately"
+  },
+  "earlier_service_limits": "earlier Claude and Codex probes were quota-blocked; preserved locally; explicit later Claude retry passed",
+  "defaults": {
+    "max_calls": 2,
+    "timeout_seconds": 120,
+    "total_seconds": 240,
+    "cache_hours": 24,
+    "runner_research_enabled": false,
+    "authorized_personal_install_research_enabled": true
+  },
+  "controls": [
+    "sealed context snapshots",
+    "active task/project capability",
+    "only one exposed research tool",
+    "read-only Codex sandbox",
+    "shell and recursive agent tools disabled",
+    "managed policies retained",
+    "failed requests consume budget",
+    "provider quota circuit breaker",
+    "explicit retry preserves budget",
+    "source-linked dated reports",
+    "no implicit API billing",
+    "no source edits or automatic publication"
+  ],
+  "limitations": [
+    "source claims require review; URL and web-search evidence are not independent fact verification",
+    "call/time caps are not strict token or monetary caps",
+    "Windows live-tested; other platforms not live-validated",
+    "skills context budget warning is expected because unrelated skill descriptions are omitted",
+    "general Codex CLI file-reading restrictions were not removed; this research route needs no shell file reads"
+  ],
+  "private_runtime_files_published": false
+}

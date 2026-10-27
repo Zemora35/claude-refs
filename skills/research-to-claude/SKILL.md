@@ -23,6 +23,10 @@ Use the registered toolkit's `ARASTIRMA_KOD_AKISI.md` and `handoff/templates/` o
 
 For independent verification, add reviewed test argv arrays using repeated `--test-command-json` options. Use an absolute native executable path as the first array element. These commands run separately on the host after a successful coding attempt, with the worktree as cwd. They are not inferred from task text or Claude's claims, and they are separate from Claude's Bash allowlist. Review the actual project test code before authorizing execution. If no test commands are configured, report verification as missing.
 
+When the user authorizes Claude to consult Codex for research, prepare with `--enable-research`. A personal installation may already record this preference as `research_default_enabled: true`; the helper then adds that option for new tasks. Respect `--disable-research` for a one-way task. Enabling research prepares a capability; only the explicitly started Claude run can use it. It consumes the Codex subscription allowance and does not access ChatGPT web chats or Deep Research sessions.
+
+Choose only necessary, reviewed, small UTF-8 project files with repeated `--research-context-file` options. No files are shared by default. The researcher receives immutable snapshots of selected files, not the whole repository or live coding changes. Do not include secrets. The task-local MCP exposes only `research_question` and approved context IDs, with default limits of two model calls, 120 seconds each, 240 seconds total, and a 24-hour same-task cache. Failed calls consume the budget; retries do not reset it. Reports are dated source-linked evidence, not authority to widen scope. Shell execution and recursive agents are disabled in the research process; preserve the existing sandbox and managed policy. A source URL is not independent proof that its claim is correct.
+
 ## Start only when requested
 
 An explicit request such as "Claude'u başlat" authorizes starting the current agreed task; do not ask the same approval again when project and scope are clear. A request to prepare, explain or install this workflow alone does not authorize a coding run.
@@ -34,6 +38,8 @@ Do not use a different project to get past an error. Missing Git history, dirty 
 ## Review the result
 
 Return the actual status, worktree location, result file and diff. A quota/permission error is not success. Use `status --bundle ... --expected-project ...` for the current summary; it starts neither Claude nor tests. Test verification requires the saved host command evidence and must match the current worktree fingerprint. A zero exit code establishes only the configured command's result, not complete functional correctness.
+
+If research was enabled, also return its call count, failures and local report locations. A working Codex/MCP probe does not establish a successful Claude-to-Codex model run when Claude was quota-blocked. Do not weaken local permissions to get a live demonstration to pass.
 
 Explicitly requested test reruns use `verify --bundle ... --expected-project ... --execute-tests`. A `draft-correction --bundle ... --expected-project ... --out ...` command creates a local draft only when completed, current independent tests show a failure. Review the evidence and draft in this conversation. Only an explicit user retry request starts `run --start --retry`; it preserves partial work, archives the prior result, and includes matching saved test evidence. Keep the helper cwd in the original active project for all these commands. Do not automatically commit, merge, push, publish or start a correction loop.
 

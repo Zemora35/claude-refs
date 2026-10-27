@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true")
+    parser.add_argument("--enable-research-default", action="store_true", help="Opt in to bounded Codex research for newly prepared personal tasks")
     args = parser.parse_args()
     source = ROOT / "skills/research-to-claude"
     if not (ROOT / "scripts/handoff.py").is_file() or not (source / "SKILL.md").is_file():
@@ -30,7 +31,8 @@ def main():
         shutil.copytree(source, destination, ignore=shutil.ignore_patterns("__pycache__", "installation.json"))
         references = destination / "references"
         references.mkdir(exist_ok=True)
-        config = {"toolkit_root": str(ROOT), "python_executable": sys.executable, "version": "1.0.0",
+        config = {"toolkit_root": str(ROOT), "python_executable": sys.executable, "version": "1.1.0",
+                  "research_default_enabled": args.enable_research_default,
                   "project_selection": "active chat cwd and explicit expected project; no last-project fallback"}
         (references / "installation.json").write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
         hashes = {p.relative_to(source).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in source.rglob("*")

@@ -11,6 +11,11 @@ class ContextError(Exception):
     pass
 
 
+def personal_settings():
+    path = Path(__file__).resolve().parents[1] / "references/installation.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.is_file() else {}
+
+
 def toolkit_root():
     skill = Path(__file__).resolve().parents[1]
     installed = skill / "references/installation.json"
@@ -58,6 +63,8 @@ def main(argv=None):
         selector.add_argument("--expected-project")
         chosen, _ = selector.parse_known_args(arguments[1:])
         check_project(chosen.project if arguments[0] == "prepare" else chosen.expected_project)
+        if arguments[0] == "prepare" and not {"--enable-research", "--disable-research"}.intersection(arguments) and personal_settings().get("research_default_enabled") is True:
+            arguments.append("--enable-research")
         root = toolkit_root()
         result = subprocess.run([sys.executable, str(root / "scripts/handoff.py"), *arguments], check=False)
         raise SystemExit(result.returncode)

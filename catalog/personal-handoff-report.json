@@ -21,16 +21,19 @@
     }
   ],
   "claude_personal_files_match": true,
-  "total_behavior_tests": 51,
+  "total_behavior_tests": 77,
   "installer_tests": 16,
   "handoff_tests": 30,
-  "personal_entry_tests": 3,
+  "personal_entry_tests": 6,
   "project_guard": "active cwd Git root == expected project == bundle project; no last-project fallback",
   "projectless_chat": "ask for project and task; do not launch",
   "live_claude_coding_started": true,
   "ordinary_chatgpt_web_mobile_enabled": false,
   "publication": "portable source included in toolkit release; private installation records excluded",
   "process_tree_tests": 2,
-  "live_claude_coding_result": "blocked-service-limit; no code changes",
-  "managed_personal_skill_update": "both copies updated after checking old receipt hashes; local configuration preserved"
+  "live_claude_coding_result": "research-only model run passed; original square coding-fix attempt remains separately documented",
+  "managed_personal_skill_update": "both copies updated after checking old receipt hashes; local configuration preserved",
+  "research_bridge_tests": 23,
+  "research_default_enabled_for_authorized_user": true,
+  "research_default_disable_supported": true
 }
