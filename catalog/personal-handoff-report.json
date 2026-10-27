@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-27",
+  "skill": "research-to-claude",
+  "installed_scopes": {
+    "codex": "user ~/.agents/skills",
+    "claude_code": "personal ~/.claude/skills"
+  },
+  "official_skill_format_validation": "passed for canonical and both installed copies",
+  "codex_native_discovery": [
+    {
+      "project": "project-one",
+      "skill_found": true,
+      "scope": "user",
+      "enabled": true
+    },
+    {
+      "project": "project-two",
+      "skill_found": true,
+      "scope": "user",
+      "enabled": true
+    }
+  ],
+  "claude_personal_files_match": true,
+  "total_behavior_tests": 51,
+  "installer_tests": 16,
+  "handoff_tests": 30,
+  "personal_entry_tests": 3,
+  "project_guard": "active cwd Git root == expected project == bundle project; no last-project fallback",
+  "projectless_chat": "ask for project and task; do not launch",
+  "live_claude_coding_started": true,
+  "ordinary_chatgpt_web_mobile_enabled": false,
+  "publication": "portable source included in toolkit release; private installation records excluded",
+  "process_tree_tests": 2,
+  "live_claude_coding_result": "blocked-service-limit; no code changes",
+  "managed_personal_skill_update": "both copies updated after checking old receipt hashes; local configuration preserved"
+}

@@ -6,11 +6,15 @@ Katalog kökündeki `.gitignore` yalnızca bu çalışmanın ürettiği belge, J
 
 `README.md`, `KATALOG.md`, `SKILL_REHBERI.md`, `YONTEM.md`, `SOURCE_REVIEW.md`, `GITHUB_YUKLEME.md`, `SECURITY.md`, `THIRD_PARTY_NOTICES.md`, `LICENSE`, `.gitignore`, `AGENTS.md`, `CLAUDE.md`, `AGENT_KULLANIMI.md`, `UYUMLULUK_RAPORU.md`, `catalog/`, `scripts/`, `tests/`, `skills/refs-catalog/`, `.agents/skills/refs-catalog/`, `.claude/skills/refs-catalog/`.
 
+Araştırma/kodlama aktarımı için ayrıca `ARASTIRMA_KOD_AKISI.md` ve `handoff/templates/` izlenir. Gerçek görev paketleri, worktree'ler ve Claude çıktı logları yayımlanmaz. Aktarım aracının taşınabilir kaynağı ve testleri bu sürüme dahildir; uzak HEAD ile yerel commit eşleşmesi yayın adımında doğrulanır.
+
+Kişisel akışın özgün kaynağı `skills/research-to-claude/` ve `scripts/install_personal_handoff.py` içindedir. Kullanıcı klasörlerindeki kurulum kayıtları (`references/installation.json`) makineye özeldir ve yayımlanmaz.
+
 Yayın hedefi: [Zemora35/claude-refs](https://github.com/Zemora35/claude-refs), herkese açık. Aşağıdaki komutlar koleksiyonu başka bir depoya taşımak veya kendi kopyanı hazırlamak içindir; mevcut depodaysan yeniden `git init` yapmadan önce çalışma alanını ve remote bağlantısını kontrol et.
 
 ```powershell
 git init
-git add .gitignore README.md KATALOG.md SKILL_REHBERI.md YONTEM.md SOURCE_REVIEW.md GITHUB_YUKLEME.md SECURITY.md THIRD_PARTY_NOTICES.md LICENSE AGENTS.md CLAUDE.md AGENT_KULLANIMI.md UYUMLULUK_RAPORU.md catalog scripts tests skills/refs-catalog .agents/skills/refs-catalog .claude/skills/refs-catalog
+git add .gitignore README.md KATALOG.md SKILL_REHBERI.md YONTEM.md SOURCE_REVIEW.md GITHUB_YUKLEME.md SECURITY.md THIRD_PARTY_NOTICES.md LICENSE AGENTS.md CLAUDE.md AGENT_KULLANIMI.md UYUMLULUK_RAPORU.md ARASTIRMA_KOD_AKISI.md catalog scripts tests handoff/templates skills/research-to-claude skills/refs-catalog .agents/skills/refs-catalog .claude/skills/refs-catalog
 git diff --cached --stat
 git diff --cached
 git status --short

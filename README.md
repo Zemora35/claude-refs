@@ -11,6 +11,7 @@ Bu koleksiyon kaynak bulmayı ve doğru aracı seçmeyi kolaylaştırır. Seçim
 | Kategoriler ve repo karşılaştırmaları | [KATALOG.md](KATALOG.md) |
 | İşe göre skill seçimi | [SKILL_REHBERI.md](SKILL_REHBERI.md) |
 | Claude Code/Codex kurulumu ve kullanımı | [AGENT_KULLANIMI.md](AGENT_KULLANIMI.md) |
+| ChatGPT araştırma → Claude kodlama aktarımı | [ARASTIRMA_KOD_AKISI.md](ARASTIRMA_KOD_AKISI.md) |
 | Doğrulanan ajan davranışları ve test sınırları | [UYUMLULUK_RAPORU.md](UYUMLULUK_RAPORU.md) |
 | Puanın anlamı ve kapsam | [YONTEM.md](YONTEM.md) |
 | Yerel kaynakların inceleme durumu | [SOURCE_REVIEW.md](SOURCE_REVIEW.md) |
@@ -22,6 +23,10 @@ Bu koleksiyon kaynak bulmayı ve doğru aracı seçmeyi kolaylaştırır. Seçim
 Python 3.10+ ve Git yeterlidir; ek Python paketi gerekmez.
 
 Koleksiyonu klonlayıp proje klasöründe oturum açınca Claude Code'da `/refs-catalog`, Codex'te `$refs-catalog` ile yönlendiriciyi çağırabilirsin. Başka projelere yalnızca yönlendiriciyi eklemek veya tek bir upstream beceriyi seçmek için [ajan kullanım rehberini](AGENT_KULLANIMI.md) izle.
+
+Araştırma/kodlama aktarımını tüm yerel proje sohbetlerinde çağırmak için [kişisel `research-to-claude` kurulumunu](ARASTIRMA_KOD_AKISI.md#her-yerel-sohbette-çağırma) kullan. Başlatma aktif sohbetin projesiyle eşleşir; önceki projenin kaydı kullanılmaz.
+
+Aktarım aracı ayrıca onaylı testleri bağımsız çalıştırır, `status` ile görev/dal/değişiklik/kalan iş özetini gösterir ve gerçek test hatalarından `draft-correction` taslağı üretir. Düzeltme çalıştırması açık başlatma isteği gerektirir. Ayrıntılar [akış rehberinde](ARASTIRMA_KOD_AKISI.md).
 
 ```powershell
 python scripts/catalog.py categories

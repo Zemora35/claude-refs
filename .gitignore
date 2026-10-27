@@ -16,10 +16,15 @@
 !/CLAUDE.md
 !/AGENT_KULLANIMI.md
 !/UYUMLULUK_RAPORU.md
+!/ARASTIRMA_KOD_AKISI.md
+!/handoff/
+/handoff/*
+!/handoff/templates/
 !/tests/
 !/skills/
 /skills/*
 !/skills/refs-catalog/
+!/skills/research-to-claude/
 !/.agents/
 /.agents/*
 !/.agents/skills/
@@ -31,6 +36,7 @@
 /.claude/skills/*
 !/.claude/skills/refs-catalog/
 **/catalog-location.json
+**/research-to-claude/references/installation.json
 **/__pycache__/
 **/*.pyc
 **/.env
