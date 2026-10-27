@@ -1,0 +1,690 @@
+{
+  "checked_at": "2026-10-27",
+  "sources": [
+    {
+      "folder": "AI4Finance-Foundation_FinRL",
+      "repository": "AI4Finance-Foundation/FinRL",
+      "commit": "7e98df461cbc7772f16a545a2f13b521e5d0b8f4"
+    },
+    {
+      "folder": "anthropics_skills",
+      "repository": "anthropics/skills",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44"
+    },
+    {
+      "folder": "architecture-decision-record_architecture-decision-record",
+      "repository": "architecture-decision-record/architecture-decision-record",
+      "commit": "aa9d60f912f72847c1a235b809a3c7e53f04e119"
+    },
+    {
+      "folder": "BIMCraft",
+      "repository": "IPedrax/BIMCraft",
+      "commit": "5804d1e715bbb2d55f7d405fc42aae5eb0ee50e8"
+    },
+    {
+      "folder": "buildingSMART_IDS",
+      "repository": "buildingSMART/IDS",
+      "commit": "870f9c4e6e8f414e737b4d84ca1aa9b46fc6c8f3"
+    },
+    {
+      "folder": "charlax_professional-programming",
+      "repository": "charlax/professional-programming",
+      "commit": "679e497589926814b27e468a48e8ee3bea28e3a6"
+    },
+    {
+      "folder": "cloudflare_security-audit-skill",
+      "repository": "cloudflare/security-audit-skill",
+      "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8"
+    },
+    {
+      "folder": "codecrafters-io_build-your-own-x",
+      "repository": "codecrafters-io/build-your-own-x",
+      "commit": "aa17439b62f384511a5561ce308e9598b94d8989"
+    },
+    {
+      "folder": "ComposioHQ_awesome-claude-skills",
+      "repository": "ComposioHQ/awesome-claude-skills",
+      "commit": "be2a406907dbc61b73e6827ded415c96139d13a2"
+    },
+    {
+      "folder": "donnemartin_system-design-primer",
+      "repository": "donnemartin/system-design-primer",
+      "commit": "ae9bbd7b02d90b9866215de185217d33f39ab733"
+    },
+    {
+      "folder": "gboeing_osmnx",
+      "repository": "gboeing/osmnx",
+      "commit": "74e68ce2200b23c04f6ec2a864a6c24859bbf08d"
+    },
+    {
+      "folder": "hesreallyhim_awesome-claude-code",
+      "repository": "hesreallyhim/awesome-claude-code",
+      "commit": "9374890830d9def37b7c1961a4304a17dd924489"
+    },
+    {
+      "folder": "K-Dense-AI_scientific-agent-skills",
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62"
+    },
+    {
+      "folder": "microsoft_qlib",
+      "repository": "microsoft/qlib",
+      "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c"
+    },
+    {
+      "folder": "modelcontextprotocol_servers",
+      "repository": "modelcontextprotocol/servers",
+      "commit": "ef9808f71090d0db3eda99e2af2ba78f1086f4fb"
+    },
+    {
+      "folder": "modelcontextprotocol_typescript-sdk",
+      "repository": "modelcontextprotocol/typescript-sdk",
+      "commit": "b415e60bdf0e8dd5d6cbe7e6353abfb982b06dd2"
+    },
+    {
+      "folder": "OWASP_CheatSheetSeries",
+      "repository": "OWASP/CheatSheetSeries",
+      "commit": "a5fbb7f886c02e3418e17f5525874a868cca49e4"
+    },
+    {
+      "folder": "pascalorg_editor",
+      "repository": "pascalorg/editor",
+      "commit": "d604f06a4e9b78747c8f199ad5a453686eab807e"
+    },
+    {
+      "folder": "project-based-learning",
+      "repository": "practical-tutorials/project-based-learning",
+      "commit": "e6db1d1fe52671ac01495bed26853e06c2538068"
+    },
+    {
+      "folder": "public-apis",
+      "repository": "public-apis/public-apis",
+      "commit": "82e763edc4919e2cb13ce8c8c57a33bc73ff4caf"
+    },
+    {
+      "folder": "QuantumNovice_awesome-civil-engineering",
+      "repository": "QuantumNovice/awesome-civil-engineering",
+      "commit": "9ae7219f88d4983e4ae4a0ffea6754c1c44b9fd0"
+    },
+    {
+      "folder": "routing-tests",
+      "repository": null,
+      "commit": null
+    },
+    {
+      "folder": "sickn33_agentic-awesome-skills",
+      "repository": "sickn33/agentic-awesome-skills",
+      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d"
+    },
+    {
+      "folder": "sshuair_awesome-gis",
+      "repository": "sshuair/awesome-gis",
+      "commit": "0f21c1f6aa9fcefb044456827e9eb8363135f392"
+    },
+    {
+      "folder": "TheAlgorithms_Python",
+      "repository": "TheAlgorithms/Python",
+      "commit": "6e03a48579ca212a08b36be00378f887dc41a003"
+    },
+    {
+      "folder": "tkoyama010_awesome-finite-elements",
+      "repository": "tkoyama010/awesome-finite-elements",
+      "commit": "9f0878c41b73d9580c18c903c3282f1629400b38"
+    },
+    {
+      "folder": "TradingAgents",
+      "repository": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df"
+    },
+    {
+      "folder": "trekhleb_javascript-algorithms",
+      "repository": "trekhleb/javascript-algorithms",
+      "commit": "85293e3e2b88f4d2ce330d956b139cf628aa1e82"
+    },
+    {
+      "folder": "tt-a1i_archify",
+      "repository": "tt-a1i/archify",
+      "commit": "81c6be8d87090670c45d08a8f97f9d29c5af0bec"
+    },
+    {
+      "folder": "upstash_context7",
+      "repository": "upstash/context7",
+      "commit": "d9561600ad502cd72ab8bae4f9172f434aadf4d1"
+    },
+    {
+      "folder": "virattt_ai-hedge-fund",
+      "repository": "virattt/ai-hedge-fund",
+      "commit": "29b32f71861480e9bfd48b82cf0d3ca3e5680955"
+    },
+    {
+      "folder": "VoltAgent_awesome-agent-skills",
+      "repository": "VoltAgent/awesome-agent-skills",
+      "commit": "ec7ae694479aaed73f4a655e3c346dde5e61b8c4"
+    },
+    {
+      "folder": "wshobson_agents",
+      "repository": "wshobson/agents",
+      "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06"
+    }
+  ],
+  "installed_skills": [
+    {
+      "name": "api-security-testing",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "apple-design",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "apple-design-foundations",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "apple-design-interaction",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "apple-design-materials",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "apple-design-motion",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "apple-design-tactics",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "apple-design-web",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "application-security-testing",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "archify",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "architect-ifc-bim",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "bim-interop",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "bimcraft-engineering",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "brandkit",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "ci-security-scanning-with-strix",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "civil-concrete-design",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "civil-earthquake-analysis",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "civil-structural-analysis",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "claude-extensions-reference",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "design-dna",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "design-taste-frontend",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "design-taste-frontend-v1",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "duckdb-analytics",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "emil-design-eng",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "find-security-vulnerabilities-in-code",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "fix-security-vulnerabilities-with-strix",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "full-output-enforcement",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "furniture-fit",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "geopandas",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "gpt-taste",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "graphify",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "high-end-visual-design",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "image-to-code",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "imagegen-frontend-mobile",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "imagegen-frontend-web",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "img2threejs",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "industrial-brutalist-ui",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "managed-pentesting-with-strix",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "minimalist-ui",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "networkx",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "owasp-top-10-testing",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "pascal-3d",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "penetration-testing-with-strix",
+      "providers": [
+        "codex"
+      ]
+    },
+    {
+      "name": "polars",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "project-learning-reference",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "public-api-discovery",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "pymoo",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "quant-research-toolkit",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "redesign-existing-projects",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-best-practices",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-captions",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-create",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-docs",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-interactivity",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-maps",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-markup",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-multimedia",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-render",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-saas",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-studio",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "remotion-upgrade",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "providers": [
+        "agents",
+        "claude"
+      ]
+    },
+    {
+      "name": "ruff-python-quality",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "scrapling-official",
+      "providers": [
+        "claude"
+      ]
+    },
+    {
+      "name": "secure-coding-reference",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "security-audit",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "security-scanners",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "simpy",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "site-context-gis",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "skill-catalog-discovery",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "statsmodels",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "stitch-design-taste",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "sympy",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "timesfm-forecasting",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "trading-agents-analysis",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "uncertainty-and-units",
+      "providers": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "name": "universal-responsive-design",
+      "providers": [
+        "agents",
+        "claude"
+      ]
+    },
+    {
+      "name": "web-app-penetration-testing",
+      "providers": [
+        "codex"
+      ]
+    }
+  ]
+}

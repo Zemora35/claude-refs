@@ -1,0 +1,198 @@
+{
+  "checked_at": "2026-10-27T12:45:49.774766+00:00",
+  "sources": [
+    {
+      "repository": "anthropics/skills",
+      "path": "anthropics_skills",
+      "locked_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "actual_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "status": "existing-kept",
+      "matches_lock": true
+    },
+    {
+      "repository": "openai/skills",
+      "path": ".sources/openai_skills",
+      "locked_commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "actual_commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "path": ".sources/vercel-labs_agent-skills",
+      "locked_commit": "6ec269328bc400712ee225a173a14b6b29128df7",
+      "actual_commit": "6ec269328bc400712ee225a173a14b6b29128df7",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "expo/skills",
+      "path": ".sources/expo_skills",
+      "locked_commit": "8a0dc4fa57ae345923c357e1451cbcd8b6f2a7db",
+      "actual_commit": "8a0dc4fa57ae345923c357e1451cbcd8b6f2a7db",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "cloudflare/skills",
+      "path": ".sources/cloudflare_skills",
+      "locked_commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+      "actual_commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "hashicorp/agent-skills",
+      "path": ".sources/hashicorp_agent-skills",
+      "locked_commit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "actual_commit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "path": ".sources/supabase_agent-skills",
+      "locked_commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "actual_commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "neondatabase/agent-skills",
+      "path": ".sources/neondatabase_agent-skills",
+      "locked_commit": "0ec3f2e270c5c04955e1db61f2eb31911137b6fd",
+      "actual_commit": "0ec3f2e270c5c04955e1db61f2eb31911137b6fd",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "better-auth/skills",
+      "path": ".sources/better-auth_skills",
+      "locked_commit": "20c9e88a5c007461a703f1c213572b073196113e",
+      "actual_commit": "20c9e88a5c007461a703f1c213572b073196113e",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "trailofbits/skills",
+      "path": ".sources/trailofbits_skills",
+      "locked_commit": "196a9073ab10d35bacf111f945e02c00b2c6883a",
+      "actual_commit": "196a9073ab10d35bacf111f945e02c00b2c6883a",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "getsentry/skills",
+      "path": ".sources/getsentry_skills",
+      "locked_commit": "d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+      "actual_commit": "d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "path": "K-Dense-AI_scientific-agent-skills",
+      "locked_commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "actual_commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "status": "existing-kept",
+      "matches_lock": true
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "path": ".sources/remotion-dev_skills",
+      "locked_commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
+      "actual_commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "stripe/ai",
+      "path": ".sources/stripe_ai",
+      "locked_commit": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
+      "actual_commit": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "deanpeters/Product-Manager-Skills",
+      "path": ".sources/deanpeters_Product-Manager-Skills",
+      "locked_commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13",
+      "actual_commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "path": ".sources/phuryn_pm-skills",
+      "locked_commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "actual_commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "path": ".sources/coreyhaines31_marketingskills",
+      "locked_commit": "17772c7a80b7b8c7a47af30f648374cd8bd8adc5",
+      "actual_commit": "17772c7a80b7b8c7a47af30f648374cd8bd8adc5",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "path": ".sources/kepano_obsidian-skills",
+      "locked_commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "actual_commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "huggingface/skills",
+      "path": ".sources/huggingface_skills",
+      "locked_commit": "fabc634a893f62ad5c2039830397efa35fa62715",
+      "actual_commit": "fabc634a893f62ad5c2039830397efa35fa62715",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "google/skills",
+      "path": ".sources/google_skills",
+      "locked_commit": "84e8150e4fa71bf422d5b224e215f5ba13864aa3",
+      "actual_commit": "84e8150e4fa71bf422d5b224e215f5ba13864aa3",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "path": ".sources/google-labs-code_stitch-skills",
+      "locked_commit": "0337446dadde6f8c94210444e2aa9d546126480f",
+      "actual_commit": "0337446dadde6f8c94210444e2aa9d546126480f",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "mattpocock/skills",
+      "path": ".sources/mattpocock_skills",
+      "locked_commit": "59db609eb1e18aaf59b63284d0e52255aff0c63c",
+      "actual_commit": "59db609eb1e18aaf59b63284d0e52255aff0c63c",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "obra/superpowers",
+      "path": ".sources/obra_superpowers",
+      "locked_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "actual_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "status": "added",
+      "matches_lock": true
+    },
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "path": ".sources/nextlevelbuilder_ui-ux-pro-max-skill",
+      "locked_commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "actual_commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "status": "added",
+      "matches_lock": true
+    }
+  ],
+  "failures": []
+}

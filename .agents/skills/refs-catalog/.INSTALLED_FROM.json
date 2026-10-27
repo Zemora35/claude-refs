@@ -1,0 +1,8 @@
+{
+  "type": "claude-refs-router",
+  "version": "1.0.0",
+  "files": {
+    "SKILL.md": "d8ab3d6eb13bbe364e0d6c81ec0b4d88a10217b204099ffd108324217d411296",
+    "scripts/route.py": "24cc8b5006e2be55d218f9d6701183ae3590250ecbb4a095b1c260302bde637a"
+  }
+}

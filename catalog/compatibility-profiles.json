@@ -1,0 +1,39 @@
+{
+  "scope": "Known prerequisite checks only; missing profiles require manual environment review. No dependency is installed automatically.",
+  "skills": {
+    "prioritize-features":{"modules":[],"executables":[],"services":[],"coverage":"instruction-only; Claude ARGUMENTS syntax needs Codex adaptation"},
+    "codebase-design":{"modules":[],"executables":[],"services":[],"coverage":"instruction-only; module/interface design guidance"},
+    "opportunity-solution-tree":{"modules":[],"executables":[],"services":[],"coverage":"instruction-only"},
+    "copywriting":{"modules":[],"executables":[],"services":[],"coverage":"instruction-only"},
+    "obsidian-markdown":{"modules":[],"executables":[],"services":[],"coverage":"instruction-only; editing a vault requires its location"},
+    "sympy":{"modules":["sympy"],"executables":[],"services":[],"coverage":"core Python dependency"},
+    "pymoo":{"modules":["pymoo"],"executables":[],"services":[],"coverage":"core Python dependency"},
+    "simpy":{"modules":["simpy"],"executables":[],"services":[],"coverage":"core Python dependency"},
+    "geopandas":{"modules":["geopandas"],"executables":[],"services":[],"coverage":"core dependency; file drivers checked per task"},
+    "polars":{"modules":["polars"],"executables":[],"services":[],"coverage":"core Python dependency"},
+    "statsmodels":{"modules":["statsmodels"],"executables":[],"services":[],"coverage":"core Python dependency"},
+    "scanpy":{"modules":["scanpy"],"executables":[],"services":[],"coverage":"core Python dependency; datasets checked per task"},
+    "rdkit":{"modules":["rdkit"],"executables":[],"services":[],"coverage":"core Python dependency"},
+    "deepchem":{"modules":["deepchem"],"executables":[],"services":[],"coverage":"core dependency; ML backend checked per task"},
+    "biopython":{"modules":["Bio"],"executables":[],"services":["NCBI contact email for Entrez; optional API key"],"coverage":"core dependency; BLAST/DSSP checked per task"},
+    "matplotlib":{"modules":["matplotlib"],"executables":[],"services":[],"coverage":"core Python dependency"},
+    "pydicom":{"modules":["pydicom"],"executables":[],"services":[],"coverage":"core dependency; codecs checked per task"},
+    "pymc":{"modules":["pymc"],"executables":[],"services":[],"coverage":"core dependency; compiler/backend checked per task"},
+    "dask":{"modules":["dask"],"executables":[],"services":[],"coverage":"core dependency; scheduler checked per task"},
+    "aspnet-core":{"modules":[],"executables":["dotnet"],"services":[],"coverage":".NET SDK availability only"},
+    "gh-fix-ci":{"modules":[],"executables":["gh"],"services":["Authenticated GitHub account with repository access"],"coverage":"CLI availability; no authenticated calls"},
+    "playwright":{"modules":[],"executables":["node","npm"],"services":[],"coverage":"Node availability only; Playwright and browser binaries checked per project"},
+    "react-best-practices":{"modules":[],"executables":[],"services":[],"coverage":"instruction-only; assumes a React/Next.js project"},
+    "terraform-style-guide":{"modules":[],"executables":[],"services":[],"coverage":"instruction-only; execution requires a separate Terraform/OpenTofu environment"}
+  },
+  "repository_services": {
+    "expo/skills":["Expo account for EAS services; paid/free-tier budgets apply"],
+    "cloudflare/skills":["Cloudflare account for service operations; billing may apply"],
+    "supabase/agent-skills":["Database/project access for live operations; documentation guidance works offline"],
+    "neondatabase/agent-skills":["Neon account and database access for live operations"],
+    "huggingface/skills":["Hugging Face account/token for restricted resources; compute jobs may incur charges"],
+    "stripe/ai":["Stripe account/sandbox for API operations; payment actions require task authorization"],
+    "google/skills":["Google service/account access and task-specific billing"],
+    "google-labs-code/stitch-skills":["Connected Stitch MCP for project inspection"]
+  }
+}

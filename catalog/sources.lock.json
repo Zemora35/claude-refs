@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "repository": "anthropics/skills",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "tree_sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "repository_license": null,
+      "mode": "existing",
+      "existing_folder": "anthropics_skills",
+      "expected_skills": 20,
+      "tree_truncated": false
+    },
+    {
+      "repository": "openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "tree_sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "repository_license": null,
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 44,
+      "tree_truncated": false
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "commit": "6ec269328bc400712ee225a173a14b6b29128df7",
+      "tree_sha": "6ec269328bc400712ee225a173a14b6b29128df7",
+      "repository_license": null,
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 9,
+      "tree_truncated": false
+    },
+    {
+      "repository": "expo/skills",
+      "commit": "8a0dc4fa57ae345923c357e1451cbcd8b6f2a7db",
+      "tree_sha": "8a0dc4fa57ae345923c357e1451cbcd8b6f2a7db",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 25,
+      "tree_truncated": false
+    },
+    {
+      "repository": "cloudflare/skills",
+      "commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+      "tree_sha": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+      "repository_license": "Apache-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 19,
+      "tree_truncated": false
+    },
+    {
+      "repository": "hashicorp/agent-skills",
+      "commit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "tree_sha": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "repository_license": "MPL-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 20,
+      "tree_truncated": false
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "tree_sha": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 2,
+      "tree_truncated": false
+    },
+    {
+      "repository": "neondatabase/agent-skills",
+      "commit": "0ec3f2e270c5c04955e1db61f2eb31911137b6fd",
+      "tree_sha": "0ec3f2e270c5c04955e1db61f2eb31911137b6fd",
+      "repository_license": "Apache-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 19,
+      "tree_truncated": false
+    },
+    {
+      "repository": "better-auth/skills",
+      "commit": "20c9e88a5c007461a703f1c213572b073196113e",
+      "tree_sha": "20c9e88a5c007461a703f1c213572b073196113e",
+      "repository_license": null,
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 6,
+      "tree_truncated": false
+    },
+    {
+      "repository": "trailofbits/skills",
+      "commit": "196a9073ab10d35bacf111f945e02c00b2c6883a",
+      "tree_sha": "196a9073ab10d35bacf111f945e02c00b2c6883a",
+      "repository_license": "CC-BY-SA-4.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 97,
+      "tree_truncated": false
+    },
+    {
+      "repository": "getsentry/skills",
+      "commit": "d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+      "tree_sha": "d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+      "repository_license": "Apache-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 30,
+      "tree_truncated": false
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "tree_sha": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "repository_license": "MIT",
+      "mode": "existing",
+      "existing_folder": "K-Dense-AI_scientific-agent-skills",
+      "expected_skills": 177,
+      "tree_truncated": false
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
+      "tree_sha": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
+      "repository_license": null,
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 12,
+      "tree_truncated": false
+    },
+    {
+      "repository": "stripe/ai",
+      "commit": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
+      "tree_sha": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 50,
+      "tree_truncated": false
+    },
+    {
+      "repository": "deanpeters/Product-Manager-Skills",
+      "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13",
+      "tree_sha": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13",
+      "repository_license": "NOASSERTION",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 77,
+      "tree_truncated": false
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "commit": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "tree_sha": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 69,
+      "tree_truncated": false
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "17772c7a80b7b8c7a47af30f648374cd8bd8adc5",
+      "tree_sha": "17772c7a80b7b8c7a47af30f648374cd8bd8adc5",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 52,
+      "tree_truncated": false
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "tree_sha": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 6,
+      "tree_truncated": false
+    },
+    {
+      "repository": "huggingface/skills",
+      "commit": "fabc634a893f62ad5c2039830397efa35fa62715",
+      "tree_sha": "fabc634a893f62ad5c2039830397efa35fa62715",
+      "repository_license": "Apache-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 26,
+      "tree_truncated": false
+    },
+    {
+      "repository": "google/skills",
+      "commit": "84e8150e4fa71bf422d5b224e215f5ba13864aa3",
+      "tree_sha": "84e8150e4fa71bf422d5b224e215f5ba13864aa3",
+      "repository_license": "Apache-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 180,
+      "tree_truncated": false
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "0337446dadde6f8c94210444e2aa9d546126480f",
+      "tree_sha": "0337446dadde6f8c94210444e2aa9d546126480f",
+      "repository_license": "Apache-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 16,
+      "tree_truncated": false
+    },
+    {
+      "repository": "mattpocock/skills",
+      "commit": "59db609eb1e18aaf59b63284d0e52255aff0c63c",
+      "tree_sha": "59db609eb1e18aaf59b63284d0e52255aff0c63c",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 38,
+      "tree_truncated": false
+    },
+    {
+      "repository": "obra/superpowers",
+      "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "tree_sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 15,
+      "tree_truncated": false
+    },
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "tree_sha": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 13,
+      "tree_truncated": false
+    }
+  ]
+}

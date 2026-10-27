@@ -1,0 +1,698 @@
+{
+  "checked_at": "2026-10-27",
+  "queries": [
+    {
+      "category": "skills-core",
+      "queries": [
+        {
+          "category": "skills-core",
+          "query": "agent skills in:name,description stars:>1000 archived:false sort:stars",
+          "names": [
+            "obra/superpowers",
+            "mattpocock/skills",
+            "affaan-m/ECC"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "coding-workflow",
+      "queries": [
+        {
+          "category": "coding-workflow",
+          "query": "coding agent skills workflow stars:>1000 archived:false sort:stars",
+          "names": [
+            "ruvnet/ruflo",
+            "Donchitos/Claude-Code-Game-Studios",
+            "refly-ai/refly"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "frontend",
+      "queries": [
+        {
+          "category": "frontend",
+          "query": "react frontend framework stars:>10000 archived:false sort:stars",
+          "names": [
+            "expo/expo",
+            "ionic-team/ionic-framework",
+            "The-Vibe-Company/quivr"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "backend",
+      "queries": [
+        {
+          "category": "backend",
+          "query": "backend api framework stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "backend",
+          "query": "topic:backend stars:>10000 archived:false sort:stars",
+          "names": [
+            "GitHubDaily/GitHubDaily"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "mobile",
+      "queries": [
+        {
+          "category": "mobile",
+          "query": "mobile app framework stars:>10000 archived:false sort:stars",
+          "names": [
+            "expo/expo",
+            "ionic-team/ionic-framework",
+            "DioxusLabs/dioxus"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "design",
+      "queries": [
+        {
+          "category": "design",
+          "query": "ui ux design skills stars:>1000 archived:false sort:stars",
+          "names": [
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "Jakubantalik/transitions.dev",
+            "plugin87/ux-ui-agent-skills"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "accessibility",
+      "queries": [
+        {
+          "category": "accessibility",
+          "query": "accessibility testing stars:>1000 archived:false sort:stars",
+          "names": [
+            "simplezhli/flutter_deer",
+            "dequelabs/axe-core",
+            "pa11y/pa11y"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "testing",
+      "queries": [
+        {
+          "category": "testing",
+          "query": "testing browser automation stars:>10000 archived:false sort:stars",
+          "names": [
+            "seleniumbase/SeleniumBase",
+            "ultrafunkamsterdam/undetected-chromedriver"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "devops",
+      "queries": [
+        {
+          "category": "devops",
+          "query": "devops ci cd stars:>10000 archived:false sort:stars",
+          "names": [
+            "go-gitea/gitea",
+            "infracost/infracost",
+            "kubescape/kubescape"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "iac",
+      "queries": [
+        {
+          "category": "iac",
+          "query": "infrastructure as code stars:>10000 archived:false sort:stars",
+          "names": [
+            "hashicorp/terraform",
+            "pulumi/pulumi"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "cloud",
+      "queries": [
+        {
+          "category": "cloud",
+          "query": "cloudflare agent skills stars:>100 archived:false sort:stars",
+          "names": [
+            "cloudflare/skills",
+            "mikehasa/golive-skill",
+            "xiaoyuboi/cloudflare-tunnel-skill"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "database",
+      "queries": [
+        {
+          "category": "database",
+          "query": "database agent skills stars:>500 archived:false sort:stars",
+          "names": [
+            "K-Dense-AI/scientific-agent-skills",
+            "volcengine/OpenViking",
+            "google-deepmind/science-skills"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "analytics",
+      "queries": [
+        {
+          "category": "analytics",
+          "query": "dataframe analytics stars:>10000 archived:false sort:stars",
+          "names": [
+            "modin-project/modin"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "data-engineering",
+      "queries": [
+        {
+          "category": "data-engineering",
+          "query": "data orchestration pipeline stars:>10000 archived:false sort:stars",
+          "names": [
+            "kestra-io/kestra",
+            "PrefectHQ/prefect",
+            "Avaiga/taipy"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "ai-agents",
+      "queries": [
+        {
+          "category": "ai-agents",
+          "query": "ai agent framework stars:>10000 archived:false sort:stars",
+          "names": [
+            "obra/superpowers",
+            "langchain-ai/langchain",
+            "heygen-com/hyperframes"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "rag",
+      "queries": [
+        {
+          "category": "rag",
+          "query": "rag framework stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "rag",
+          "query": "topic:rag stars:>10000 archived:false sort:stars",
+          "names": [
+            "open-webui/open-webui",
+            "langchain-ai/langchain",
+            "Shubhamsaboo/awesome-llm-apps"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "local-ai",
+      "queries": [
+        {
+          "category": "local-ai",
+          "query": "local llm inference stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "local-ai",
+          "query": "topic:llm-inference stars:>1000 archived:false sort:stars",
+          "names": [
+            "nomic-ai/gpt4all",
+            "ray-project/ray",
+            "gitleaks/gitleaks"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "mcp",
+      "queries": [
+        {
+          "category": "mcp",
+          "query": "mcp servers stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "mcp",
+          "query": "topic:mcp-server stars:>10000 archived:false sort:stars",
+          "names": [
+            "n8n-io/n8n",
+            "google-gemini/gemini-cli",
+            "D4Vinci/Scrapling"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "security",
+      "queries": [
+        {
+          "category": "security",
+          "query": "security agent skills stars:>1000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "security",
+          "query": "topic:security stars:>10000 archived:false sort:stars",
+          "names": [
+            "trimstray/the-book-of-secret-knowledge",
+            "Hack-with-Github/Awesome-Hacking",
+            "Developer-Y/cs-video-courses"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "reverse",
+      "queries": [
+        {
+          "category": "reverse",
+          "query": "reverse engineering ghidra stars:>1000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "reverse",
+          "query": "topic:reverse-engineering stars:>10000 archived:false sort:stars",
+          "names": [
+            "morluto/rea",
+            "Hack-with-Github/Awesome-Hacking",
+            "NationalSecurityAgency/ghidra"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "observability",
+      "queries": [
+        {
+          "category": "observability",
+          "query": "observability monitoring stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "observability",
+          "query": "topic:observability stars:>10000 archived:false sort:stars",
+          "names": [
+            "netdata/netdata",
+            "langfuse/langfuse",
+            "SigNoz/signoz"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "automation",
+      "queries": [
+        {
+          "category": "automation",
+          "query": "workflow automation stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        },
+        {
+          "category": "automation",
+          "query": "topic:automation stars:>10000 archived:false sort:stars",
+          "names": [
+            "n8n-io/n8n",
+            "langgenius/dify",
+            "stablyai/orca"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "scraping",
+      "queries": [
+        {
+          "category": "scraping",
+          "query": "web scraping crawling stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "documentation",
+      "queries": [
+        {
+          "category": "documentation",
+          "query": "documentation static site stars:>10000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "office",
+      "queries": [
+        {
+          "category": "office",
+          "query": "document office agent skills stars:>1000 archived:false sort:stars",
+          "names": [],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "visualization",
+      "queries": [
+        {
+          "category": "visualization",
+          "query": "diagram visualization stars:>100 archived:false sort:stars",
+          "names": [
+            "tt-a1i/archify",
+            "chartdb/chartdb",
+            "ahmedkhaleel2004/gitdiagram"
+          ],
+          "error": null
+        }
+      ],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "science",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "math",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "gis",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "bim",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "structural",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "robotics",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "games",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "media",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "finance",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "commerce",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "product",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "marketing",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "knowledge",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "learning",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "ml-training",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "statistics",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "bio",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "chemistry",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "medical",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "legal",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "crm",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "erp",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "career",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "blockchain",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "iot",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "speech",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "publishing",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    },
+    {
+      "category": "translation",
+      "queries": [],
+      "verification": "direct GitHub repository API metadata for every listed candidate",
+      "limitation": "Search was rate-limited; empty search responses are not proof of no candidates."
+    }
+  ],
+  "unresolved_or_moved": [
+    {
+      "name": "dbt-labs/dbt-core",
+      "error": "Error: {\"message\":\"Moved Permanently\",\"url\":\"https://api.github.com/repositories/53548867\",\"documentation_url\":\"https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects\"}"
+    },
+    {
+      "name": "mendableai/firecrawl",
+      "error": "Error: {\"message\":\"Moved Permanently\",\"url\":\"https://api.github.com/repositories/787076358\",\"documentation_url\":\"https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects\"}"
+    },
+    {
+      "name": "OpenSees/OpenSeesPy",
+      "error": "Error: [{\"type\":\"text\",\"text\":\"GitHub API error 404: {\\\"message\\\":\\\"Not Found\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/repos#get-a-repository\\\",\\\"status\\\":\\\"404\\\"}\"}]"
+    },
+    {
+      "name": "FEAder/Pynite",
+      "error": "Error: [{\"type\":\"text\",\"text\":\"GitHub API error 404: {\\\"message\\\":\\\"Not Found\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/repos#get-a-repository\\\",\\\"status\\\":\\\"404\\\"}\"}]"
+    },
+    {
+      "name": "backtrader/backtrader",
+      "error": "Error: {\"message\":\"Moved Permanently\",\"url\":\"https://api.github.com/repositories/29050338\",\"documentation_url\":\"https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects\"}"
+    },
+    {
+      "name": "obsidianmd/obsidian-skills",
+      "error": "Error: [{\"type\":\"text\",\"text\":\"GitHub API error 404: {\\\"message\\\":\\\"Not Found\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/repos#get-a-repository\\\",\\\"status\\\":\\\"404\\\"}\"}]"
+    },
+    {
+      "name": "facebook/react-native",
+      "error": "Error: {\"message\":\"Moved Permanently\",\"url\":\"https://api.github.com/repositories/29028775\",\"documentation_url\":\"https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects\"}"
+    },
+    {
+      "name": "dbt-labs/dbt-core",
+      "error": "Error: {\"message\":\"Moved Permanently\",\"url\":\"https://api.github.com/repositories/53548867\",\"documentation_url\":\"https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects\"}"
+    },
+    {
+      "name": "docassemble/docassemble",
+      "error": "Error: [{\"type\":\"text\",\"text\":\"GitHub API error 404: {\\\"message\\\":\\\"Not Found\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/repos#get-a-repository\\\",\\\"status\\\":\\\"404\\\"}\"}]"
+    },
+    {
+      "name": "AmruthPillai/Reactive-Resume",
+      "error": "Error: {\"message\":\"Moved Permanently\",\"url\":\"https://api.github.com/repositories/249995750\",\"documentation_url\":\"https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects\"}"
+    },
+    {
+      "name": "ethereum/solidity",
+      "error": "Error: {\"message\":\"Moved Permanently\",\"url\":\"https://api.github.com/repositories/40892817\",\"documentation_url\":\"https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects\"}"
+    }
+  ],
+  "resolved_moves": [
+    {
+      "from": "AmruthPillai/Reactive-Resume",
+      "to": "reactive-resume/reactive-resume",
+      "verified_by": "https://api.github.com/repos/reactive-resume/reactive-resume"
+    }
+  ]
+}
