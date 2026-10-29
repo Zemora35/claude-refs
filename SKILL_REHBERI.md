@@ -1,6 +1,6 @@
 # Skill seçim rehberi
 
-30 kaynakta 1053 SKILL.md yolu doğrulandı; 103 farklı beceri kategori rehberine seçildi. 28 Ekim eklemeleri: [kapsam ve kurulum](EKLENEN_KAYNAKLAR.md).
+44 sabitlenmiş kaynakta 1056 SKILL.md yolu; 106 seçilmiş beceri. Medya eklemeleri: [29 Ekim rehberi](UCRETSIZ_MEDYA.md).
 
 Bu dosya bir etkinleştirme talimatı değildir. Yol doğrulaması ile içerik incelemesi farklı durumlardır. İnceleme sonuçları [kaynak raporunda](SOURCE_REVIEW.md) bulunur.
 
@@ -61,6 +61,11 @@ Bu dosya bir etkinleştirme talimatı değildir. Yol doğrulaması ile içerik i
 
 - [design-md](https://github.com/google-labs-code/stitch-skills/blob/0337446dadde6f8c94210444e2aa9d546126480f/plugins/stitch-utilities/skills/design-md/SKILL.md) — `google-labs-code/stitch-skills`; commit `0337446dadde`.
 - [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/28b3b8dee8c976df4fa3e94aed4e092ad43fcb03/.claude/skills/ui-ux-pro-max/SKILL.md) — `nextlevelbuilder/ui-ux-pro-max-skill`; commit `28b3b8dee8c9`.
+
+- [kinetic-typography](https://github.com/iart-ai/kinetic-typography-skills/blob/fccc94bd325d824235ee9e715e65abde57b6513a/skills/kinetic-typography/SKILL.md) — `iart-ai/kinetic-typography-skills`; commit `fccc94bd325d`.
+
+- [lower-thirds](https://github.com/iart-ai/lower-thirds-skills/blob/aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8/skills/lower-thirds/SKILL.md) — `iart-ai/lower-thirds-skills`; commit `aa8ef7ed9fa5`.
+
 
 <a id="accessibility"></a>
 ## Erişilebilirlik ve web kalitesi
@@ -211,6 +216,9 @@ Mevcut yerel beceriler: `archify`.
 
 Mevcut yerel beceriler: `site-context-gis`.
 
+- [map-animation](https://github.com/iart-ai/map-animation-skills/blob/390ca98bbcf2ea88a430a69c0dcbf423e43d075d/skills/map-animation/SKILL.md) — `iart-ai/map-animation-skills`; commit `390ca98bbcf2`.
+
+
 <a id="bim"></a>
 ## BIM IFC CAD ve 3D mimari
 
@@ -246,6 +254,13 @@ Mevcut yerel beceriler: `img2threejs`.
 - [voicestudio-maintainer](https://github.com/debpalash/VoiceStudio/blob/336d48481b8c7c0ef810bc5f00e80a3aaddace8f/skills/voicestudio-maintainer/SKILL.md) — `debpalash/VoiceStudio`; commit `336d48481b8c`.
 - [voicestudio](https://github.com/debpalash/VoiceStudio/blob/336d48481b8c7c0ef810bc5f00e80a3aaddace8f/skills/voicestudio/SKILL.md) — `debpalash/VoiceStudio`; commit `336d48481b8c`.
 - [cap](https://github.com/CapSoftware/Cap/blob/d0aa6cb7ec0ea9ce46a42fa5d733965719dd1647/apps/cli/skill/cap/SKILL.md) — `CapSoftware/Cap`; commit `d0aa6cb7ec0e`.
+
+- [kinetic-typography](https://github.com/iart-ai/kinetic-typography-skills/blob/fccc94bd325d824235ee9e715e65abde57b6513a/skills/kinetic-typography/SKILL.md) — `iart-ai/kinetic-typography-skills`; commit `fccc94bd325d`.
+
+- [lower-thirds](https://github.com/iart-ai/lower-thirds-skills/blob/aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8/skills/lower-thirds/SKILL.md) — `iart-ai/lower-thirds-skills`; commit `aa8ef7ed9fa5`.
+
+- [map-animation](https://github.com/iart-ai/map-animation-skills/blob/390ca98bbcf2ea88a430a69c0dcbf423e43d075d/skills/map-animation/SKILL.md) — `iart-ai/map-animation-skills`; commit `390ca98bbcf2`.
+
 
 <a id="finance"></a>
 ## Finans araştırma ve backtest
@@ -389,3 +404,12 @@ Bu kategoriye özel yeterince doğrulanmış bir skill seçilmedi. Yukarıdaki y
 ## Çeviri ve dil teknolojileri
 
 Bu kategoriye özel yeterince doğrulanmış bir skill seçilmedi. Yukarıdaki yazılım kaynaklarını kullan; varlığı doğrulanmamış beceriyi kurulu sayma.
+
+<a id="free-media"></a>
+## Ücretsiz yerel video, animasyon ve ses üretimi
+
+Ücretsiz yollar ve motor sınırları: [UCRETSIZ_MEDYA.md](UCRETSIZ_MEDYA.md).
+
+- [kinetic-typography](https://github.com/iart-ai/kinetic-typography-skills/blob/fccc94bd325d824235ee9e715e65abde57b6513a/skills/kinetic-typography/SKILL.md) — `iart-ai/kinetic-typography-skills`; MIT.
+- [lower-thirds](https://github.com/iart-ai/lower-thirds-skills/blob/aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8/skills/lower-thirds/SKILL.md) — `iart-ai/lower-thirds-skills`; MIT.
+- [map-animation](https://github.com/iart-ai/map-animation-skills/blob/390ca98bbcf2ea88a430a69c0dcbf423e43d075d/skills/map-animation/SKILL.md) — `iart-ai/map-animation-skills`; MIT.

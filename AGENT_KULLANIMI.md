@@ -71,3 +71,7 @@ python -m unittest discover -s tests -v
 Güncel ajan denemeleri ve sınırları [UYUMLULUK_RAPORU.md](UYUMLULUK_RAPORU.md) içinde tutulur. Bunlar 1.022 upstream becerinin tamamının çalıştırıldığı anlamına gelmez.
 
 Resmî kaynaklar: [Claude Code skill konumları](https://code.claude.com/docs/en/skills), [Codex skill keşfi](https://learn.chatgpt.com/docs/build-skills).
+
+## Ücretsiz yerel medya
+
+`free-media` kategorisi ve [medya rehberi](UCRETSIZ_MEDYA.md) yeni yerel üretim adaylarını içerir. Ücretli servise otomatik geçme; eksik motoru bildir. Koleksiyondaki üç yeni skill’in bulunması video/ses motorunun hazır olduğu anlamına gelmez.

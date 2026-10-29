@@ -2,12 +2,13 @@
 
 GitHub: [Zemora35/claude-refs](https://github.com/Zemora35/claude-refs).
 
-İlk doğrulama **2026-10-27**, istenen kaynakların son kontrolü **2026-10-28**: **54 kategori**, **181 repo kaydı**, **30 skill kaynağı**, **1053 SKILL.md yolu**, **103 seçilmiş beceri** ve **1 harici veri koleksiyonu**.
+İlk doğrulama **2026-10-27**, son ekleme kontrolü **2026-10-29**: **55 kategori**, **188 repo kaydı**, **44 sabitlenmiş kaynak**, **1056 SKILL.md yolu**, **106 seçilmiş beceri** ve **1 harici veri koleksiyonu**.
 
 Bu koleksiyon kaynak bulmayı ve doğru aracı seçmeyi kolaylaştırır. Seçimler popülerlik, güncellik, lisans bilgisi ve kullanım amacıyla değerlendirilir. Üçüncü taraf kaynak kodları otomatik çalıştırılmaz; upstream beceriler yalnızca açık kurulum isteğiyle seçilerek kurulur. Projeye eklenen özgün `refs-catalog` yönlendiricisi Claude Code ve Codex tarafından keşfedilebilir.
 
 | İhtiyaç | Dosya |
 |---|---|
+| Ücretsiz yerel medya eklemeleri (29 Ekim) | [UCRETSIZ_MEDYA.md](UCRETSIZ_MEDYA.md) |
 | 28 Ekim eklemeleri ve yerel kurulum sınırları | [EKLENEN_KAYNAKLAR.md](EKLENEN_KAYNAKLAR.md) |
 | Kategoriler ve repo karşılaştırmaları | [KATALOG.md](KATALOG.md) |
 | İşe göre skill seçimi | [SKILL_REHBERI.md](SKILL_REHBERI.md) |
@@ -58,6 +59,10 @@ Yazılım, AI/ML, MCP, tasarım, mobil, test, güvenlik, DevOps, veri, otomasyon
 
 Bu bir kürasyondur; GitHub'ın tamamını kapsayan kesin bir 'en iyi' sıralaması değildir. Mevcut 33 referans klasörü korunur. Önceden kurulu beceriler isim ve sağlayıcı bazında kaydedilir; özel yerel talimatlar yayımlanan pakete kopyalanmaz.
 
-## Tamamlanan yerel genişletme
+## Önceki yerel genişletme (27–28 Ekim)
 
 22 yeni kaynak eklendi; 24 kaynak sabit commit'leriyle kontrol edildi. 12.532 dosya statik envantere alındı ve 1.022 SKILL.md kimliği doğrulandı. İki beceri etkinleştirmeye kapalı işaretlendi. İnceleme sınırlamaları ve kaynak bazında notlar [SOURCE_REVIEW.md](SOURCE_REVIEW.md) içindedir.
+
+## Ücretsiz yerel medya — 29 Ekim
+
+7 yeni repo ve mevcut faster-whisper kaydı, 3 animasyon skill’i (iki ajan için 6 yerel kopya) eklendi. Uygulama veya ses modeli kurulmaz. [Kullanım, ücretsiz yollar ve GitHub’dan yeniden kurma](UCRETSIZ_MEDYA.md).

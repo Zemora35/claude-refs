@@ -4,7 +4,7 @@ Doğrulama: **2026-10-27**.
 
 Sıra aday kümesindeki puana göredir. Yöntem: [YONTEM.md](YONTEM.md).
 
-İstenen ek kaynakların son kontrolü: **2026-10-28**; ayrıntılar [ekleme raporunda](EKLENEN_KAYNAKLAR.md). Diğer kayıtların kendi kontrol tarihi korunur.
+İstenen ek kaynakların son kontrolü: **2026-10-29**; ayrıntılar [ekleme raporunda](EKLENEN_KAYNAKLAR.md). Diğer kayıtların kendi kontrol tarihi korunur.
 
 ## Skill standartları ve kataloglar
 
@@ -107,6 +107,8 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#mobile).
 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | 8,608 | 1,049 | 2026-08-17 | Apache-2.0 | 83.9 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 33,088 | 2,893 | 2026-10-27 | belirsiz | 79.6 |
 | [xiiiabu/motionsites.ai](https://github.com/xiiiabu/motionsites.ai) | 100 | 102 | 2026-04-03 | MIT | 54.6 |
+| [iart-ai/lower-thirds-skills](https://github.com/iart-ai/lower-thirds-skills) | 1 | 0 | 2026-09-30 | MIT | 52.1 |
+| [iart-ai/kinetic-typography-skills](https://github.com/iart-ai/kinetic-typography-skills) | 17 | 5 | 2026-06-22 | MIT | 51.7 |
 
 Adayların amaçları:
 
@@ -115,6 +117,8 @@ Adayların amaçları:
 - **google-labs-code/stitch-skills**: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
 - **vercel-labs/agent-skills**: Vercel's official collection of agent skills
 - **xiiiabu/motionsites.ai**: motionsites.ai
+- **iart-ai/lower-thirds-skills**: Animated lower thirds with a real transparent background, made by your AI coding agent: drawn in JavaScript, rendered to WebM alpha (OBS) or ProRes 4444 (Premiere, Resolve, Final Cut).
+- **iart-ai/kinetic-typography-skills**: Kinetic typography skills for AI coding agents — turn text into beat-synced, animated type for social, titles, and lyric videos.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#design).
 
@@ -291,12 +295,18 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#rag).
 | [ollama/ollama](https://github.com/ollama/ollama) | 184,968 | 18,640 | 2026-10-27 | MIT | 100 |
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 132,503 | 24,858 | 2026-10-27 | MIT | 100 |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 95,680 | 24,049 | 2026-10-27 | Apache-2.0 | 99.9 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54,762 | 6,251 | 2026-10-29 | MIT | 97.4 |
+| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,286 | 2,186 | 2026-10-25 | MIT | 93.5 |
+| [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | 27,405 | 3,683 | 2026-07-21 | MIT | 84.4 |
 
 Adayların amaçları:
 
 - **ollama/ollama**: Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 - **ggml-org/llama.cpp**: LLM inference in C/C++
 - **vllm-project/vllm**: A high-throughput and memory-efficient inference and serving engine for LLMs
+- **ggml-org/whisper.cpp**: Port of OpenAI's Whisper model in C/C++
+- **SYSTRAN/faster-whisper**: Faster Whisper transcription with CTranslate2
+- **resemble-ai/chatterbox**: SoTA open-source TTS
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#local-ai).
 
@@ -451,6 +461,7 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#office).
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 90,181 | 6,117 | 2026-10-27 | Apache-2.0 | 98.9 |
 | [plotly/plotly.py](https://github.com/plotly/plotly.py) | 18,854 | 2,882 | 2026-10-23 | MIT | 92.9 |
 | [chartdb/chartdb](https://github.com/chartdb/chartdb) | 23,028 | 1,506 | 2026-10-22 | AGPL-3.0 | 92.5 |
+| [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) | 19,573 | 871 | 2026-07-02 | MIT | 81.1 |
 
 Adayların amaçları:
 
@@ -459,6 +470,7 @@ Adayların amaçları:
 - **tt-a1i/archify**: Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
 - **plotly/plotly.py**: The interactive graphing library for Python :sparkles:
 - **chartdb/chartdb**: Database diagrams editor that allows you to visualize and design your DB with a single query.
+- **motion-canvas/motion-canvas**: Visualize Your Ideas With Code
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#visualization).
 
@@ -501,12 +513,14 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#math).
 | [geopandas/geopandas](https://github.com/geopandas/geopandas) | 5,289 | 1,075 | 2026-10-27 | BSD-3-Clause | 87.4 |
 | [gboeing/osmnx](https://github.com/gboeing/osmnx) | 5,886 | 896 | 2026-07-31 | MIT | 82.5 |
 | [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | 11,959 | 1,304 | 2026-10-27 | NOASSERTION | 75.2 |
+| [iart-ai/map-animation-skills](https://github.com/iart-ai/map-animation-skills) | 21 | 4 | 2026-06-22 | MIT | 52.0 |
 
 Adayların amaçları:
 
 - **geopandas/geopandas**: Python tools for geographic data
 - **gboeing/osmnx**: Download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap.
 - **maplibre/maplibre-gl-js**: MapLibre GL JS - Interactive vector tile maps in the browser
+- **iart-ai/map-animation-skills**: Animated map skills for AI coding agents — draw routes, zoom-to-location, and data-driven map animations rendered to video.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#gis).
 
@@ -583,22 +597,38 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#games).
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 91,267 | 10,080 | 2026-10-27 | AGPL-3.0 | 99.7 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54,762 | 6,251 | 2026-10-29 | MIT | 97.4 |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | 45,430 | 2,289 | 2026-10-29 | GPL-2.0 | 95.2 |
+| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,286 | 2,186 | 2026-10-25 | MIT | 93.5 |
+| [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | 27,405 | 3,683 | 2026-07-21 | MIT | 84.4 |
 | [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | 65,872 | 14,433 | 2026-10-27 | NOASSERTION | 83.7 |
+| [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) | 19,573 | 871 | 2026-07-02 | MIT | 81.1 |
 | [blender/blender](https://github.com/blender/blender) | 21,325 | 3,436 | 2026-10-27 | NOASSERTION | 78.6 |
 | [CapSoftware/Cap](https://github.com/CapSoftware/Cap) | 23,941 | 2,177 | 2026-10-27 | NOASSERTION | 78.2 |
 | [remotion-dev/skills](https://github.com/remotion-dev/skills) | 5,773 | 640 | 2026-10-26 | belirsiz | 71.9 |
 | [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) | 4,853 | 1,050 | 2026-09-17 | belirsiz | 67.1 |
 | [Autom8AI/Open-Higgsfield-AI](https://github.com/Autom8AI/Open-Higgsfield-AI) | 1,543 | 323 | 2026-10-25 | belirsiz | 66.7 |
+| [iart-ai/lower-thirds-skills](https://github.com/iart-ai/lower-thirds-skills) | 1 | 0 | 2026-09-30 | MIT | 52.1 |
+| [iart-ai/map-animation-skills](https://github.com/iart-ai/map-animation-skills) | 21 | 4 | 2026-06-22 | MIT | 52.0 |
+| [iart-ai/kinetic-typography-skills](https://github.com/iart-ai/kinetic-typography-skills) | 17 | 5 | 2026-06-22 | MIT | 51.7 |
 
 Adayların amaçları:
 
 - **debpalash/VoiceStudio**: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+- **ggml-org/whisper.cpp**: Port of OpenAI's Whisper model in C/C++
+- **mifi/lossless-cut**: The swiss army knife of lossless video/audio editing
+- **SYSTRAN/faster-whisper**: Faster Whisper transcription with CTranslate2
+- **resemble-ai/chatterbox**: SoTA open-source TTS
 - **FFmpeg/FFmpeg**: Mirror of https://git.ffmpeg.org/ffmpeg.git
+- **motion-canvas/motion-canvas**: Visualize Your Ideas With Code
 - **blender/blender**: Official mirror of Blender
 - **CapSoftware/Cap**: Open source Loom alternative. Beautiful, shareable screen recordings.
 - **remotion-dev/skills**: Agent Skills
 - **wide-trace/open-higgsfield**: A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.
 - **Autom8AI/Open-Higgsfield-AI**: Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.
+- **iart-ai/lower-thirds-skills**: Animated lower thirds with a real transparent background, made by your AI coding agent: drawn in JavaScript, rendered to WebM alpha (OBS) or ProRes 4444 (Premiere, Resolve, Final Cut).
+- **iart-ai/map-animation-skills**: Animated map skills for AI coding agents — draw routes, zoom-to-location, and data-driven map animations rendered to video.
+- **iart-ai/kinetic-typography-skills**: Kinetic typography skills for AI coding agents — turn text into beat-synced, animated type for social, titles, and lyric videos.
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#media).
 
@@ -887,15 +917,19 @@ Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#iot).
 | Repo | Yıldız | Fork | Son push | Lisans | Puan |
 |---|---:|---:|---|---|---:|
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 91,267 | 10,080 | 2026-10-27 | AGPL-3.0 | 99.7 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54,762 | 6,251 | 2026-10-29 | MIT | 97.4 |
 | [openai/whisper](https://github.com/openai/whisper) | 111,376 | 13,485 | 2026-08-31 | MIT | 95 |
-| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,210 | 2,177 | 2026-10-25 | MIT | 93.4 |
+| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,286 | 2,186 | 2026-10-25 | MIT | 93.5 |
+| [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | 27,405 | 3,683 | 2026-07-21 | MIT | 84.4 |
 | [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | 46,150 | 6,160 | 2024-08-16 | MPL-2.0 | 71.9 |
 
 Adayların amaçları:
 
 - **debpalash/VoiceStudio**: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+- **ggml-org/whisper.cpp**: Port of OpenAI's Whisper model in C/C++
 - **openai/whisper**: Robust Speech Recognition via Large-Scale Weak Supervision
 - **SYSTRAN/faster-whisper**: Faster Whisper transcription with CTranslate2
+- **resemble-ai/chatterbox**: SoTA open-source TTS
 - **coqui-ai/TTS**: 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#speech).
@@ -931,3 +965,29 @@ Adayların amaçları:
 - **OpenNMT/OpenNMT-py**: Open Source Neural Machine Translation and (Large) Language Models in PyTorch
 
 Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#translation).
+
+## Ücretsiz yerel video, animasyon ve ses üretimi
+
+| Repo | Yıldız | Fork | Son push | Lisans | Puan |
+|---|---:|---:|---|---|---:|
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54,762 | 6,251 | 2026-10-29 | MIT | 97.4 |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | 45,430 | 2,289 | 2026-10-29 | GPL-2.0 | 95.2 |
+| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,286 | 2,186 | 2026-10-25 | MIT | 93.5 |
+| [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | 27,405 | 3,683 | 2026-07-21 | MIT | 84.4 |
+| [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) | 19,573 | 871 | 2026-07-02 | MIT | 81.1 |
+| [iart-ai/lower-thirds-skills](https://github.com/iart-ai/lower-thirds-skills) | 1 | 0 | 2026-09-30 | MIT | 52.1 |
+| [iart-ai/map-animation-skills](https://github.com/iart-ai/map-animation-skills) | 21 | 4 | 2026-06-22 | MIT | 52.0 |
+| [iart-ai/kinetic-typography-skills](https://github.com/iart-ai/kinetic-typography-skills) | 17 | 5 | 2026-06-22 | MIT | 51.7 |
+
+Adayların amaçları:
+
+- **ggml-org/whisper.cpp**: Port of OpenAI's Whisper model in C/C++
+- **mifi/lossless-cut**: The swiss army knife of lossless video/audio editing
+- **SYSTRAN/faster-whisper**: Faster Whisper transcription with CTranslate2
+- **resemble-ai/chatterbox**: SoTA open-source TTS
+- **motion-canvas/motion-canvas**: Visualize Your Ideas With Code
+- **iart-ai/lower-thirds-skills**: Animated lower thirds with a real transparent background, made by your AI coding agent: drawn in JavaScript, rendered to WebM alpha (OBS) or ProRes 4444 (Premiere, Resolve, Final Cut).
+- **iart-ai/map-animation-skills**: Animated map skills for AI coding agents — draw routes, zoom-to-location, and data-driven map animations rendered to video.
+- **iart-ai/kinetic-typography-skills**: Kinetic typography skills for AI coding agents — turn text into beat-synced, animated type for social, titles, and lyric videos.
+
+Skill eşleştirmesi: [rehber](SKILL_REHBERI.md#free-media).

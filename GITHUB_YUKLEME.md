@@ -32,3 +32,7 @@ GitHub'da oluşturacağın reponun gerçek HTTPS adresini `git remote add origin
 Yerel eski repo kopyalarını da yayımlamak istersen her birinin lisansını ve üçüncü taraf bildirimlerini ayrıca incele. Tercih edilen taşınabilir yapı URL + commit manifestidir. Yeni makinede `sync_sources.py` sabitlenmiş skill kaynaklarını yeniden getirir; eski 33 klasörü otomatik indirmez.
 
 Yalnızca özgün katalog yönlendiricisi ajan klasörlerinde yayımlanır. Seçmeli kurulumla eklenen diğer beceriler `.gitignore` tarafından dışlanır. `catalog-location.json` yerel mutlak konum taşıdığı için hiçbir konumda yayımlanmaz. İstersen yeniden kullanılabilir yönlendiriciyi daha sonra ayrı bir plugin paketi olarak dağıtabilirsin; bu sürümün dağıtımı proje becerisi biçimindedir.
+
+## Ücretsiz medya taşınabilirliği
+
+`UCRETSIZ_MEDYA.md` ve `catalog/free-media.json` da yayımlanır. Sekiz kaynağın kilitleri `catalog/sources.lock.json` içindedir. Yeni makinede yalnızca bu kaynakları indirme ve üç skill’i iki ajan için kurma komutları [medya rehberindedir](UCRETSIZ_MEDYA.md#githubdan-yeniden-kullanma). Upstream uygulama/skill klonları ve modeller yayın paketine dahil değildir.

@@ -11,3 +11,7 @@ Kaynak repo URL'leri, lisans alanları ve skill commit'leri `catalog/repositorie
 ## 28 Ekim 2026 eklemeleri
 
 İlk incelemeye ek olarak 12 kaynak ve 1 harici veri koleksiyonu işlendi. Yerel kurulum, lisans istisnaları, platform koşulları ve ücretli servis gereksinimleri [ekleme raporunda](EKLENEN_KAYNAKLAR.md) ve `catalog/requested-additions.json` içinde kayıtlıdır. Upstream kopyalar kendi lisanslarını taşır; paketin MIT lisansı bunları kapsamaz.
+
+## 29 Ekim medya eklemeleri
+
+Motion Canvas, iart-ai kinetic-typography/lower-thirds/map-animation, whisper.cpp, faster-whisper ve Chatterbox kaynak kodları MIT; LosslessCut GPL-2.0 koşullarındadır. Upstream lisansları yerel kaynaklarda ve skill kurulumlarının `.upstream-notices/` alanında korunur. Model, font ve varlık lisansları ayrıca geçerlidir. [Ayrıntılar](UCRETSIZ_MEDYA.md).

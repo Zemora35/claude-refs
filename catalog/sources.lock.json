@@ -818,6 +818,155 @@
       "sparse_paths": [
         "README.md"
       ]
+    },
+    {
+      "repository": "motion-canvas/motion-canvas",
+      "commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "tree_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 0,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "iart-ai/kinetic-typography-skills",
+      "commit": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "tree_sha": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 1,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "scripts/README.md",
+        "scripts/contact-sheet.sh",
+        "scripts/probe-mp4.sh",
+        "scripts/seek-shot.sh",
+        "skills/kinetic-typography/README.md",
+        "skills/kinetic-typography/SKILL.md",
+        "skills/kinetic-typography/references/reveal-recipes.md"
+      ]
+    },
+    {
+      "repository": "iart-ai/lower-thirds-skills",
+      "commit": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "tree_sha": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 1,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "skills/lower-thirds/SKILL.md",
+        "skills/lower-thirds/references/delivery.md",
+        "skills/lower-thirds/scripts/render.mjs",
+        "skills/lower-thirds/templates/lower-third.html"
+      ]
+    },
+    {
+      "repository": "iart-ai/map-animation-skills",
+      "commit": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "tree_sha": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 1,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "scripts/README.md",
+        "scripts/contact-sheet.sh",
+        "scripts/probe-mp4.sh",
+        "scripts/seek-shot.sh",
+        "skills/map-animation/README.md",
+        "skills/map-animation/SKILL.md",
+        "skills/map-animation/references/earth-studio-to-ae.md",
+        "skills/map-animation/references/vector-maps.md"
+      ]
+    },
+    {
+      "repository": "ggml-org/whisper.cpp",
+      "commit": "284029c07012d2000941a08d38a31ffb71f4734e",
+      "tree_sha": "284029c07012d2000941a08d38a31ffb71f4734e",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 0,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "models/README.md"
+      ]
+    },
+    {
+      "repository": "mifi/lossless-cut",
+      "commit": "9acecafccf4540ccad721389e2d4f85c51d98940",
+      "tree_sha": "9acecafccf4540ccad721389e2d4f85c51d98940",
+      "repository_license": "GPL-2.0",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 0,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "resemble-ai/chatterbox",
+      "commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+      "tree_sha": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 0,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "pyproject.toml"
+      ]
+    },
+    {
+      "repository": "SYSTRAN/faster-whisper",
+      "commit": "9e472ae9de8bb374552f531f752654554b76b2d6",
+      "tree_sha": "9e472ae9de8bb374552f531f752654554b76b2d6",
+      "repository_license": "MIT",
+      "mode": "new",
+      "existing_folder": null,
+      "expected_skills": 0,
+      "tree_truncated": false,
+      "inventory_scope": "recursive-tree-selected-text",
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md"
+      ]
     }
   ]
 }

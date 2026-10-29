@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-29",
+  "scope": "collection references and three project-scoped skills; no application or model installation",
+  "repositories": [
+    "motion-canvas/motion-canvas",
+    "iart-ai/kinetic-typography-skills",
+    "iart-ai/lower-thirds-skills",
+    "iart-ai/map-animation-skills",
+    "ggml-org/whisper.cpp",
+    "mifi/lossless-cut",
+    "resemble-ai/chatterbox",
+    "SYSTRAN/faster-whisper"
+  ],
+  "selected_skill_ids": [
+    "iart-ai/kinetic-typography-skills:skills/kinetic-typography/SKILL.md",
+    "iart-ai/lower-thirds-skills:skills/lower-thirds/SKILL.md",
+    "iart-ai/map-animation-skills:skills/map-animation/SKILL.md"
+  ],
+  "paid_generation_calls": 0,
+  "model_weights_downloaded": false,
+  "runtime_installation": false,
+  "local_only_policy": {
+    "automatic_paid_fallback": false,
+    "missing_local_engine": "stop and report prerequisite",
+    "remote_media_upload": "requires explicit user request",
+    "fonts": "prefer local licensed files"
+  },
+  "excluded_from_default": {
+    "iart-ai/b-roll-skills": "Automatic ElevenLabs priority when API key exists and Unix-only executable detection; not activated",
+    "coqui-ai/XTTS-v2": "Noncommercial model/output license is unsuitable for the requested general commercial workflow",
+    "WyattBlue/auto-editor": "CLI source and prebuilt application licensing/limits differ; not selected"
+  },
+  "portable_use": "Fetch exact sources with scripts/sync_sources.py; install selected skills with scripts/agent_bridge.py. Upstream clones remain ignored by Git.",
+  "verified_reference_files": 37,
+  "selected_skills": 3,
+  "local_platform_copies": 6,
+  "github_distribution": "Portable catalog, exact upstream commits, notices and rehydration/install commands; upstream clones and local installations are ignored"
+}

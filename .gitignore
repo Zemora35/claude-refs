@@ -43,3 +43,5 @@
 **/.env
 **/.env.*
 catalog/refresh-preview.json
+
+!/UCRETSIZ_MEDYA.md

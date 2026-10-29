@@ -48,3 +48,7 @@ Replica akışını başka projeye taşırken 11 beceriyi birlikte seç: bazı k
 ## Doğrulama
 
 Seçilen 410 dosyanın Git blob kimliği kontrol edildi; 31 SKILL.md yolu eklendi. Seçilen 22 becerinin planı, iki platforma kopyası, yardımcı dosyaları ve lisans bildirimleri doğrulanır. Statik inceleme, uygulamanın veya modelin uçtan uca çalıştığı anlamına gelmez. Test sonuçları yerel kurulum raporunda ayrıca bulunur.
+
+## 29 Ekim: ücretsiz yerel medya
+
+7 yeni repo, mevcut faster-whisper kaydının yenilenmesi, 8 sabit kaynak ve 3 skill (iki platform için 6 koleksiyon kopyası) eklendi. [Kapsam ve yeniden kurma](UCRETSIZ_MEDYA.md). Ücretli üretim, uygulama veya ses modeli kurulumu yapılmadı.

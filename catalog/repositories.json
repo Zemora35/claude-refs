@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "checked_at": "2026-10-27",
-  "scope": "54-category curated shortlist plus user-requested additions; not exhaustive GitHub ranking",
+  "scope": "55-category curated shortlist plus user-requested additions; not exhaustive GitHub ranking",
   "repositories": {
     "anthropics/skills": {
       "name": "anthropics/skills",
@@ -5656,10 +5656,10 @@
       "name": "SYSTRAN/faster-whisper",
       "url": "https://github.com/SYSTRAN/faster-whisper",
       "description": "Faster Whisper transcription with CTranslate2",
-      "stars": 26210,
-      "forks": 2177,
+      "stars": 26286,
+      "forks": 2186,
       "pushed_at": "2026-10-25T07:17:13Z",
-      "updated_at": "2026-10-27T12:09:01Z",
+      "updated_at": "2026-10-29T14:35:55Z",
       "created_at": "2023-02-11T09:17:27Z",
       "archived": false,
       "disabled": false,
@@ -5679,12 +5679,12 @@
         "whisper"
       ],
       "source_api": "https://api.github.com/repos/SYSTRAN/faster-whisper",
-      "score": 93.4,
-      "days_since_push": 2,
-      "checked_at": "2026-10-27",
-      "kind": "repository",
+      "score": 93.5,
+      "days_since_push": 4,
+      "checked_at": "2026-10-29",
+      "kind": "reference",
       "existing_folder": null,
-      "review_status": "metadata-verified"
+      "review_status": "metadata-and-selected-files-verified"
     },
     "coqui-ai/TTS": {
       "name": "coqui-ai/TTS",
@@ -6376,6 +6376,231 @@
       "review_status": "metadata-and-selected-files-verified",
       "score": 67.1,
       "days_since_push": 41
+    },
+    "motion-canvas/motion-canvas": {
+      "name": "motion-canvas/motion-canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas",
+      "description": "Visualize Your Ideas With Code",
+      "stars": 19573,
+      "forks": 871,
+      "pushed_at": "2026-07-02T20:01:32Z",
+      "updated_at": "2026-10-29T14:12:26Z",
+      "created_at": "2022-08-03T16:30:14Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "TypeScript",
+      "topics": [
+        "animation",
+        "presentation",
+        "visualization"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 11047,
+      "source_api": "https://api.github.com/repos/motion-canvas/motion-canvas",
+      "checked_at": "2026-10-29",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 81.1,
+      "days_since_push": 119
+    },
+    "iart-ai/kinetic-typography-skills": {
+      "name": "iart-ai/kinetic-typography-skills",
+      "url": "https://github.com/iart-ai/kinetic-typography-skills",
+      "description": "Kinetic typography skills for AI coding agents — turn text into beat-synced, animated type for social, titles, and lyric videos.",
+      "stars": 17,
+      "forks": 5,
+      "pushed_at": "2026-06-22T13:24:12Z",
+      "updated_at": "2026-10-29T10:03:11Z",
+      "created_at": "2026-06-22T05:53:02Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "HTML",
+      "topics": [
+        "animated-text",
+        "claude-skill",
+        "kinetic-typography",
+        "lyric-video",
+        "motion-graphics",
+        "text-animation",
+        "title-animation"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 7231,
+      "source_api": "https://api.github.com/repos/iart-ai/kinetic-typography-skills",
+      "checked_at": "2026-10-29",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 51.7,
+      "days_since_push": 129
+    },
+    "iart-ai/lower-thirds-skills": {
+      "name": "iart-ai/lower-thirds-skills",
+      "url": "https://github.com/iart-ai/lower-thirds-skills",
+      "description": "Animated lower thirds with a real transparent background, made by your AI coding agent: drawn in JavaScript, rendered to WebM alpha (OBS) or ProRes 4444 (Premiere, Resolve, Final Cut).",
+      "stars": 1,
+      "forks": 0,
+      "pushed_at": "2026-09-30T07:15:30Z",
+      "updated_at": "2026-10-09T09:44:31Z",
+      "created_at": "2026-09-30T07:14:55Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "alpha-channel",
+        "claude-skill",
+        "lower-thirds",
+        "motion-graphics",
+        "obs",
+        "prores-4444",
+        "stream-overlay",
+        "transparent-video",
+        "webm"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 1069,
+      "source_api": "https://api.github.com/repos/iart-ai/lower-thirds-skills",
+      "checked_at": "2026-10-29",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 52.1,
+      "days_since_push": 29
+    },
+    "iart-ai/map-animation-skills": {
+      "name": "iart-ai/map-animation-skills",
+      "url": "https://github.com/iart-ai/map-animation-skills",
+      "description": "Animated map skills for AI coding agents — draw routes, zoom-to-location, and data-driven map animations rendered to video.",
+      "stars": 21,
+      "forks": 4,
+      "pushed_at": "2026-06-22T13:24:15Z",
+      "updated_at": "2026-10-28T04:00:50Z",
+      "created_at": "2026-06-22T07:40:10Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "HTML",
+      "topics": [
+        "claude-skill",
+        "data-visualization",
+        "earth-studio",
+        "explainer-video",
+        "geojson",
+        "map-animation",
+        "motion-graphics",
+        "vox-style"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 8455,
+      "source_api": "https://api.github.com/repos/iart-ai/map-animation-skills",
+      "checked_at": "2026-10-29",
+      "kind": "skill-source",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 52.0,
+      "days_since_push": 129
+    },
+    "ggml-org/whisper.cpp": {
+      "name": "ggml-org/whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "description": "Port of OpenAI's Whisper model in C/C++",
+      "stars": 54762,
+      "forks": 6251,
+      "pushed_at": "2026-10-29T14:35:39Z",
+      "updated_at": "2026-10-29T14:36:21Z",
+      "created_at": "2022-09-25T18:26:37Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "language": "C++",
+      "topics": [
+        "inference",
+        "openai",
+        "speech-recognition",
+        "speech-to-text",
+        "transformer",
+        "whisper"
+      ],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 47635,
+      "source_api": "https://api.github.com/repos/ggml-org/whisper.cpp",
+      "checked_at": "2026-10-29",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 97.4,
+      "days_since_push": 0
+    },
+    "mifi/lossless-cut": {
+      "name": "mifi/lossless-cut",
+      "url": "https://github.com/mifi/lossless-cut",
+      "description": "The swiss army knife of lossless video/audio editing",
+      "stars": 45430,
+      "forks": 2289,
+      "pushed_at": "2026-10-29T09:33:24Z",
+      "updated_at": "2026-10-29T14:29:17Z",
+      "created_at": "2016-10-30T10:49:56Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "language": "TypeScript",
+      "topics": [
+        "codec",
+        "cut",
+        "editor",
+        "ffmpeg",
+        "lossless",
+        "losslesscut",
+        "player",
+        "video",
+        "video-editor",
+        "video-files"
+      ],
+      "license": "GPL-2.0",
+      "license_name": "GNU General Public License v2.0",
+      "size_kb": 31564,
+      "source_api": "https://api.github.com/repos/mifi/lossless-cut",
+      "checked_at": "2026-10-29",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 95.2,
+      "days_since_push": 0
+    },
+    "resemble-ai/chatterbox": {
+      "name": "resemble-ai/chatterbox",
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "stars": 27405,
+      "forks": 3683,
+      "pushed_at": "2026-07-21T12:27:05Z",
+      "updated_at": "2026-10-29T13:24:18Z",
+      "created_at": "2025-04-23T08:16:38Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "license_name": "MIT License",
+      "size_kb": 1542,
+      "source_api": "https://api.github.com/repos/resemble-ai/chatterbox",
+      "checked_at": "2026-10-29",
+      "kind": "reference",
+      "existing_folder": null,
+      "review_status": "metadata-and-selected-files-verified",
+      "score": 84.4,
+      "days_since_push": 100
     }
   },
   "categories": [
@@ -6527,18 +6752,24 @@
         "nextlevelbuilder/ui-ux-pro-max-skill",
         "google-labs-code/stitch-skills",
         "vercel-labs/agent-skills",
-        "xiiiabu/motionsites.ai"
+        "xiiiabu/motionsites.ai",
+        "iart-ai/lower-thirds-skills",
+        "iart-ai/kinetic-typography-skills"
       ],
       "popularity_order": [
         "nextlevelbuilder/ui-ux-pro-max-skill",
         "shadcn-ui/ui",
         "vercel-labs/agent-skills",
         "google-labs-code/stitch-skills",
-        "xiiiabu/motionsites.ai"
+        "xiiiabu/motionsites.ai",
+        "iart-ai/kinetic-typography-skills",
+        "iart-ai/lower-thirds-skills"
       ],
       "skills": [
         "google-labs-code/stitch-skills:plugins/stitch-utilities/skills/design-md/SKILL.md",
-        "nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/ui-ux-pro-max/SKILL.md"
+        "nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/ui-ux-pro-max/SKILL.md",
+        "iart-ai/kinetic-typography-skills:skills/kinetic-typography/SKILL.md",
+        "iart-ai/lower-thirds-skills:skills/lower-thirds/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -6764,12 +6995,18 @@
       "repositories": [
         "ollama/ollama",
         "ggml-org/llama.cpp",
-        "vllm-project/vllm"
+        "vllm-project/vllm",
+        "ggml-org/whisper.cpp",
+        "SYSTRAN/faster-whisper",
+        "resemble-ai/chatterbox"
       ],
       "popularity_order": [
         "ollama/ollama",
         "ggml-org/llama.cpp",
-        "vllm-project/vllm"
+        "vllm-project/vllm",
+        "ggml-org/whisper.cpp",
+        "resemble-ai/chatterbox",
+        "SYSTRAN/faster-whisper"
       ],
       "skills": [
         "huggingface/skills:skills/huggingface-local-models/SKILL.md"
@@ -6974,13 +7211,15 @@
         "mermaid-js/mermaid",
         "tt-a1i/archify",
         "plotly/plotly.py",
-        "chartdb/chartdb"
+        "chartdb/chartdb",
+        "motion-canvas/motion-canvas"
       ],
       "popularity_order": [
         "excalidraw/excalidraw",
         "mermaid-js/mermaid",
         "tt-a1i/archify",
         "chartdb/chartdb",
+        "motion-canvas/motion-canvas",
         "plotly/plotly.py"
       ],
       "skills": [
@@ -7042,15 +7281,18 @@
       "repositories": [
         "geopandas/geopandas",
         "gboeing/osmnx",
-        "maplibre/maplibre-gl-js"
+        "maplibre/maplibre-gl-js",
+        "iart-ai/map-animation-skills"
       ],
       "popularity_order": [
         "maplibre/maplibre-gl-js",
         "gboeing/osmnx",
-        "geopandas/geopandas"
+        "geopandas/geopandas",
+        "iart-ai/map-animation-skills"
       ],
       "skills": [
-        "K-Dense-AI/scientific-agent-skills:skills/geopandas/SKILL.md"
+        "K-Dense-AI/scientific-agent-skills:skills/geopandas/SKILL.md",
+        "iart-ai/map-animation-skills:skills/map-animation/SKILL.md"
       ],
       "existing_skills": [
         "site-context-gis"
@@ -7156,28 +7398,47 @@
       "query": "video audio agent skills stars:>500 archived:false sort:stars",
       "repositories": [
         "debpalash/VoiceStudio",
+        "ggml-org/whisper.cpp",
+        "mifi/lossless-cut",
+        "SYSTRAN/faster-whisper",
+        "resemble-ai/chatterbox",
         "FFmpeg/FFmpeg",
+        "motion-canvas/motion-canvas",
         "blender/blender",
         "CapSoftware/Cap",
         "remotion-dev/skills",
         "wide-trace/open-higgsfield",
-        "Autom8AI/Open-Higgsfield-AI"
+        "Autom8AI/Open-Higgsfield-AI",
+        "iart-ai/lower-thirds-skills",
+        "iart-ai/map-animation-skills",
+        "iart-ai/kinetic-typography-skills"
       ],
       "popularity_order": [
         "debpalash/VoiceStudio",
         "FFmpeg/FFmpeg",
+        "ggml-org/whisper.cpp",
+        "mifi/lossless-cut",
+        "resemble-ai/chatterbox",
+        "SYSTRAN/faster-whisper",
         "CapSoftware/Cap",
         "blender/blender",
+        "motion-canvas/motion-canvas",
         "remotion-dev/skills",
         "wide-trace/open-higgsfield",
-        "Autom8AI/Open-Higgsfield-AI"
+        "Autom8AI/Open-Higgsfield-AI",
+        "iart-ai/map-animation-skills",
+        "iart-ai/kinetic-typography-skills",
+        "iart-ai/lower-thirds-skills"
       ],
       "skills": [
         "remotion-dev/skills:skills/remotion-best-practices/SKILL.md",
         "remotion-dev/skills:skills/remotion-captions/SKILL.md",
         "debpalash/VoiceStudio:skills/voicestudio-maintainer/SKILL.md",
         "debpalash/VoiceStudio:skills/voicestudio/SKILL.md",
-        "CapSoftware/Cap:apps/cli/skill/cap/SKILL.md"
+        "CapSoftware/Cap:apps/cli/skill/cap/SKILL.md",
+        "iart-ai/kinetic-typography-skills:skills/kinetic-typography/SKILL.md",
+        "iart-ai/lower-thirds-skills:skills/lower-thirds/SKILL.md",
+        "iart-ai/map-animation-skills:skills/map-animation/SKILL.md"
       ],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
@@ -7564,14 +7825,18 @@
       "query": "speech recognition archived:false sort:stars",
       "repositories": [
         "debpalash/VoiceStudio",
+        "ggml-org/whisper.cpp",
         "openai/whisper",
         "SYSTRAN/faster-whisper",
+        "resemble-ai/chatterbox",
         "coqui-ai/TTS"
       ],
       "popularity_order": [
         "openai/whisper",
         "debpalash/VoiceStudio",
+        "ggml-org/whisper.cpp",
         "coqui-ai/TTS",
+        "resemble-ai/chatterbox",
         "SYSTRAN/faster-whisper"
       ],
       "skills": [
@@ -7621,7 +7886,39 @@
       "skills": [],
       "existing_skills": [],
       "skill_scope": "complementary-guidance-not-equivalent-to-domain-software"
+    },
+    {
+      "id": "free-media",
+      "name": "Ücretsiz yerel video, animasyon ve ses üretimi",
+      "query": "user-reviewed local media workflow; no paid generation APIs",
+      "repositories": [
+        "ggml-org/whisper.cpp",
+        "mifi/lossless-cut",
+        "SYSTRAN/faster-whisper",
+        "resemble-ai/chatterbox",
+        "motion-canvas/motion-canvas",
+        "iart-ai/lower-thirds-skills",
+        "iart-ai/map-animation-skills",
+        "iart-ai/kinetic-typography-skills"
+      ],
+      "popularity_order": [
+        "ggml-org/whisper.cpp",
+        "mifi/lossless-cut",
+        "resemble-ai/chatterbox",
+        "SYSTRAN/faster-whisper",
+        "motion-canvas/motion-canvas",
+        "iart-ai/map-animation-skills",
+        "iart-ai/kinetic-typography-skills",
+        "iart-ai/lower-thirds-skills"
+      ],
+      "skills": [
+        "iart-ai/kinetic-typography-skills:skills/kinetic-typography/SKILL.md",
+        "iart-ai/lower-thirds-skills:skills/lower-thirds/SKILL.md",
+        "iart-ai/map-animation-skills:skills/map-animation/SKILL.md"
+      ],
+      "existing_skills": [],
+      "skill_scope": "instruction-and-reference; runtime and models installed separately"
     }
   ],
-  "latest_additions_checked_at": "2026-10-28"
+  "latest_additions_checked_at": "2026-10-29"
 }

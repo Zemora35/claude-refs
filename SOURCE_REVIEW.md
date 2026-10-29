@@ -75,3 +75,7 @@ Diğer beceriler için de görev öncesi inceleme gerekir. 24 kaynağın 22 tane
 ## 28 Ekim 2026 eklemeleri
 
 İlk incelemeye ek olarak 12 kaynak ve 1 harici veri koleksiyonu işlendi. Yerel kurulum, lisans istisnaları, platform koşulları ve ücretli servis gereksinimleri [ekleme raporunda](EKLENEN_KAYNAKLAR.md) ve `catalog/requested-additions.json` içinde kayıtlıdır. Upstream kopyalar kendi lisanslarını taşır; paketin MIT lisansı bunları kapsamaz.
+
+## 29 Ekim ücretsiz medya incelemesi
+
+8 sabit kaynakta 37 seçilmiş metin dosyası ve 3 SKILL.md Git blob kimliğiyle doğrulandı. İlgili yardımcılar statik incelendi; kaynak betikleri ve modeller çalıştırılmadı. Katalog planı ve iki platform kopyaları ayrıca doğrulanır. [Ücretsiz yollar ve sınırlar](UCRETSIZ_MEDYA.md); ayrıntılı kayıt `catalog/free-media.json` ve `catalog/source-review.json` içindedir.

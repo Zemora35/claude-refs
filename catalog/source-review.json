@@ -177048,6 +177048,266 @@
       ],
       "scope": "selected documentation and complete skill folders; not full application audit",
       "functional_tested": false
+    },
+    {
+      "repository": "motion-canvas/motion-canvas",
+      "actual_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "file_count": 2,
+      "files": [
+        "LICENSE",
+        "README.md"
+      ],
+      "skill_count": 0,
+      "flag_counts": {},
+      "flagged_lines": [],
+      "skipped_large_files": [],
+      "selected_skills": [],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 2,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
+    },
+    {
+      "repository": "iart-ai/kinetic-typography-skills",
+      "actual_commit": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "file_count": 9,
+      "files": [
+        "LICENSE",
+        "README.md",
+        "scripts/README.md",
+        "scripts/contact-sheet.sh",
+        "scripts/probe-mp4.sh",
+        "scripts/seek-shot.sh",
+        "skills/kinetic-typography/README.md",
+        "skills/kinetic-typography/SKILL.md",
+        "skills/kinetic-typography/references/reveal-recipes.md"
+      ],
+      "skill_count": 1,
+      "flag_counts": {},
+      "flagged_lines": [],
+      "skipped_large_files": [],
+      "selected_skills": [
+        {
+          "id": "iart-ai/kinetic-typography-skills:skills/kinetic-typography/SKILL.md",
+          "status": "static-review",
+          "sha256": "dccdc99cfc48081e12a6eaeaf117145554feb2edb517d97a16e53891b73b5b8f",
+          "content_chars": 7907,
+          "license_declaration": null,
+          "flags": []
+        }
+      ],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 8,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
+    },
+    {
+      "repository": "iart-ai/lower-thirds-skills",
+      "actual_commit": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "file_count": 6,
+      "files": [
+        "LICENSE",
+        "README.md",
+        "skills/lower-thirds/SKILL.md",
+        "skills/lower-thirds/references/delivery.md",
+        "skills/lower-thirds/scripts/render.mjs",
+        "skills/lower-thirds/templates/lower-third.html"
+      ],
+      "skill_count": 1,
+      "flag_counts": {
+        "process-execution": 5,
+        "file-mutation": 3
+      },
+      "flagged_lines": [
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 22,
+          "tags": [
+            "process-execution"
+          ]
+        },
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 23,
+          "tags": [
+            "file-mutation"
+          ]
+        },
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 106,
+          "tags": [
+            "process-execution"
+          ]
+        },
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 152,
+          "tags": [
+            "file-mutation"
+          ]
+        },
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 173,
+          "tags": [
+            "file-mutation"
+          ]
+        },
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 187,
+          "tags": [
+            "process-execution"
+          ]
+        },
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 200,
+          "tags": [
+            "process-execution"
+          ]
+        },
+        {
+          "path": "skills/lower-thirds/scripts/render.mjs",
+          "line": 205,
+          "tags": [
+            "process-execution"
+          ]
+        }
+      ],
+      "skipped_large_files": [],
+      "selected_skills": [
+        {
+          "id": "iart-ai/lower-thirds-skills:skills/lower-thirds/SKILL.md",
+          "status": "static-review",
+          "sha256": "471fb3c9843d628765f022c71c19a36b54a7aea7454fde29947f1fb138c5215c",
+          "content_chars": 6463,
+          "license_declaration": null,
+          "flags": []
+        }
+      ],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 6,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
+    },
+    {
+      "repository": "iart-ai/map-animation-skills",
+      "actual_commit": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "file_count": 10,
+      "files": [
+        "LICENSE",
+        "README.md",
+        "scripts/README.md",
+        "scripts/contact-sheet.sh",
+        "scripts/probe-mp4.sh",
+        "scripts/seek-shot.sh",
+        "skills/map-animation/README.md",
+        "skills/map-animation/SKILL.md",
+        "skills/map-animation/references/earth-studio-to-ae.md",
+        "skills/map-animation/references/vector-maps.md"
+      ],
+      "skill_count": 1,
+      "flag_counts": {},
+      "flagged_lines": [],
+      "skipped_large_files": [],
+      "selected_skills": [
+        {
+          "id": "iart-ai/map-animation-skills:skills/map-animation/SKILL.md",
+          "status": "static-review",
+          "sha256": "dc06ec3398713a0117c18856f520ea0129c5852eb0b7d6f475357548df810d90",
+          "content_chars": 12927,
+          "license_declaration": null,
+          "flags": []
+        }
+      ],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 9,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
+    },
+    {
+      "repository": "ggml-org/whisper.cpp",
+      "actual_commit": "284029c07012d2000941a08d38a31ffb71f4734e",
+      "file_count": 3,
+      "files": [
+        "LICENSE",
+        "README.md",
+        "models/README.md"
+      ],
+      "skill_count": 0,
+      "flag_counts": {},
+      "flagged_lines": [],
+      "skipped_large_files": [],
+      "selected_skills": [],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 3,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
+    },
+    {
+      "repository": "mifi/lossless-cut",
+      "actual_commit": "9acecafccf4540ccad721389e2d4f85c51d98940",
+      "file_count": 2,
+      "files": [
+        "LICENSE",
+        "README.md"
+      ],
+      "skill_count": 0,
+      "flag_counts": {},
+      "flagged_lines": [],
+      "skipped_large_files": [],
+      "selected_skills": [],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 2,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
+    },
+    {
+      "repository": "resemble-ai/chatterbox",
+      "actual_commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+      "file_count": 3,
+      "files": [
+        "LICENSE",
+        "README.md",
+        "pyproject.toml"
+      ],
+      "skill_count": 0,
+      "flag_counts": {},
+      "flagged_lines": [],
+      "skipped_large_files": [],
+      "selected_skills": [],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 3,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
+    },
+    {
+      "repository": "SYSTRAN/faster-whisper",
+      "actual_commit": "9e472ae9de8bb374552f531f752654554b76b2d6",
+      "file_count": 2,
+      "files": [
+        "LICENSE",
+        "README.md"
+      ],
+      "skill_count": 0,
+      "flag_counts": {},
+      "flagged_lines": [],
+      "skipped_large_files": [],
+      "selected_skills": [],
+      "matches_lock": true,
+      "indexed_skill_mismatches": [],
+      "line_ending_normalized_count": 2,
+      "scope": "Selected documentation and complete selected skill folders; not a full application audit",
+      "functional_tested": false
     }
   ],
   "sync_failures": []

@@ -15806,6 +15806,51 @@
       "blob_verified_locally": true,
       "activation_policy": "review-before-activation",
       "declared_name": "cap"
+    },
+    {
+      "id": "iart-ai/kinetic-typography-skills:skills/kinetic-typography/SKILL.md",
+      "name": "kinetic-typography",
+      "declared_name": "kinetic-typography",
+      "repository": "iart-ai/kinetic-typography-skills",
+      "path": "skills/kinetic-typography/SKILL.md",
+      "blob_sha": "b9608fee2fcfe6c2eae9c9c7517c01923123af61",
+      "source_commit": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "url": "https://github.com/iart-ai/kinetic-typography-skills/blob/fccc94bd325d824235ee9e715e65abde57b6513a/skills/kinetic-typography/SKILL.md",
+      "repository_license": "MIT",
+      "review_status": "static-reviewed-not-runtime-tested",
+      "installed_name_match": false,
+      "blob_verified_locally": true,
+      "activation_policy": "review-before-activation"
+    },
+    {
+      "id": "iart-ai/lower-thirds-skills:skills/lower-thirds/SKILL.md",
+      "name": "lower-thirds",
+      "declared_name": "lower-thirds",
+      "repository": "iart-ai/lower-thirds-skills",
+      "path": "skills/lower-thirds/SKILL.md",
+      "blob_sha": "4496f062375c94de1cac9970ed505aa13e6fc149",
+      "source_commit": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "url": "https://github.com/iart-ai/lower-thirds-skills/blob/aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8/skills/lower-thirds/SKILL.md",
+      "repository_license": "MIT",
+      "review_status": "static-reviewed-not-runtime-tested",
+      "installed_name_match": false,
+      "blob_verified_locally": true,
+      "activation_policy": "review-before-activation"
+    },
+    {
+      "id": "iart-ai/map-animation-skills:skills/map-animation/SKILL.md",
+      "name": "map-animation",
+      "declared_name": "map-animation",
+      "repository": "iart-ai/map-animation-skills",
+      "path": "skills/map-animation/SKILL.md",
+      "blob_sha": "e9d23902bd12257986ba18bb25eada97a5186071",
+      "source_commit": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "url": "https://github.com/iart-ai/map-animation-skills/blob/390ca98bbcf2ea88a430a69c0dcbf423e43d075d/skills/map-animation/SKILL.md",
+      "repository_license": "MIT",
+      "review_status": "static-reviewed-not-runtime-tested",
+      "installed_name_match": false,
+      "blob_verified_locally": true,
+      "activation_policy": "review-before-activation"
     }
   ]
 }

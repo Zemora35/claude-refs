@@ -9,3 +9,5 @@ Search and inspection do not authorize installing skills, configuring accounts o
 For changes to the toolkit, run `python scripts/catalog.py validate` and `python -m unittest discover -s tests -v`. Model-based smoke tests are optional service calls and must be reported separately from deterministic tests. Never claim all indexed upstream skills were functionally tested.
 
 For the controlled research-to-Claude workflow, read `ARASTIRMA_KOD_AKISI.md`. Preparing or previewing a task does not start Claude; only an explicitly requested `handoff.py run --start` does. Keep real task bundles and logs outside published files, and keep automatic merge/push disabled.
+
+For explicitly free/local media tasks, read `UCRETSIZ_MEDYA.md` and `catalog/free-media.json`. Select the local vector/render/transcription path, prefer local licensed fonts, and stop with a prerequisite report when the local engine is missing. Do not switch to a paid API or upload media automatically. This policy does not authorize installing runtime dependencies or model weights.

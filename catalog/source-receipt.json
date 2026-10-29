@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T12:45:49.774766+00:00",
+  "checked_at": "2026-10-29T14:39:41.661442+00:00",
   "sources": [
     {
       "repository": "anthropics/skills",
@@ -746,6 +746,131 @@
         "README.md"
       ],
       "seconds": 2.42
+    },
+    {
+      "repository": "motion-canvas/motion-canvas",
+      "path": ".sources/motion-canvas_motion-canvas",
+      "locked_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "actual_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "iart-ai/kinetic-typography-skills",
+      "path": ".sources/iart-ai_kinetic-typography-skills",
+      "locked_commit": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "actual_commit": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "scripts/README.md",
+        "scripts/contact-sheet.sh",
+        "scripts/probe-mp4.sh",
+        "scripts/seek-shot.sh",
+        "skills/kinetic-typography/README.md",
+        "skills/kinetic-typography/SKILL.md",
+        "skills/kinetic-typography/references/reveal-recipes.md"
+      ]
+    },
+    {
+      "repository": "iart-ai/lower-thirds-skills",
+      "path": ".sources/iart-ai_lower-thirds-skills",
+      "locked_commit": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "actual_commit": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "skills/lower-thirds/SKILL.md",
+        "skills/lower-thirds/references/delivery.md",
+        "skills/lower-thirds/scripts/render.mjs",
+        "skills/lower-thirds/templates/lower-third.html"
+      ]
+    },
+    {
+      "repository": "iart-ai/map-animation-skills",
+      "path": ".sources/iart-ai_map-animation-skills",
+      "locked_commit": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "actual_commit": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "scripts/README.md",
+        "scripts/contact-sheet.sh",
+        "scripts/probe-mp4.sh",
+        "scripts/seek-shot.sh",
+        "skills/map-animation/README.md",
+        "skills/map-animation/SKILL.md",
+        "skills/map-animation/references/earth-studio-to-ae.md",
+        "skills/map-animation/references/vector-maps.md"
+      ]
+    },
+    {
+      "repository": "ggml-org/whisper.cpp",
+      "path": ".sources/ggml-org_whisper.cpp",
+      "locked_commit": "284029c07012d2000941a08d38a31ffb71f4734e",
+      "actual_commit": "284029c07012d2000941a08d38a31ffb71f4734e",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "models/README.md"
+      ]
+    },
+    {
+      "repository": "mifi/lossless-cut",
+      "path": ".sources/mifi_lossless-cut",
+      "locked_commit": "9acecafccf4540ccad721389e2d4f85c51d98940",
+      "actual_commit": "9acecafccf4540ccad721389e2d4f85c51d98940",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "resemble-ai/chatterbox",
+      "path": ".sources/resemble-ai_chatterbox",
+      "locked_commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+      "actual_commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md",
+        "pyproject.toml"
+      ]
+    },
+    {
+      "repository": "SYSTRAN/faster-whisper",
+      "path": ".sources/SYSTRAN_faster-whisper",
+      "locked_commit": "9e472ae9de8bb374552f531f752654554b76b2d6",
+      "actual_commit": "9e472ae9de8bb374552f531f752654554b76b2d6",
+      "status": "added",
+      "matches_lock": true,
+      "checkout_scope": "documentation-and-skills",
+      "sparse_paths": [
+        "LICENSE",
+        "README.md"
+      ]
     }
   ],
   "failures": []

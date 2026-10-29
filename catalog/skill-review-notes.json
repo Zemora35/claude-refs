@@ -1,6 +1,6 @@
 {
   "scope": "Source-level notes from static inventory and sampled SKILL.md excerpts. This is not a full security audit or a functional test.",
-  "activation": "No new skill, plugin, MCP server, hook or global configuration was activated.",
+  "activation": "Reviewed collection-scoped installations are recorded in requested-additions.json and free-media.json; no global skill directories, hooks, plugin services or MCP registrations changed by these additions.",
   "notes": [
     {
       "repository": "anthropics/skills",
@@ -195,6 +195,54 @@
       "sampled_file": "README.md",
       "note": "User selected both variants. No repository license file detected; reference only. Generation requires provider key and may incur charges; media inputs can become public Vercel Blob URLs. No key, cloud service or upload configured.",
       "checked_at": "2026-10-28"
+    },
+    {
+      "repository": "motion-canvas/motion-canvas",
+      "sampled_file": "README.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed."
+    },
+    {
+      "repository": "iart-ai/kinetic-typography-skills",
+      "sampled_file": "skills/kinetic-typography/SKILL.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed. Root Bash helpers remain in the source reference; use native tools and local fonts on Windows."
+    },
+    {
+      "repository": "iart-ai/lower-thirds-skills",
+      "sampled_file": "skills/lower-thirds/SKILL.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed. Renderer needs Node, Chrome and FFmpeg; browser helpers must respect the active agent browser policy. Google Fonts must be localized for offline use."
+    },
+    {
+      "repository": "iart-ai/map-animation-skills",
+      "sampled_file": "skills/map-animation/SKILL.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed. Free workflow uses local GeoJSON/SVG; Google Earth Studio/paid After Effects path is not selected. Root Bash helpers require Windows adaptation."
+    },
+    {
+      "repository": "ggml-org/whisper.cpp",
+      "sampled_file": "README.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed."
+    },
+    {
+      "repository": "mifi/lossless-cut",
+      "sampled_file": "README.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed."
+    },
+    {
+      "repository": "resemble-ai/chatterbox",
+      "sampled_file": "README.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed. Turkish requires Multilingual; Nano is English-only. Hardware fit is untested. Model and runtime downloads are separate; embedded watermark is retained."
+    },
+    {
+      "repository": "SYSTRAN/faster-whisper",
+      "sampled_file": "README.md",
+      "checked_at": "2026-10-29",
+      "note": "Only pinned text references and complete selected skill folders downloaded. No application, model weights, setup scripts, hooks, paid generation API or global installation executed."
     }
   ],
   "blocked_for_activation": [

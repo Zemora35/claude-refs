@@ -197,6 +197,33 @@
       "executables": [],
       "services": [],
       "coverage": "stdlib conversion only; image/mesh/browser and zsh support checked per task"
+    },
+    "kinetic-typography": {
+      "modules": [],
+      "executables": [
+        "node",
+        "ffmpeg"
+      ],
+      "services": [],
+      "coverage": "Instruction/CLI presence only; browser renderer, fonts, Windows helper compatibility and render quality not tested"
+    },
+    "lower-thirds": {
+      "modules": [],
+      "executables": [
+        "node",
+        "ffmpeg"
+      ],
+      "services": [],
+      "coverage": "Instruction/CLI presence only; browser renderer, fonts, Windows helper compatibility and render quality not tested"
+    },
+    "map-animation": {
+      "modules": [],
+      "executables": [
+        "node",
+        "ffmpeg"
+      ],
+      "services": [],
+      "coverage": "Instruction/CLI presence only; browser renderer, fonts, Windows helper compatibility and render quality not tested"
     }
   },
   "repository_services": {
@@ -238,6 +265,30 @@
     ],
     "Jakeschincariol/replica-skill": [
       "Application stack and service credentials vary; no automatic commits, account creation, messaging or publication"
+    ],
+    "motion-canvas/motion-canvas": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
+    ],
+    "iart-ai/kinetic-typography-skills": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
+    ],
+    "iart-ai/lower-thirds-skills": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
+    ],
+    "iart-ai/map-animation-skills": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
+    ],
+    "ggml-org/whisper.cpp": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
+    ],
+    "mifi/lossless-cut": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
+    ],
+    "resemble-ai/chatterbox": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
+    ],
+    "SYSTRAN/faster-whisper": [
+      "Local runtime and models/assets checked per task; no hosted generation service required by the selected local path"
     ]
   }
 }
